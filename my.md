@@ -215,3 +215,173 @@ java --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang
 4. **心跳维持**：Leader定期发送心跳维持集群状态
 5. **提交确认**：只有多数节点确认后日志才被提交
 
+## 日志格式优化
+
+### 日志格式修改
+为了更好地学习和调试Raft算法，修改了日志格式以显示Java文件和行号信息。
+
+#### 修改的文件
+- `raft-java-example/src/main/resources/log4j2.xml`
+- `raft-java-example/env/example1/conf/log4j2.xml`
+- `raft-java-example/env/example2/conf/log4j2.xml`
+- `raft-java-example/env/example3/conf/log4j2.xml`
+- `raft-java-example/env/client/conf/log4j2.xml`
+
+#### 日志格式配置
+```xml
+<PatternLayout pattern="%d %p [%t] %C.%M(%F:%L)\t%m%n" />
+```
+
+#### Logger配置
+```xml
+<Logger name="com.github.wenweihu86.raft" level="debug" additivity="false" includeLocation="true">
+    <AppenderRef ref="Console" />
+    <AppenderRef ref="RollingFile"/>
+</Logger>
+<Root level="info" includeLocation="true">
+    <AppenderRef ref="Console" />
+    <AppenderRef ref="RollingFile"/>
+</Root>
+```
+
+### 日志格式对比
+
+**修改前**：
+```
+2026-03-20 23:33:18,160 DEBUG [pool-3-thread-2]    start new heartbeat, peers=[2, 3]
+```
+
+**修改后**：
+```
+2026-03-20 23:33:18,160 DEBUG [pool-3-thread-2] com.github.wenweihu86.raft.RaftNode.startNewHeartbeat(RaftNode.java:724)       start new heartbeat, peers=[2, 3]
+```
+
+## Raft日志分析指南
+
+### 与Raft算法直接相关的日志
+
+#### 1. 心跳机制
+```
+com.github.wenweihu86.raft.RaftNode.startNewHeartbeat(RaftNode.java:724) - start new heartbeat, peers=[2, 3]
+```
+- **作用**：Leader定期向Follower发送心跳，维持权威性
+- **关键信息**：peers=[2, 3] 表示向节点2和节点3发送心跳
+
+#### 2. 日志复制
+```
+com.github.wenweihu86.raft.RaftNode.appendEntries(RaftNode.java:212) - is need snapshot=false, peer=2
+```
+- **作用**：Leader将日志条目复制到Follower
+- **关键信息**：peer=2 表示向节点2复制日志，snapshot=false表示不需要快照
+
+```
+com.github.wenweihu86.raft.RaftNode.appendEntries(RaftNode.java:267) - AppendEntries response[RES_CODE_SUCCESS] from server 3 in term 3 (my term is 3)
+```
+- **作用**：接收Follower的日志复制响应
+- **关键信息**：RES_CODE_SUCCESS表示成功，term 3表示任期号
+
+#### 3. 提交索引管理
+```
+com.github.wenweihu86.raft.RaftNode.advanceCommitIndex(RaftNode.java:751) - newCommitIndex=6, oldCommitIndex=6
+```
+- **作用**：推进已提交的日志索引
+- **关键信息**：newCommitIndex=6表示当前已提交到第6条日志
+
+#### 4. 选举过程
+```
+com.github.wenweihu86.raft.RaftNode.startElection(RaftNode.java:xxx) - Running pre-vote in term 0
+com.github.wenweihu86.raft.RaftNode.handleRequestVote(RaftNode.java:xxx) - RequestVote response from server X
+```
+- **作用**：节点发起选举和投票过程
+- **关键信息**：term表示任期号，投票结果
+
+### 与Raft算法无关的日志
+
+#### 1. RPC框架日志
+```
+com.baidu.brpc.client.handler.ClientWorkTask.run(ClientWorkTask.java:72) - handle response, correlationId=323
+```
+- **作用**：RPC客户端处理响应
+- **说明**：这是底层RPC框架的日志，不是Raft算法本身
+
+#### 2. 线程管理
+```
+create thread:client-work-thread-1
+create thread:timeout-timer-thread-1
+```
+- **作用**：RPC框架的线程池管理
+- **说明**：与Raft算法逻辑无关
+
+#### 3. 协议注册
+```
+register protocol:1 success
+register load balance factory:RandomLoadBalanceFactory success
+```
+- **作用**：RPC协议和负载均衡策略注册
+- **说明**：RPC框架初始化日志
+
+#### 4. 通道管理
+```
+channel is non active, ip=127.0.0.1,port=8053
+remove channel failed:Invalidated object not currently part of this pool
+```
+- **作用**：网络连接管理
+- **说明**：RPC框架的连接池管理
+
+#### 5. 系统关闭
+```
+com.baidu.brpc.thread.ShutDownManager$1.run(ShutDownManager.java:40) - Brpc do clean work...
+```
+- **作用**：RPC框架清理资源
+- **说明**：系统关闭时的清理操作
+
+### 学习Raft算法的关键日志
+
+#### 核心Raft算法日志
+1. **心跳**：`RaftNode.startNewHeartbeat`
+2. **日志复制**：`RaftNode.appendEntries`
+3. **提交索引**：`RaftNode.advanceCommitIndex`
+4. **选举**：`RaftNode.startElection`
+5. **投票**：`RaftNode.handleRequestVote`
+
+#### 应该忽略的日志
+1. **RPC框架**：`com.baidu.brpc.*`（除了与Raft交互的部分）
+2. **线程管理**：`create thread:*`
+3. **协议注册**：`register protocol:*`
+
+### 从日志观察Raft运行状态
+
+#### 集群状态示例
+```
+2026-03-20 23:34:31,371 DEBUG [pool-3-thread-2] com.github.wenweihu86.raft.RaftNode.startNewHeartbeat(RaftNode.java:724)       start new heartbeat, peers=[2, 3]
+2026-03-20 23:34:31,371 DEBUG [pool-2-thread-15] com.github.wenweihu86.raft.RaftNode.appendEntries(RaftNode.java:212)  is need snapshot=false, peer=2
+2026-03-20 23:34:31,371 DEBUG [pool-2-thread-17] com.github.wenweihu86.raft.RaftNode.appendEntries(RaftNode.java:212)  is need snapshot=false, peer=3
+2026-03-20 23:34:31,375 INFO [pool-2-thread-17] com.github.wenweihu86.raft.RaftNode.appendEntries(RaftNode.java:267)   AppendEntries response[RES_CODE_SUCCESS] from server 3 in term 3 (my term is 3)
+2026-03-20 23:34:31,376 DEBUG [pool-2-thread-17] com.github.wenweihu86.raft.RaftNode.advanceCommitIndex(RaftNode.java:751)     newCommitIndex=6, oldCommitIndex=6
+```
+
+#### 可观察到的信息
+- **Leader状态**：节点1是Leader（发送心跳）
+- **任期**：当前是term 3
+- **日志状态**：已提交到索引6
+- **集群健康**：心跳正常，日志复制成功
+
+### Client与服务端日志的区别
+
+#### Client日志特点
+- **主要内容**：RPC框架的通信和连接管理
+- **Raft相关**：几乎没有直接的Raft算法日志
+- **原因**：Client只是通过RPC调用Raft集群的服务
+
+#### 服务端日志特点
+- **主要内容**：Raft算法的核心逻辑
+- **Raft相关**：包含心跳、日志复制、选举等所有Raft机制
+- **位置**：`env/example1/logs/raft_example.log`、`env/example2/logs/raft_example.log`、`env/example3/logs/raft_example.log`
+
+### 日志文件位置
+
+- **节点1日志**：`raft-java-example/env/example1/logs/raft_example.log`
+- **节点2日志**：`raft-java-example/env/example2/logs/raft_example.log`
+- **节点3日志**：`raft-java-example/env/example3/logs/raft_example.log`
+- **Client日志**：`raft-java-example/env/client/logs/raft_example.log`
+
