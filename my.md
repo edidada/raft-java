@@ -385,3 +385,106 @@ com.baidu.brpc.thread.ShutDownManager$1.run(ShutDownManager.java:40) - Brpc do c
 - **节点3日志**：`raft-java-example/env/example3/logs/raft_example.log`
 - **Client日志**：`raft-java-example/env/client/logs/raft_example.log`
 
+## Raft任期变化分析
+
+### 任期变化过程
+
+从日志中可以清楚地看到任期是如何递增的：
+
+#### Term 0 → Term 1（第一次选举）
+```
+2026-03-20 22:38:17,268 INFO Running pre-vote in term 0
+2026-03-20 22:38:17,393 INFO Running for election in term 1
+2026-03-20 22:38:17,408 INFO Got vote from server 2 for term 1
+2026-03-20 22:38:17,409 INFO Got majority vote, serverId=1 become leader
+```
+
+#### Term 1 → Term 2（第二次选举尝试）
+```
+2026-03-20 23:33:06,132 INFO Running pre-vote in term 1
+2026-03-20 23:33:06,242 INFO Running for election in term 2
+```
+
+#### Term 2 → Term 3（第三次选举）
+```
+2026-03-20 23:33:16,062 INFO Running pre-vote in term 2
+2026-03-20 23:33:16,108 INFO Running for election in term 3
+2026-03-20 23:33:16,132 INFO Got vote from server 2 for term 3
+2026-03-20 23:33:16,147 INFO Got majority vote, serverId=1 become leader
+```
+
+### Raft算法中的任期机制
+
+#### 1. 任期递增规则
+- **初始状态**：所有节点从 term 0 开始
+- **每次选举**：任期号 +1（0→1→2→3）
+- **严格递增**：任期号只能增加，不能减少
+
+#### 2. 选举过程
+```
+Pre-vote（预投票）→ 正式选举 → 获得多数票 → 成为Leader
+```
+
+**详细步骤**：
+1. **Pre-vote**：节点先进行预投票，避免不必要的选举
+2. **正式选举**：预投票成功后，发起正式选举
+3. **投票收集**：向其他节点请求投票
+4. **成为Leader**：获得多数票后成为Leader
+
+#### 3. 任期变化的原因
+- **Leader故障**：当前Leader失效，触发新选举
+- **网络分区**：节点间通信中断，可能触发选举
+- **重新启动**：节点重启后可能触发选举
+
+### 关键日志解释
+
+#### 选举相关日志
+
+| 日志内容 | 含义 | 作用 |
+|---------|------|------|
+| `Running pre-vote in term X` | 在任期X进行预投票 | 避免不必要的选举，提高稳定性 |
+| `Running for election in term X` | 在任期X进行正式选举 | 发起新的选举 |
+| `Got vote from server Y for term X` | 获得节点Y在任期X的投票 | 收集投票，争取成为Leader |
+| `Got majority vote, serverId=X become leader` | 获得多数票，节点X成为Leader | 选举成功，成为Leader |
+
+#### 心跳相关日志
+```
+AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 3 (my term is 3)
+```
+- **作用**：Leader向Follower发送心跳
+- **任期检查**：确保所有节点在同一任期
+
+### 为什么任期会从1变到3？
+
+从日志时间线分析：
+1. **22:38:17** - Term 1 选举成功，节点1成为Leader
+2. **23:33:06** - Term 2 选举开始（可能由于网络问题或重启）
+3. **23:33:16** - Term 3 选举成功，节点1再次成为Leader
+
+**可能的原因**：
+- 节点重启导致Leader切换
+- 网络分区导致选举超时
+- 手动停止/启动节点
+
+### Raft算法核心概念
+
+#### 任期的作用
+1. **逻辑时钟**：区分不同的Leader任期
+2. **冲突解决**：确保只有一个有效的Leader
+3. **日志一致性**：通过任期号判断日志的新旧
+
+#### 任期递增的重要性
+- **防止脑裂**：确保同一时间只有一个Leader
+- **日志覆盖**：新任期的日志可以覆盖旧任期的日志
+- **安全性**：保证系统的一致性和正确性
+
+### 总结
+
+**任期变化规律**：
+- ✅ **严格递增**：0 → 1 → 2 → 3
+- ✅ **每次选举+1**：新的选举总是增加任期号
+- ✅ **多数票原则**：获得多数票才能成为Leader
+- ✅ **心跳维持**：Leader通过心跳维持权威性
+
+这些日志完美展示了Raft算法的选举机制和任期管理，是理解分布式一致性算法的绝佳实例！
+
