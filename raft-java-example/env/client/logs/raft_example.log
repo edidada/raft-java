@@ -1411,3 +1411,236 @@ Caused by: com.baidu.brpc.exceptions.RpcException: Cannot invoke "com.baidu.brpc
 2026-03-20 23:22:12,944 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
 2026-03-20 23:22:15,130 INFO [Thread-0]	Brpc do clean work...
 2026-03-20 23:22:15,131 INFO [Thread-0]	invoke shutdownGlobalThreadPools
+2026-03-20 23:28:57,811 INFO [main]	register protocol:1 success
+2026-03-20 23:28:57,890 INFO [main]	register protocol:29 success
+2026-03-20 23:28:57,895 INFO [main]	register protocol:4 success
+2026-03-20 23:28:57,901 INFO [main]	register protocol:3 success
+2026-03-20 23:28:57,903 INFO [main]	register protocol:31 success
+2026-03-20 23:28:57,905 INFO [main]	register protocol:28 success
+2026-03-20 23:28:57,906 INFO [main]	register protocol:32 success
+2026-03-20 23:28:57,908 INFO [main]	register protocol:33 success
+2026-03-20 23:28:57,908 INFO [main]	register protocol:30 success
+2026-03-20 23:28:57,911 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2026-03-20 23:28:57,911 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2026-03-20 23:28:57,913 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2026-03-20 23:28:57,913 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2026-03-20 23:28:57,940 INFO [main]	create thread:timeout-timer-thread-1
+2026-03-20 23:28:57,943 INFO [main]	create thread:health-check-timer-thread-1
+2026-03-20 23:28:57,946 INFO [main]	create thread:fairStrategy-timer-thread-1
+2026-03-20 23:28:57,951 INFO [main]	create thread:client-work-thread-1
+2026-03-20 23:28:57,951 INFO [main]	create thread:client-work-thread-2
+2026-03-20 23:28:57,951 INFO [main]	create thread:client-work-thread-3
+2026-03-20 23:28:57,951 INFO [main]	create thread:client-work-thread-4
+2026-03-20 23:28:57,951 INFO [main]	create thread:client-work-thread-5
+2026-03-20 23:28:57,953 INFO [main]	create thread:client-work-thread-6
+2026-03-20 23:28:57,953 INFO [main]	create thread:client-work-thread-7
+2026-03-20 23:28:57,953 INFO [main]	create thread:client-work-thread-8
+2026-03-20 23:28:57,953 INFO [main]	create thread:client-work-thread-9
+2026-03-20 23:28:57,953 INFO [main]	create thread:client-work-thread-10
+2026-03-20 23:28:57,953 INFO [main]	create thread:client-work-thread-11
+2026-03-20 23:28:57,953 INFO [main]	create thread:client-work-thread-12
+2026-03-20 23:28:57,953 INFO [main]	create thread:client-work-thread-13
+2026-03-20 23:28:57,954 INFO [main]	create thread:client-work-thread-14
+2026-03-20 23:28:57,954 INFO [main]	create thread:client-work-thread-15
+2026-03-20 23:28:57,954 INFO [main]	create thread:client-work-thread-16
+2026-03-20 23:28:58,416 INFO [main]	create thread:client-io-thread-1
+2026-03-20 23:28:58,433 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x892a06ff, L:/127.0.0.1:49181 - R:/127.0.0.1:8051]
+2026-03-20 23:28:58,435 INFO [main]	create thread:client-io-thread-2
+2026-03-20 23:28:58,436 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x215e664f, L:/127.0.0.1:49182 - R:/127.0.0.1:8051]
+2026-03-20 23:28:58,436 INFO [main]	create thread:client-io-thread-3
+2026-03-20 23:28:58,438 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xbf63d67b, L:/127.0.0.1:49183 - R:/127.0.0.1:8051]
+2026-03-20 23:28:58,438 INFO [main]	create thread:client-io-thread-4
+2026-03-20 23:28:58,439 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x0a34cf14, L:/127.0.0.1:49184 - R:/127.0.0.1:8051]
+2026-03-20 23:28:58,439 INFO [main]	create thread:client-io-thread-5
+2026-03-20 23:28:58,441 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x5d1d5fd1, L:/127.0.0.1:49185 - R:/127.0.0.1:8051]
+2026-03-20 23:28:58,441 INFO [main]	create thread:client-io-thread-6
+2026-03-20 23:28:58,442 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x21f84a49, L:/127.0.0.1:49186 - R:/127.0.0.1:8051]
+2026-03-20 23:28:58,442 INFO [main]	create thread:client-io-thread-7
+2026-03-20 23:28:58,444 INFO [main]	create thread:client-io-thread-8
+2026-03-20 23:28:58,444 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x65c588fa, L:/127.0.0.1:49187 - R:/127.0.0.1:8051]
+2026-03-20 23:28:58,445 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xfada505d, L:/127.0.0.1:49188 - R:/127.0.0.1:8051]
+2026-03-20 23:28:58,449 INFO [main]	create thread:client-io-thread-9
+2026-03-20 23:28:58,450 DEBUG [client-io-thread-9]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xc0253bd7, L:/127.0.0.1:49189 - R:/127.0.0.1:8052]
+2026-03-20 23:28:58,450 INFO [main]	create thread:client-io-thread-10
+2026-03-20 23:28:58,452 DEBUG [client-io-thread-10]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x7178ede2, L:/127.0.0.1:49190 - R:/127.0.0.1:8052]
+2026-03-20 23:28:58,452 INFO [main]	create thread:client-io-thread-11
+2026-03-20 23:28:58,454 DEBUG [client-io-thread-11]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xc4ebb243, L:/127.0.0.1:49191 - R:/127.0.0.1:8052]
+2026-03-20 23:28:58,454 INFO [main]	create thread:client-io-thread-12
+2026-03-20 23:28:58,456 DEBUG [client-io-thread-12]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xdc8e5fe9, L:/127.0.0.1:49192 - R:/127.0.0.1:8052]
+2026-03-20 23:28:58,456 INFO [main]	create thread:client-io-thread-13
+2026-03-20 23:28:58,457 DEBUG [client-io-thread-13]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x571fa859, L:/127.0.0.1:49193 - R:/127.0.0.1:8052]
+2026-03-20 23:28:58,457 INFO [main]	create thread:client-io-thread-14
+2026-03-20 23:28:58,458 DEBUG [client-io-thread-14]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xc67f3cef, L:/127.0.0.1:49194 - R:/127.0.0.1:8052]
+2026-03-20 23:28:58,458 INFO [main]	create thread:client-io-thread-15
+2026-03-20 23:28:58,460 DEBUG [client-io-thread-15]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xa7406a7b, L:/127.0.0.1:49195 - R:/127.0.0.1:8052]
+2026-03-20 23:28:58,460 INFO [main]	create thread:client-io-thread-16
+2026-03-20 23:28:58,462 DEBUG [client-io-thread-16]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x7b3dcc58, L:/127.0.0.1:49196 - R:/127.0.0.1:8052]
+2026-03-20 23:28:58,464 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xc7a87f45, L:/127.0.0.1:49197 - R:/127.0.0.1:8053]
+2026-03-20 23:28:58,464 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x26ae482e, L:/127.0.0.1:49198 - R:/127.0.0.1:8053]
+2026-03-20 23:28:58,466 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x1ac998e9, L:/127.0.0.1:49199 - R:/127.0.0.1:8053]
+2026-03-20 23:28:58,466 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x7a875ff8, L:/127.0.0.1:49200 - R:/127.0.0.1:8053]
+2026-03-20 23:28:58,466 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x9365b776, L:/127.0.0.1:49201 - R:/127.0.0.1:8053]
+2026-03-20 23:28:58,467 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xf7dc05c1, L:/127.0.0.1:49202 - R:/127.0.0.1:8053]
+2026-03-20 23:28:58,469 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xd9ba4816, L:/127.0.0.1:49203 - R:/127.0.0.1:8053]
+2026-03-20 23:28:58,469 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x87501ef6, L:/127.0.0.1:49204 - R:/127.0.0.1:8053]
+2026-03-20 23:28:58,534 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:28:58,545 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:28:58,545 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:28:58,547 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:28:58,628 DEBUG [client-work-thread-1]	handle response, correlationId=0
+2026-03-20 23:28:58,681 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:28:58,681 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:28:58,681 DEBUG [client-io-thread-12]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:28:58,681 DEBUG [client-io-thread-15]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:28:58,682 DEBUG [client-io-thread-11]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:28:58,682 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:28:58,682 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:28:58,682 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:28:58,681 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:28:58,681 DEBUG [client-io-thread-14]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:28:58,682 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:28:58,682 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:28:58,681 DEBUG [client-io-thread-16]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:28:58,681 DEBUG [client-io-thread-9]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:28:58,681 DEBUG [client-io-thread-10]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:28:58,681 DEBUG [client-io-thread-13]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:28:58,683 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:28:58,683 INFO [client-io-thread-8]	create thread:invalid-channel-callback-thread-1
+2026-03-20 23:28:58,683 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:28:58,683 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:28:58,683 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:28:58,683 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:28:58,683 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:28:58,683 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:28:58,683 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:28:58,683 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,695 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,701 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,704 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,706 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,707 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,709 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,712 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,713 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,715 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,716 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,718 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,719 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,721 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,722 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,724 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,725 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,728 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,732 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,735 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,736 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,739 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,742 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:28:58,744 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:29:00,911 INFO [Thread-0]	Brpc do clean work...
+2026-03-20 23:29:00,912 INFO [Thread-0]	invoke shutdownGlobalThreadPools
+2026-03-20 23:33:30,708 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:1 success
+2026-03-20 23:33:30,790 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:29 success
+2026-03-20 23:33:30,795 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:4 success
+2026-03-20 23:33:30,802 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:3 success
+2026-03-20 23:33:30,804 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:31 success
+2026-03-20 23:33:30,804 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:28 success
+2026-03-20 23:33:30,806 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:32 success
+2026-03-20 23:33:30,808 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:33 success
+2026-03-20 23:33:30,809 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:30 success
+2026-03-20 23:33:30,812 INFO [main] com.baidu.brpc.client.loadbalance.LoadBalanceManager.registerLoadBalanceFactory(LoadBalanceManager.java:49)	register load balance factory:RandomLoadBalanceFactory success
+2026-03-20 23:33:30,812 INFO [main] com.baidu.brpc.client.loadbalance.LoadBalanceManager.registerLoadBalanceFactory(LoadBalanceManager.java:49)	register load balance factory:RoundRobinLoadBalanceFactory success
+2026-03-20 23:33:30,813 INFO [main] com.baidu.brpc.client.loadbalance.LoadBalanceManager.registerLoadBalanceFactory(LoadBalanceManager.java:49)	register load balance factory:WeightLoadBalanceFactory success
+2026-03-20 23:33:30,813 INFO [main] com.baidu.brpc.client.loadbalance.LoadBalanceManager.registerLoadBalanceFactory(LoadBalanceManager.java:49)	register load balance factory:FairLoadBalanceFactory success
+2026-03-20 23:33:30,839 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:timeout-timer-thread-1
+2026-03-20 23:33:30,842 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:health-check-timer-thread-1
+2026-03-20 23:33:30,846 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:fairStrategy-timer-thread-1
+2026-03-20 23:33:30,850 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-1
+2026-03-20 23:33:30,850 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-2
+2026-03-20 23:33:30,850 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-3
+2026-03-20 23:33:30,851 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-4
+2026-03-20 23:33:30,851 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-5
+2026-03-20 23:33:30,851 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-6
+2026-03-20 23:33:30,851 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-7
+2026-03-20 23:33:30,852 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-8
+2026-03-20 23:33:30,853 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-9
+2026-03-20 23:33:30,853 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-10
+2026-03-20 23:33:30,853 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-11
+2026-03-20 23:33:30,853 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-12
+2026-03-20 23:33:30,853 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-13
+2026-03-20 23:33:30,854 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-14
+2026-03-20 23:33:30,854 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-15
+2026-03-20 23:33:30,854 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-16
+2026-03-20 23:33:32,550 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-1
+2026-03-20 23:33:32,568 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-2
+2026-03-20 23:33:32,569 DEBUG [client-io-thread-1] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x8587164f, L:/127.0.0.1:56328 - R:/127.0.0.1:8051]
+2026-03-20 23:33:32,571 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-3
+2026-03-20 23:33:32,569 DEBUG [client-io-thread-2] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x980a051d, L:/127.0.0.1:56329 - R:/127.0.0.1:8051]
+2026-03-20 23:33:32,572 DEBUG [client-io-thread-3] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x92dff6bc, L:/127.0.0.1:56330 - R:/127.0.0.1:8051]
+2026-03-20 23:33:32,572 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-4
+2026-03-20 23:33:32,574 DEBUG [client-io-thread-4] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x64cbd16a, L:/127.0.0.1:56331 - R:/127.0.0.1:8051]
+2026-03-20 23:33:32,574 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-5
+2026-03-20 23:33:32,577 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-6
+2026-03-20 23:33:32,575 DEBUG [client-io-thread-5] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x8bbb9de4, L:/127.0.0.1:56332 - R:/127.0.0.1:8051]
+2026-03-20 23:33:32,578 DEBUG [client-io-thread-6] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x850a0183, L:/127.0.0.1:56333 - R:/127.0.0.1:8051]
+2026-03-20 23:33:32,578 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-7
+2026-03-20 23:33:32,580 DEBUG [client-io-thread-7] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x80452ea4, L:/127.0.0.1:56334 - R:/127.0.0.1:8051]
+2026-03-20 23:33:32,580 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-8
+2026-03-20 23:33:32,581 DEBUG [client-io-thread-8] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x798c0e38, L:/127.0.0.1:56335 - R:/127.0.0.1:8051]
+2026-03-20 23:33:32,584 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-9
+2026-03-20 23:33:32,587 DEBUG [client-io-thread-9] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xad137a1d, L:/127.0.0.1:56336 - R:/127.0.0.1:8052]
+2026-03-20 23:33:32,587 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-10
+2026-03-20 23:33:32,590 DEBUG [client-io-thread-10] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x1ffe6205, L:/127.0.0.1:56337 - R:/127.0.0.1:8052]
+2026-03-20 23:33:32,590 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-11
+2026-03-20 23:33:32,591 DEBUG [client-io-thread-11] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x2dba5ced, L:/127.0.0.1:56338 - R:/127.0.0.1:8052]
+2026-03-20 23:33:32,593 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-12
+2026-03-20 23:33:32,594 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-13
+2026-03-20 23:33:32,594 DEBUG [client-io-thread-12] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xe27d3ef3, L:/127.0.0.1:56339 - R:/127.0.0.1:8052]
+2026-03-20 23:33:32,597 DEBUG [client-io-thread-13] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xb44d011b, L:/127.0.0.1:56340 - R:/127.0.0.1:8052]
+2026-03-20 23:33:32,597 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-14
+2026-03-20 23:33:32,599 DEBUG [client-io-thread-14] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x5be6bfba, L:/127.0.0.1:56341 - R:/127.0.0.1:8052]
+2026-03-20 23:33:32,599 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-15
+2026-03-20 23:33:32,602 DEBUG [client-io-thread-15] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xf0a2f921, L:/127.0.0.1:56342 - R:/127.0.0.1:8052]
+2026-03-20 23:33:32,602 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-16
+2026-03-20 23:33:32,605 DEBUG [client-io-thread-16] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xaa99bb96, L:/127.0.0.1:56343 - R:/127.0.0.1:8052]
+2026-03-20 23:33:32,607 DEBUG [client-io-thread-1] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xf7ee4cf9, L:/127.0.0.1:56344 - R:/127.0.0.1:8053]
+2026-03-20 23:33:32,608 DEBUG [client-io-thread-2] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xbaaf64ca, L:/127.0.0.1:56345 - R:/127.0.0.1:8053]
+2026-03-20 23:33:32,609 DEBUG [client-io-thread-3] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x5f048eea, L:/127.0.0.1:56346 - R:/127.0.0.1:8053]
+2026-03-20 23:33:32,611 DEBUG [client-io-thread-4] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xb4e949b0, L:/127.0.0.1:56347 - R:/127.0.0.1:8053]
+2026-03-20 23:33:32,612 DEBUG [client-io-thread-5] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x57c1d0db, L:/127.0.0.1:56348 - R:/127.0.0.1:8053]
+2026-03-20 23:33:32,613 DEBUG [client-io-thread-6] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x1c317320, L:/127.0.0.1:56349 - R:/127.0.0.1:8053]
+2026-03-20 23:33:32,614 DEBUG [client-io-thread-7] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x83d54433, L:/127.0.0.1:56350 - R:/127.0.0.1:8053]
+2026-03-20 23:33:32,616 DEBUG [client-io-thread-8] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xc46e91a4, L:/127.0.0.1:56351 - R:/127.0.0.1:8053]
+2026-03-20 23:33:32,669 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:33:32,677 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:33:32,678 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:33:32,680 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:33:33,771 DEBUG [client-work-thread-1] com.baidu.brpc.client.handler.ClientWorkTask.run(ClientWorkTask.java:72)	handle response, correlationId=1
+2026-03-20 23:33:33,778 DEBUG [client-work-thread-2] com.baidu.brpc.client.handler.ClientWorkTask.run(ClientWorkTask.java:72)	handle response, correlationId=2
+2026-03-20 23:33:33,781 ERROR [main] com.baidu.brpc.client.BrpcProxy.intercept(BrpcProxy.java:276)	exception :
+com.baidu.brpc.exceptions.RpcException: com.baidu.brpc.exceptions.RpcException: com.baidu.brpc.exceptions.RpcException: Cannot invoke "com.baidu.brpc.client.RpcClient.setServiceInterface(java.lang.Class, com.baidu.brpc.naming.NamingOptions)" because "rpcClient" is null
+	at com.baidu.brpc.client.BrpcProxy.intercept(BrpcProxy.java:268) [brpc-java-2.5.9.jar:?]
+	at com.github.wenweihu86.raft.example.server.service.ExampleService$$EnhancerByCGLIB$$c1bbc38a.set(<generated>) [raft-java-example-1.9.0.jar:?]
+	at com.github.wenweihu86.raft.example.client.ClientMain.main(ClientMain.java:36) [raft-java-example-1.9.0.jar:?]
+Caused by: com.baidu.brpc.exceptions.RpcException: com.baidu.brpc.exceptions.RpcException: Cannot invoke "com.baidu.brpc.client.RpcClient.setServiceInterface(java.lang.Class, com.baidu.brpc.naming.NamingOptions)" because "rpcClient" is null
+	at com.baidu.brpc.client.RpcFuture.get(RpcFuture.java:178) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.LoadBalanceInterceptor.rpcCore(LoadBalanceInterceptor.java:93) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.LoadBalanceInterceptor.invokeRpc(LoadBalanceInterceptor.java:82) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.LoadBalanceInterceptor.aroundProcess(LoadBalanceInterceptor.java:62) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.AbstractInterceptor.aroundProcess(AbstractInterceptor.java:35) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.ClientTraceInterceptor.aroundProcess(ClientTraceInterceptor.java:40) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.client.BrpcProxy.intercept(BrpcProxy.java:266) ~[brpc-java-2.5.9.jar:?]
+	... 2 more
+Caused by: com.baidu.brpc.exceptions.RpcException: Cannot invoke "com.baidu.brpc.client.RpcClient.setServiceInterface(java.lang.Class, com.baidu.brpc.naming.NamingOptions)" because "rpcClient" is null
+	at com.baidu.brpc.protocol.standard.BaiduRpcProtocol.decodeResponse(BaiduRpcProtocol.java:162) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.protocol.standard.BaiduRpcProtocol.decodeResponse(BaiduRpcProtocol.java:70) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.client.handler.ClientWorkTask.run(ClientWorkTask.java:65) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.consume(ThreadPool.java:131) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.access$000(ThreadPool.java:37) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool$1.run(ThreadPool.java:79) ~[brpc-java-2.5.9.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+2026-03-20 23:33:33,823 INFO [Thread-0] com.baidu.brpc.thread.ShutDownManager$1.run(ShutDownManager.java:40)	Brpc do clean work...
+2026-03-20 23:33:33,823 INFO [Thread-0] com.baidu.brpc.thread.ShutDownManager.shutdownGlobalThreadPools(ShutDownManager.java:48)	invoke shutdownGlobalThreadPools

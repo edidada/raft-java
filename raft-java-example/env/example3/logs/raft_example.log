@@ -19190,4 +19190,1861 @@ java.lang.NullPointerException: Cannot invoke "java.util.concurrent.ScheduledExe
 2026-03-20 23:27:30,856 DEBUG [server-work-thread-11]	new election time is after 5526 ms
 2026-03-20 23:27:30,856 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
 2026-03-20 23:27:30,857 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
-2026-03-20 23:27:31,357 DEBUG [ser
+2026-03-20 23:27:31,357 DEBUG [server-work-thread-15]	new election time is after 8907 ms
+2026-03-20 23:27:31,357 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:31,358 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:31,857 DEBUG [server-work-thread-2]	new election time is after 5761 ms
+2026-03-20 23:27:31,857 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:31,859 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:32,359 DEBUG [server-work-thread-16]	new election time is after 6917 ms
+2026-03-20 23:27:32,359 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:32,360 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:32,860 DEBUG [server-work-thread-1]	new election time is after 7464 ms
+2026-03-20 23:27:32,860 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:32,861 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:33,360 DEBUG [server-work-thread-4]	new election time is after 7432 ms
+2026-03-20 23:27:33,362 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:33,362 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:33,861 DEBUG [server-work-thread-5]	new election time is after 9643 ms
+2026-03-20 23:27:33,861 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:33,863 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:34,363 DEBUG [server-work-thread-7]	new election time is after 5277 ms
+2026-03-20 23:27:34,363 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:34,365 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:34,864 DEBUG [server-work-thread-3]	new election time is after 7428 ms
+2026-03-20 23:27:34,864 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:34,865 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:35,370 DEBUG [server-work-thread-6]	new election time is after 6833 ms
+2026-03-20 23:27:35,370 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:35,371 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:35,869 DEBUG [server-work-thread-9]	new election time is after 8970 ms
+2026-03-20 23:27:35,870 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:35,870 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:36,370 DEBUG [server-work-thread-10]	new election time is after 9910 ms
+2026-03-20 23:27:36,372 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:36,372 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:36,871 DEBUG [server-work-thread-12]	new election time is after 5554 ms
+2026-03-20 23:27:36,871 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:36,873 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:37,372 DEBUG [server-work-thread-13]	new election time is after 9070 ms
+2026-03-20 23:27:37,372 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:37,373 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:37,873 DEBUG [server-work-thread-8]	new election time is after 8472 ms
+2026-03-20 23:27:37,873 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:37,874 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:38,373 DEBUG [server-work-thread-14]	new election time is after 5225 ms
+2026-03-20 23:27:38,373 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:38,375 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:38,874 DEBUG [server-work-thread-11]	new election time is after 6479 ms
+2026-03-20 23:27:38,874 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:38,876 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:39,375 DEBUG [server-work-thread-15]	new election time is after 7011 ms
+2026-03-20 23:27:39,375 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:39,377 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:39,877 DEBUG [server-work-thread-2]	new election time is after 7955 ms
+2026-03-20 23:27:39,877 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:39,879 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:40,378 DEBUG [server-work-thread-16]	new election time is after 7863 ms
+2026-03-20 23:27:40,378 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:40,381 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:40,879 DEBUG [server-work-thread-1]	new election time is after 7417 ms
+2026-03-20 23:27:40,879 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:40,880 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:41,380 DEBUG [server-work-thread-4]	new election time is after 7298 ms
+2026-03-20 23:27:41,380 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:41,382 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:41,882 DEBUG [server-work-thread-6]	new election time is after 7345 ms
+2026-03-20 23:27:41,882 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:41,884 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:42,382 DEBUG [server-work-thread-5]	new election time is after 5231 ms
+2026-03-20 23:27:42,382 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:42,384 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:42,883 DEBUG [server-work-thread-7]	new election time is after 5279 ms
+2026-03-20 23:27:42,883 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:42,885 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:43,385 DEBUG [server-work-thread-3]	new election time is after 5687 ms
+2026-03-20 23:27:43,386 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:43,387 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:43,885 DEBUG [server-work-thread-9]	new election time is after 7064 ms
+2026-03-20 23:27:43,885 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:43,887 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:44,386 DEBUG [server-work-thread-10]	new election time is after 9834 ms
+2026-03-20 23:27:44,386 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:44,388 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:44,887 DEBUG [server-work-thread-12]	new election time is after 7642 ms
+2026-03-20 23:27:44,887 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:44,889 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:45,388 DEBUG [server-work-thread-13]	new election time is after 7913 ms
+2026-03-20 23:27:45,388 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:45,389 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:45,889 DEBUG [server-work-thread-8]	new election time is after 5433 ms
+2026-03-20 23:27:45,889 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:45,890 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:46,390 DEBUG [server-work-thread-14]	new election time is after 7004 ms
+2026-03-20 23:27:46,390 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:46,392 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:46,891 DEBUG [server-work-thread-11]	new election time is after 8162 ms
+2026-03-20 23:27:46,891 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:46,892 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:47,392 DEBUG [server-work-thread-15]	new election time is after 8424 ms
+2026-03-20 23:27:47,392 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:47,393 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:47,893 DEBUG [server-work-thread-2]	new election time is after 8327 ms
+2026-03-20 23:27:47,894 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:47,895 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:48,394 DEBUG [server-work-thread-16]	new election time is after 8586 ms
+2026-03-20 23:27:48,394 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:48,396 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:48,894 DEBUG [server-work-thread-1]	new election time is after 6575 ms
+2026-03-20 23:27:48,896 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:48,897 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:49,396 DEBUG [server-work-thread-4]	new election time is after 5333 ms
+2026-03-20 23:27:49,396 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:49,398 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:49,897 DEBUG [server-work-thread-6]	new election time is after 6386 ms
+2026-03-20 23:27:49,897 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:49,899 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:50,398 DEBUG [server-work-thread-5]	new election time is after 7567 ms
+2026-03-20 23:27:50,398 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:50,400 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:50,899 DEBUG [server-work-thread-7]	new election time is after 6168 ms
+2026-03-20 23:27:50,899 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:50,900 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:51,399 DEBUG [server-work-thread-3]	new election time is after 5534 ms
+2026-03-20 23:27:51,399 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:51,401 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:51,900 DEBUG [server-work-thread-9]	new election time is after 7527 ms
+2026-03-20 23:27:51,900 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:51,901 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:52,401 DEBUG [server-work-thread-10]	new election time is after 5610 ms
+2026-03-20 23:27:52,401 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:52,403 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:52,903 DEBUG [server-work-thread-12]	new election time is after 9693 ms
+2026-03-20 23:27:52,903 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:52,905 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:53,403 DEBUG [server-work-thread-13]	new election time is after 6903 ms
+2026-03-20 23:27:53,403 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:53,405 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:53,904 DEBUG [server-work-thread-8]	new election time is after 9670 ms
+2026-03-20 23:27:53,904 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:53,905 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:54,399 DEBUG [server-io-thread-8]	channel=[id: 0x94de7c58, L:/127.0.0.1:8053 - R:/127.0.0.1:63060] ip=/127.0.0.1:63060 is idle for period time, close now.
+2026-03-20 23:27:54,400 DEBUG [server-io-thread-8]	channel is in active, remove from channel map
+2026-03-20 23:27:54,406 DEBUG [server-work-thread-14]	new election time is after 9601 ms
+2026-03-20 23:27:54,406 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:54,407 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:54,786 DEBUG [server-io-thread-1]	channel=[id: 0x3d003e06, L:/127.0.0.1:8053 - R:/127.0.0.1:64897] ip=/127.0.0.1:64897 is idle for period time, close now.
+2026-03-20 23:27:54,786 DEBUG [server-io-thread-1]	channel is in active, remove from channel map
+2026-03-20 23:27:54,788 DEBUG [server-io-thread-2]	channel=[id: 0x1bcbef2d, L:/127.0.0.1:8053 - R:/127.0.0.1:64898] ip=/127.0.0.1:64898 is idle for period time, close now.
+2026-03-20 23:27:54,788 DEBUG [server-io-thread-3]	channel=[id: 0xbcbb4d0a, L:/127.0.0.1:8053 - R:/127.0.0.1:64899] ip=/127.0.0.1:64899 is idle for period time, close now.
+2026-03-20 23:27:54,788 DEBUG [server-io-thread-2]	channel is in active, remove from channel map
+2026-03-20 23:27:54,788 DEBUG [server-io-thread-3]	channel is in active, remove from channel map
+2026-03-20 23:27:54,789 DEBUG [server-io-thread-5]	channel=[id: 0xdac0c904, L:/127.0.0.1:8053 - R:/127.0.0.1:64901] ip=/127.0.0.1:64901 is idle for period time, close now.
+2026-03-20 23:27:54,789 DEBUG [server-io-thread-4]	channel=[id: 0x6fc6ca86, L:/127.0.0.1:8053 - R:/127.0.0.1:64900] ip=/127.0.0.1:64900 is idle for period time, close now.
+2026-03-20 23:27:54,789 DEBUG [server-io-thread-5]	channel is in active, remove from channel map
+2026-03-20 23:27:54,789 DEBUG [server-io-thread-4]	channel is in active, remove from channel map
+2026-03-20 23:27:54,791 DEBUG [server-io-thread-6]	channel=[id: 0x3cbe5182, L:/127.0.0.1:8053 - R:/127.0.0.1:64902] ip=/127.0.0.1:64902 is idle for period time, close now.
+2026-03-20 23:27:54,791 DEBUG [server-io-thread-6]	channel is in active, remove from channel map
+2026-03-20 23:27:54,906 DEBUG [server-work-thread-11]	new election time is after 6940 ms
+2026-03-20 23:27:54,906 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:54,908 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:55,408 DEBUG [server-work-thread-15]	new election time is after 8870 ms
+2026-03-20 23:27:55,408 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:55,409 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:55,910 DEBUG [server-work-thread-2]	new election time is after 8996 ms
+2026-03-20 23:27:55,910 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:55,911 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:56,410 DEBUG [server-work-thread-16]	new election time is after 7546 ms
+2026-03-20 23:27:56,412 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:56,414 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:56,913 DEBUG [server-work-thread-1]	new election time is after 5525 ms
+2026-03-20 23:27:56,913 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:56,914 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:57,414 DEBUG [server-work-thread-4]	new election time is after 8340 ms
+2026-03-20 23:27:57,414 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:57,416 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:57,917 DEBUG [server-work-thread-6]	new election time is after 9086 ms
+2026-03-20 23:27:57,917 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:57,918 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:58,420 DEBUG [server-work-thread-5]	new election time is after 9330 ms
+2026-03-20 23:27:58,420 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:58,422 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:58,919 DEBUG [server-work-thread-7]	new election time is after 5391 ms
+2026-03-20 23:27:58,919 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:58,921 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:59,420 DEBUG [server-work-thread-3]	new election time is after 6041 ms
+2026-03-20 23:27:59,420 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:59,422 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:27:59,922 DEBUG [server-work-thread-9]	new election time is after 5341 ms
+2026-03-20 23:27:59,922 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:27:59,923 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:00,424 DEBUG [server-work-thread-10]	new election time is after 7219 ms
+2026-03-20 23:28:00,424 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:00,424 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:00,926 DEBUG [server-work-thread-12]	new election time is after 6544 ms
+2026-03-20 23:28:00,926 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:00,926 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:01,426 DEBUG [server-work-thread-13]	new election time is after 7498 ms
+2026-03-20 23:28:01,426 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:01,427 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:01,927 DEBUG [server-work-thread-8]	new election time is after 9270 ms
+2026-03-20 23:28:01,928 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:01,929 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:02,427 DEBUG [server-work-thread-14]	new election time is after 5864 ms
+2026-03-20 23:28:02,429 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:02,429 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:02,928 DEBUG [server-work-thread-11]	new election time is after 5546 ms
+2026-03-20 23:28:02,928 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:02,930 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:03,429 DEBUG [server-work-thread-15]	new election time is after 9083 ms
+2026-03-20 23:28:03,430 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:03,430 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:03,931 DEBUG [server-work-thread-2]	new election time is after 8890 ms
+2026-03-20 23:28:03,931 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:03,932 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:04,431 DEBUG [server-work-thread-16]	new election time is after 9222 ms
+2026-03-20 23:28:04,431 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:04,433 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:04,933 DEBUG [server-work-thread-1]	new election time is after 5583 ms
+2026-03-20 23:28:04,933 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:04,935 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:05,433 DEBUG [server-work-thread-4]	new election time is after 9027 ms
+2026-03-20 23:28:05,435 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:05,435 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:05,934 DEBUG [server-work-thread-6]	new election time is after 5186 ms
+2026-03-20 23:28:05,934 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:05,936 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:06,436 DEBUG [server-work-thread-5]	new election time is after 9610 ms
+2026-03-20 23:28:06,436 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:06,438 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:06,939 DEBUG [server-work-thread-7]	new election time is after 6077 ms
+2026-03-20 23:28:06,939 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:06,939 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:07,439 DEBUG [server-work-thread-3]	new election time is after 7849 ms
+2026-03-20 23:28:07,439 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:07,440 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:07,940 DEBUG [server-work-thread-9]	new election time is after 5980 ms
+2026-03-20 23:28:07,940 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:07,941 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:08,441 DEBUG [server-work-thread-10]	new election time is after 7566 ms
+2026-03-20 23:28:08,441 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:08,442 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:08,942 DEBUG [server-work-thread-12]	new election time is after 7507 ms
+2026-03-20 23:28:08,942 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:08,944 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:09,444 DEBUG [server-work-thread-13]	new election time is after 5930 ms
+2026-03-20 23:28:09,445 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:09,446 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:09,634 DEBUG [fairStrategy-timer-thread-1]	begin to updateWeightTree...
+2026-03-20 23:28:09,946 DEBUG [server-work-thread-8]	new election time is after 6565 ms
+2026-03-20 23:28:09,946 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:09,948 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:10,447 DEBUG [server-work-thread-14]	new election time is after 8718 ms
+2026-03-20 23:28:10,447 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:10,448 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:10,949 DEBUG [server-work-thread-11]	new election time is after 8149 ms
+2026-03-20 23:28:10,949 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:10,950 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:11,450 DEBUG [server-work-thread-15]	new election time is after 8136 ms
+2026-03-20 23:28:11,452 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:11,453 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:11,952 DEBUG [server-work-thread-2]	new election time is after 5281 ms
+2026-03-20 23:28:11,953 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:11,953 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:12,453 DEBUG [server-work-thread-16]	new election time is after 8465 ms
+2026-03-20 23:28:12,453 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:12,454 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:12,954 DEBUG [server-work-thread-1]	new election time is after 7006 ms
+2026-03-20 23:28:12,954 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:12,956 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:13,455 DEBUG [server-work-thread-4]	new election time is after 5712 ms
+2026-03-20 23:28:13,455 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:13,456 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:13,957 DEBUG [server-work-thread-6]	new election time is after 7373 ms
+2026-03-20 23:28:13,957 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:13,958 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:14,458 DEBUG [server-work-thread-5]	new election time is after 9453 ms
+2026-03-20 23:28:14,458 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:14,460 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:14,960 DEBUG [server-work-thread-7]	new election time is after 5743 ms
+2026-03-20 23:28:14,960 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:14,962 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:15,461 DEBUG [server-work-thread-3]	new election time is after 8103 ms
+2026-03-20 23:28:15,462 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:15,462 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:15,961 DEBUG [server-work-thread-9]	new election time is after 7175 ms
+2026-03-20 23:28:15,963 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:15,964 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:16,462 DEBUG [server-work-thread-10]	new election time is after 9278 ms
+2026-03-20 23:28:16,464 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:16,464 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:16,963 DEBUG [server-work-thread-12]	new election time is after 9352 ms
+2026-03-20 23:28:16,963 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:16,964 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:17,463 DEBUG [server-work-thread-13]	new election time is after 6773 ms
+2026-03-20 23:28:17,463 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:17,465 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:17,964 DEBUG [server-work-thread-8]	new election time is after 6831 ms
+2026-03-20 23:28:17,964 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:17,966 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:18,465 DEBUG [server-work-thread-14]	new election time is after 7809 ms
+2026-03-20 23:28:18,465 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:18,467 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:18,966 DEBUG [server-work-thread-11]	new election time is after 5404 ms
+2026-03-20 23:28:18,966 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:18,968 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:19,153 DEBUG [server-io-thread-9]	channel=[id: 0x2a2d816a, L:/127.0.0.1:8053 - R:/127.0.0.1:49684] ip=/127.0.0.1:49684 is idle for period time, close now.
+2026-03-20 23:28:19,153 DEBUG [server-io-thread-8]	channel=[id: 0x927b0f6e, L:/127.0.0.1:8053 - R:/127.0.0.1:49683] ip=/127.0.0.1:49683 is idle for period time, close now.
+2026-03-20 23:28:19,153 DEBUG [server-io-thread-10]	channel=[id: 0x932a72b3, L:/127.0.0.1:8053 - R:/127.0.0.1:49685] ip=/127.0.0.1:49685 is idle for period time, close now.
+2026-03-20 23:28:19,153 DEBUG [server-io-thread-9]	channel is in active, remove from channel map
+2026-03-20 23:28:19,153 DEBUG [server-io-thread-8]	channel is in active, remove from channel map
+2026-03-20 23:28:19,155 DEBUG [server-io-thread-10]	channel is in active, remove from channel map
+2026-03-20 23:28:19,155 DEBUG [server-io-thread-11]	channel=[id: 0x19130338, L:/127.0.0.1:8053 - R:/127.0.0.1:49686] ip=/127.0.0.1:49686 is idle for period time, close now.
+2026-03-20 23:28:19,155 DEBUG [server-io-thread-12]	channel=[id: 0xe23521a6, L:/127.0.0.1:8053 - R:/127.0.0.1:49687] ip=/127.0.0.1:49687 is idle for period time, close now.
+2026-03-20 23:28:19,155 DEBUG [server-io-thread-13]	channel=[id: 0xfaa77832, L:/127.0.0.1:8053 - R:/127.0.0.1:49688] ip=/127.0.0.1:49688 is idle for period time, close now.
+2026-03-20 23:28:19,155 DEBUG [server-io-thread-11]	channel is in active, remove from channel map
+2026-03-20 23:28:19,155 DEBUG [server-io-thread-12]	channel is in active, remove from channel map
+2026-03-20 23:28:19,155 DEBUG [server-io-thread-13]	channel is in active, remove from channel map
+2026-03-20 23:28:19,157 DEBUG [server-io-thread-15]	channel=[id: 0xc6adda1b, L:/127.0.0.1:8053 - R:/127.0.0.1:49690] ip=/127.0.0.1:49690 is idle for period time, close now.
+2026-03-20 23:28:19,157 DEBUG [server-io-thread-14]	channel=[id: 0x794bd976, L:/127.0.0.1:8053 - R:/127.0.0.1:49689] ip=/127.0.0.1:49689 is idle for period time, close now.
+2026-03-20 23:28:19,157 DEBUG [server-io-thread-15]	channel is in active, remove from channel map
+2026-03-20 23:28:19,157 DEBUG [server-io-thread-14]	channel is in active, remove from channel map
+2026-03-20 23:28:19,467 DEBUG [server-work-thread-15]	new election time is after 6849 ms
+2026-03-20 23:28:19,467 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:19,468 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:19,968 DEBUG [server-work-thread-2]	new election time is after 6961 ms
+2026-03-20 23:28:19,968 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:19,969 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:20,469 DEBUG [server-work-thread-16]	new election time is after 6862 ms
+2026-03-20 23:28:20,469 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:20,471 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:20,970 DEBUG [server-work-thread-1]	new election time is after 9608 ms
+2026-03-20 23:28:20,970 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:20,972 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:21,472 DEBUG [server-work-thread-4]	new election time is after 9028 ms
+2026-03-20 23:28:21,472 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:21,473 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:21,974 DEBUG [server-work-thread-6]	new election time is after 6182 ms
+2026-03-20 23:28:21,974 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:21,975 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:22,476 DEBUG [server-work-thread-5]	new election time is after 9554 ms
+2026-03-20 23:28:22,476 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:22,477 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:22,976 DEBUG [server-work-thread-7]	new election time is after 7232 ms
+2026-03-20 23:28:22,976 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:22,978 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:23,316 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x6ff95677, L:/127.0.0.1:63143 - R:/127.0.0.1:8051]
+2026-03-20 23:28:23,316 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x26a29acc, L:/127.0.0.1:63144 - R:/127.0.0.1:8051]
+2026-03-20 23:28:23,316 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x595bb738, L:/127.0.0.1:63145 - R:/127.0.0.1:8051]
+2026-03-20 23:28:23,317 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x77545e6e, L:/127.0.0.1:63146 - R:/127.0.0.1:8051]
+2026-03-20 23:28:23,318 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x8b828116, L:/127.0.0.1:63147 - R:/127.0.0.1:8051]
+2026-03-20 23:28:23,319 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x0dc30bc8, L:/127.0.0.1:63148 - R:/127.0.0.1:8051]
+2026-03-20 23:28:23,319 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x935d3c3f, L:/127.0.0.1:63149 - R:/127.0.0.1:8051]
+2026-03-20 23:28:23,320 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x0b710942, L:/127.0.0.1:63150 - R:/127.0.0.1:8051]
+2026-03-20 23:28:23,478 DEBUG [server-work-thread-3]	new election time is after 6911 ms
+2026-03-20 23:28:23,478 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:23,480 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:23,979 DEBUG [server-work-thread-9]	new election time is after 6528 ms
+2026-03-20 23:28:23,979 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:23,981 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:24,481 DEBUG [server-work-thread-10]	new election time is after 9334 ms
+2026-03-20 23:28:24,481 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:24,482 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:24,812 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xcd5c93fe, L:/127.0.0.1:63151 - R:/127.0.0.1:8052]
+2026-03-20 23:28:24,814 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x4a411c42, L:/127.0.0.1:63152 - R:/127.0.0.1:8052]
+2026-03-20 23:28:24,814 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xb65bd830, L:/127.0.0.1:63153 - R:/127.0.0.1:8052]
+2026-03-20 23:28:24,815 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x1b64909c, L:/127.0.0.1:63154 - R:/127.0.0.1:8052]
+2026-03-20 23:28:24,815 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xda98967c, L:/127.0.0.1:63155 - R:/127.0.0.1:8052]
+2026-03-20 23:28:24,815 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xc0cc3ba7, L:/127.0.0.1:63157 - R:/127.0.0.1:8052]
+2026-03-20 23:28:24,817 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x48d41648, L:/127.0.0.1:63158 - R:/127.0.0.1:8052]
+2026-03-20 23:28:24,817 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x770b3624, L:/127.0.0.1:63159 - R:/127.0.0.1:8052]
+2026-03-20 23:28:24,981 DEBUG [server-work-thread-12]	new election time is after 6016 ms
+2026-03-20 23:28:24,981 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:24,995 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:25,481 DEBUG [server-work-thread-13]	new election time is after 8089 ms
+2026-03-20 23:28:25,481 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:25,483 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:25,983 DEBUG [server-work-thread-8]	new election time is after 9300 ms
+2026-03-20 23:28:25,983 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:25,984 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:26,485 DEBUG [server-work-thread-14]	new election time is after 6221 ms
+2026-03-20 23:28:26,485 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:26,487 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:26,682 DEBUG [fairStrategy-timer-thread-1]	begin to updateWeightTree...
+2026-03-20 23:28:26,985 DEBUG [server-work-thread-11]	new election time is after 6050 ms
+2026-03-20 23:28:26,986 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:26,987 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:27,486 DEBUG [server-work-thread-15]	new election time is after 7772 ms
+2026-03-20 23:28:27,488 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:27,488 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:27,987 DEBUG [server-work-thread-2]	new election time is after 5757 ms
+2026-03-20 23:28:27,988 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:27,988 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:28,318 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:28:28,318 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:28:28,318 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:28:28,319 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:28:28,319 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:28:28,319 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:28:28,320 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:28:28,321 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:28:28,437 DEBUG [fairStrategy-timer-thread-1]	begin to updateWeightTree...
+2026-03-20 23:28:28,487 DEBUG [server-work-thread-16]	new election time is after 6375 ms
+2026-03-20 23:28:28,487 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:28,489 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:28,989 DEBUG [server-work-thread-1]	new election time is after 8302 ms
+2026-03-20 23:28:28,989 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:28,991 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:29,490 DEBUG [server-work-thread-4]	new election time is after 9777 ms
+2026-03-20 23:28:29,490 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:29,492 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:29,814 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:28:29,814 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:28:29,816 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:28:29,816 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:28:29,818 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:28:29,818 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:28:29,818 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:28:29,819 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:28:29,992 DEBUG [server-work-thread-6]	new election time is after 5594 ms
+2026-03-20 23:28:29,992 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:29,993 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:30,494 DEBUG [server-work-thread-5]	new election time is after 8356 ms
+2026-03-20 23:28:30,494 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:30,496 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:30,994 DEBUG [server-work-thread-7]	new election time is after 7666 ms
+2026-03-20 23:28:30,995 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:30,996 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:31,495 DEBUG [server-work-thread-3]	new election time is after 5921 ms
+2026-03-20 23:28:31,495 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:31,496 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:31,995 DEBUG [server-work-thread-9]	new election time is after 8127 ms
+2026-03-20 23:28:31,997 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:31,997 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:32,497 DEBUG [server-work-thread-10]	new election time is after 8132 ms
+2026-03-20 23:28:32,497 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:32,499 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:32,999 DEBUG [server-work-thread-12]	new election time is after 7732 ms
+2026-03-20 23:28:32,999 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:33,000 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:33,501 DEBUG [server-work-thread-13]	new election time is after 9034 ms
+2026-03-20 23:28:33,501 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:33,503 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:34,003 DEBUG [server-work-thread-8]	new election time is after 7007 ms
+2026-03-20 23:28:34,003 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:34,003 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:34,503 DEBUG [server-work-thread-14]	new election time is after 6336 ms
+2026-03-20 23:28:34,503 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:34,504 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:35,004 DEBUG [server-work-thread-11]	new election time is after 5676 ms
+2026-03-20 23:28:35,004 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:35,005 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:35,504 DEBUG [server-work-thread-15]	new election time is after 8667 ms
+2026-03-20 23:28:35,504 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:35,505 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:36,005 DEBUG [server-work-thread-2]	new election time is after 7620 ms
+2026-03-20 23:28:36,005 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:36,006 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:36,506 DEBUG [server-work-thread-16]	new election time is after 9590 ms
+2026-03-20 23:28:36,506 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:36,507 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:37,007 DEBUG [server-work-thread-1]	new election time is after 8465 ms
+2026-03-20 23:28:37,007 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:37,008 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:37,508 DEBUG [server-work-thread-4]	new election time is after 5179 ms
+2026-03-20 23:28:37,508 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:37,510 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:38,009 DEBUG [server-work-thread-6]	new election time is after 5516 ms
+2026-03-20 23:28:38,009 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:38,011 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:38,511 DEBUG [server-work-thread-5]	new election time is after 6728 ms
+2026-03-20 23:28:38,512 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:38,513 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:39,012 DEBUG [server-work-thread-7]	new election time is after 5619 ms
+2026-03-20 23:28:39,012 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:39,014 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:39,512 DEBUG [server-work-thread-3]	new election time is after 8070 ms
+2026-03-20 23:28:39,512 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:39,513 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:40,013 DEBUG [server-work-thread-9]	new election time is after 9872 ms
+2026-03-20 23:28:40,013 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:40,014 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:40,515 DEBUG [server-work-thread-10]	new election time is after 6027 ms
+2026-03-20 23:28:40,515 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:40,516 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:41,015 DEBUG [server-work-thread-12]	new election time is after 7929 ms
+2026-03-20 23:28:41,015 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:41,017 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:41,516 DEBUG [server-work-thread-13]	new election time is after 9583 ms
+2026-03-20 23:28:41,516 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:41,518 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:42,017 DEBUG [server-work-thread-8]	new election time is after 8889 ms
+2026-03-20 23:28:42,017 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:42,018 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:42,518 DEBUG [server-work-thread-14]	new election time is after 8850 ms
+2026-03-20 23:28:42,518 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:42,520 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:43,018 DEBUG [server-work-thread-11]	new election time is after 8306 ms
+2026-03-20 23:28:43,018 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:43,020 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:43,519 DEBUG [server-work-thread-15]	new election time is after 7818 ms
+2026-03-20 23:28:43,519 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:43,521 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:44,021 DEBUG [server-work-thread-2]	new election time is after 9096 ms
+2026-03-20 23:28:44,021 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:44,022 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:44,521 DEBUG [server-work-thread-16]	new election time is after 5769 ms
+2026-03-20 23:28:44,521 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:44,523 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:45,022 DEBUG [server-work-thread-1]	new election time is after 7823 ms
+2026-03-20 23:28:45,022 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:45,024 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:45,524 DEBUG [server-work-thread-4]	new election time is after 5006 ms
+2026-03-20 23:28:45,524 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:45,525 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:46,025 DEBUG [server-work-thread-6]	new election time is after 5314 ms
+2026-03-20 23:28:46,025 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:46,026 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:46,527 DEBUG [server-work-thread-5]	new election time is after 5482 ms
+2026-03-20 23:28:46,527 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:46,527 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:47,027 DEBUG [server-work-thread-7]	new election time is after 5052 ms
+2026-03-20 23:28:47,027 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:47,028 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:47,528 DEBUG [server-work-thread-3]	new election time is after 7939 ms
+2026-03-20 23:28:47,528 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:47,529 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:48,030 DEBUG [server-work-thread-9]	new election time is after 6235 ms
+2026-03-20 23:28:48,030 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:48,031 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:48,531 DEBUG [server-work-thread-10]	new election time is after 5469 ms
+2026-03-20 23:28:48,532 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:48,533 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:49,031 DEBUG [server-work-thread-12]	new election time is after 8745 ms
+2026-03-20 23:28:49,031 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:49,033 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:49,532 DEBUG [server-work-thread-13]	new election time is after 5953 ms
+2026-03-20 23:28:49,532 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:49,533 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:50,033 DEBUG [server-work-thread-8]	new election time is after 7614 ms
+2026-03-20 23:28:50,034 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:50,036 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:50,534 DEBUG [server-work-thread-14]	new election time is after 5625 ms
+2026-03-20 23:28:50,534 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:50,535 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:51,034 DEBUG [server-work-thread-11]	new election time is after 9539 ms
+2026-03-20 23:28:51,034 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:51,035 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:51,535 DEBUG [server-work-thread-15]	new election time is after 7975 ms
+2026-03-20 23:28:51,535 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:51,536 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:52,036 DEBUG [server-work-thread-2]	new election time is after 8459 ms
+2026-03-20 23:28:52,036 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:52,037 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:52,537 DEBUG [server-work-thread-16]	new election time is after 8344 ms
+2026-03-20 23:28:52,537 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:52,539 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:53,037 DEBUG [server-work-thread-1]	new election time is after 8729 ms
+2026-03-20 23:28:53,037 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:53,038 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:53,539 DEBUG [server-work-thread-4]	new election time is after 9000 ms
+2026-03-20 23:28:53,539 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:53,540 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:54,040 DEBUG [server-work-thread-6]	new election time is after 6700 ms
+2026-03-20 23:28:54,040 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:54,042 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:54,541 DEBUG [server-work-thread-5]	new election time is after 8648 ms
+2026-03-20 23:28:54,541 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:54,543 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:55,042 DEBUG [server-work-thread-7]	new election time is after 7244 ms
+2026-03-20 23:28:55,042 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:55,044 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:55,544 DEBUG [server-work-thread-3]	new election time is after 5052 ms
+2026-03-20 23:28:55,545 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:55,545 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:56,045 DEBUG [server-work-thread-9]	new election time is after 8790 ms
+2026-03-20 23:28:56,045 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:56,046 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:56,547 DEBUG [server-work-thread-10]	new election time is after 9135 ms
+2026-03-20 23:28:56,547 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:56,548 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:57,048 DEBUG [server-work-thread-12]	new election time is after 7125 ms
+2026-03-20 23:28:57,048 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:57,048 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:57,549 DEBUG [server-work-thread-13]	new election time is after 7549 ms
+2026-03-20 23:28:57,549 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:57,550 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:58,050 DEBUG [server-work-thread-8]	new election time is after 7601 ms
+2026-03-20 23:28:58,050 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:58,052 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:58,551 DEBUG [server-work-thread-14]	new election time is after 6530 ms
+2026-03-20 23:28:58,551 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:58,553 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:58,617 INFO [server-work-thread-11]	get request, request={"key": "test_key"}, response={"value": "test_value"}
+2026-03-20 23:28:58,674 DEBUG [server-io-thread-5]	channel is in active, remove from channel map
+2026-03-20 23:28:58,674 DEBUG [server-io-thread-7]	channel is in active, remove from channel map
+2026-03-20 23:28:58,674 DEBUG [server-io-thread-3]	channel is in active, remove from channel map
+2026-03-20 23:28:58,676 DEBUG [server-io-thread-16]	channel is in active, remove from channel map
+2026-03-20 23:28:58,676 DEBUG [server-io-thread-1]	channel is in active, remove from channel map
+2026-03-20 23:28:58,676 DEBUG [server-io-thread-6]	channel is in active, remove from channel map
+2026-03-20 23:28:58,676 DEBUG [server-io-thread-4]	channel is in active, remove from channel map
+2026-03-20 23:28:58,676 DEBUG [server-io-thread-2]	channel is in active, remove from channel map
+2026-03-20 23:28:59,053 DEBUG [server-work-thread-15]	new election time is after 8693 ms
+2026-03-20 23:28:59,053 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:59,055 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:28:59,554 DEBUG [server-work-thread-2]	new election time is after 5644 ms
+2026-03-20 23:28:59,554 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:28:59,556 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:00,055 DEBUG [server-work-thread-16]	new election time is after 8342 ms
+2026-03-20 23:29:00,055 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:00,057 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:00,556 DEBUG [server-work-thread-1]	new election time is after 5752 ms
+2026-03-20 23:29:00,556 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:00,557 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:01,058 DEBUG [server-work-thread-4]	new election time is after 7031 ms
+2026-03-20 23:29:01,059 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:01,060 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:01,560 DEBUG [server-work-thread-6]	new election time is after 9156 ms
+2026-03-20 23:29:01,560 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:01,561 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:02,060 DEBUG [server-work-thread-5]	new election time is after 9687 ms
+2026-03-20 23:29:02,060 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:02,062 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:02,561 DEBUG [server-work-thread-7]	new election time is after 5111 ms
+2026-03-20 23:29:02,561 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:02,563 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:03,062 DEBUG [server-work-thread-3]	new election time is after 6116 ms
+2026-03-20 23:29:03,062 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:03,064 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:03,564 DEBUG [server-work-thread-9]	new election time is after 6009 ms
+2026-03-20 23:29:03,564 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:03,566 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:04,066 DEBUG [server-work-thread-10]	new election time is after 7199 ms
+2026-03-20 23:29:04,066 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:04,068 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:04,568 DEBUG [server-work-thread-12]	new election time is after 7649 ms
+2026-03-20 23:29:04,568 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:04,569 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:05,070 DEBUG [server-work-thread-13]	new election time is after 9930 ms
+2026-03-20 23:29:05,070 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:05,071 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:05,571 DEBUG [server-work-thread-8]	new election time is after 9599 ms
+2026-03-20 23:29:05,571 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:05,573 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:06,072 DEBUG [server-work-thread-14]	new election time is after 8969 ms
+2026-03-20 23:29:06,072 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:06,073 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:06,573 DEBUG [server-work-thread-11]	new election time is after 7127 ms
+2026-03-20 23:29:06,573 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:06,574 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:07,074 DEBUG [server-work-thread-15]	new election time is after 6997 ms
+2026-03-20 23:29:07,075 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:07,076 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:07,444 DEBUG [brpc-io-thread-9]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xc2ada5ff, L:/127.0.0.1:54321 - R:/127.0.0.1:8051]
+2026-03-20 23:29:07,446 DEBUG [brpc-io-thread-10]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x93036b19, L:/127.0.0.1:54322 - R:/127.0.0.1:8051]
+2026-03-20 23:29:07,446 DEBUG [brpc-io-thread-11]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x17b0f1b5, L:/127.0.0.1:54323 - R:/127.0.0.1:8051]
+2026-03-20 23:29:07,447 DEBUG [brpc-io-thread-12]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xee9537f7, L:/127.0.0.1:54324 - R:/127.0.0.1:8051]
+2026-03-20 23:29:07,447 DEBUG [brpc-io-thread-13]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xfd1f998b, L:/127.0.0.1:54325 - R:/127.0.0.1:8051]
+2026-03-20 23:29:07,447 DEBUG [brpc-io-thread-14]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x4dc444ac, L:/127.0.0.1:54326 - R:/127.0.0.1:8051]
+2026-03-20 23:29:07,448 DEBUG [brpc-io-thread-15]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xf784226f, L:/127.0.0.1:54327 - R:/127.0.0.1:8051]
+2026-03-20 23:29:07,449 DEBUG [brpc-io-thread-16]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x4b61f8ca, L:/127.0.0.1:54328 - R:/127.0.0.1:8051]
+2026-03-20 23:29:07,574 DEBUG [server-work-thread-2]	new election time is after 5460 ms
+2026-03-20 23:29:07,574 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:07,577 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:08,076 DEBUG [server-work-thread-16]	new election time is after 6959 ms
+2026-03-20 23:29:08,077 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:08,077 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:08,577 DEBUG [server-work-thread-1]	new election time is after 7085 ms
+2026-03-20 23:29:08,577 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:08,579 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:09,078 DEBUG [server-work-thread-4]	new election time is after 6455 ms
+2026-03-20 23:29:09,078 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:09,080 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:09,580 DEBUG [server-work-thread-6]	new election time is after 6787 ms
+2026-03-20 23:29:09,580 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:09,582 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:09,732 DEBUG [fairStrategy-timer-thread-1]	begin to updateWeightTree...
+2026-03-20 23:29:10,082 DEBUG [server-work-thread-5]	new election time is after 7149 ms
+2026-03-20 23:29:10,083 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:10,083 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:10,583 DEBUG [server-work-thread-7]	new election time is after 6325 ms
+2026-03-20 23:29:10,583 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:10,585 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:11,084 DEBUG [server-work-thread-3]	new election time is after 5492 ms
+2026-03-20 23:29:11,084 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:11,086 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:11,586 DEBUG [server-work-thread-9]	new election time is after 5907 ms
+2026-03-20 23:29:11,586 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:11,588 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:12,088 DEBUG [server-work-thread-10]	new election time is after 6383 ms
+2026-03-20 23:29:12,088 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:12,089 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:12,445 DEBUG [brpc-io-thread-9]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:29:12,448 DEBUG [brpc-io-thread-11]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:29:12,448 DEBUG [brpc-io-thread-10]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:29:12,448 DEBUG [brpc-io-thread-13]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:29:12,448 DEBUG [brpc-io-thread-12]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:29:12,448 DEBUG [brpc-io-thread-14]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:29:12,450 DEBUG [brpc-io-thread-15]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:29:12,450 DEBUG [brpc-io-thread-16]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:29:12,589 DEBUG [server-work-thread-12]	new election time is after 7508 ms
+2026-03-20 23:29:12,591 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:12,592 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:13,092 DEBUG [server-work-thread-13]	new election time is after 9981 ms
+2026-03-20 23:29:13,093 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:13,094 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:13,593 DEBUG [server-work-thread-8]	new election time is after 5778 ms
+2026-03-20 23:29:13,593 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:13,595 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:14,094 DEBUG [server-work-thread-14]	new election time is after 7965 ms
+2026-03-20 23:29:14,094 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:14,095 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:14,595 DEBUG [server-work-thread-11]	new election time is after 5307 ms
+2026-03-20 23:29:14,595 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:14,597 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:15,096 DEBUG [server-work-thread-15]	new election time is after 5896 ms
+2026-03-20 23:29:15,096 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:15,097 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:15,596 DEBUG [server-work-thread-2]	new election time is after 9113 ms
+2026-03-20 23:29:15,596 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:15,598 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:16,097 DEBUG [server-work-thread-16]	new election time is after 8915 ms
+2026-03-20 23:29:16,097 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:16,097 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:16,599 DEBUG [server-work-thread-1]	new election time is after 8054 ms
+2026-03-20 23:29:16,599 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:16,599 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:17,099 DEBUG [server-work-thread-4]	new election time is after 9043 ms
+2026-03-20 23:29:17,099 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:17,100 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:17,599 DEBUG [server-work-thread-6]	new election time is after 7253 ms
+2026-03-20 23:29:17,599 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:17,601 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:18,101 DEBUG [server-work-thread-5]	new election time is after 6321 ms
+2026-03-20 23:29:18,101 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:18,102 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:18,602 DEBUG [server-work-thread-7]	new election time is after 6690 ms
+2026-03-20 23:29:18,602 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:18,603 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:19,103 DEBUG [server-work-thread-3]	new election time is after 9142 ms
+2026-03-20 23:29:19,103 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:19,105 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:19,604 DEBUG [server-work-thread-9]	new election time is after 8999 ms
+2026-03-20 23:29:19,604 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:19,605 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:20,105 DEBUG [server-work-thread-10]	new election time is after 6174 ms
+2026-03-20 23:29:20,107 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:20,108 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:20,606 DEBUG [server-work-thread-12]	new election time is after 6475 ms
+2026-03-20 23:29:20,606 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:20,608 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:21,108 DEBUG [server-work-thread-13]	new election time is after 8616 ms
+2026-03-20 23:29:21,108 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:21,110 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:21,609 DEBUG [server-work-thread-8]	new election time is after 9003 ms
+2026-03-20 23:29:21,609 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:21,609 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:22,109 DEBUG [server-work-thread-14]	new election time is after 6723 ms
+2026-03-20 23:29:22,110 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:22,111 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:22,609 DEBUG [server-work-thread-11]	new election time is after 7566 ms
+2026-03-20 23:29:22,609 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:22,611 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:23,111 DEBUG [server-work-thread-15]	new election time is after 7786 ms
+2026-03-20 23:29:23,111 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:23,112 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:23,611 DEBUG [server-work-thread-2]	new election time is after 6953 ms
+2026-03-20 23:29:23,612 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:23,612 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:24,112 DEBUG [server-work-thread-16]	new election time is after 9223 ms
+2026-03-20 23:29:24,112 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:24,113 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:24,612 DEBUG [server-work-thread-1]	new election time is after 6564 ms
+2026-03-20 23:29:24,612 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:24,614 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:25,113 DEBUG [server-work-thread-4]	new election time is after 5978 ms
+2026-03-20 23:29:25,113 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:25,124 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:25,615 DEBUG [server-work-thread-6]	new election time is after 7647 ms
+2026-03-20 23:29:25,615 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:25,615 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:26,116 DEBUG [server-work-thread-5]	new election time is after 9035 ms
+2026-03-20 23:29:26,116 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:26,118 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:26,616 DEBUG [server-work-thread-7]	new election time is after 8414 ms
+2026-03-20 23:29:26,616 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:26,618 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:26,784 DEBUG [fairStrategy-timer-thread-1]	begin to updateWeightTree...
+2026-03-20 23:29:27,117 DEBUG [server-work-thread-3]	new election time is after 8508 ms
+2026-03-20 23:29:27,119 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:27,119 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:27,618 DEBUG [server-work-thread-9]	new election time is after 5475 ms
+2026-03-20 23:29:27,618 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:27,619 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:28,119 DEBUG [server-work-thread-10]	new election time is after 8392 ms
+2026-03-20 23:29:28,119 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:28,120 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:28,537 DEBUG [fairStrategy-timer-thread-1]	begin to updateWeightTree...
+2026-03-20 23:29:28,619 DEBUG [server-work-thread-12]	new election time is after 7561 ms
+2026-03-20 23:29:28,620 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:28,621 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:29,121 DEBUG [server-work-thread-13]	new election time is after 8424 ms
+2026-03-20 23:29:29,121 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:29,122 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:29,622 DEBUG [server-work-thread-8]	new election time is after 9805 ms
+2026-03-20 23:29:29,622 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:29,624 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:30,123 DEBUG [server-work-thread-14]	new election time is after 6635 ms
+2026-03-20 23:29:30,123 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:30,125 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:30,624 DEBUG [server-work-thread-11]	new election time is after 5986 ms
+2026-03-20 23:29:30,624 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:30,626 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:31,127 DEBUG [server-work-thread-15]	new election time is after 5458 ms
+2026-03-20 23:29:31,127 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:31,127 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:31,628 DEBUG [server-work-thread-2]	new election time is after 9096 ms
+2026-03-20 23:29:31,628 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:31,628 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:32,129 DEBUG [server-work-thread-16]	new election time is after 5848 ms
+2026-03-20 23:29:32,130 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:32,130 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:32,630 DEBUG [server-work-thread-1]	new election time is after 7800 ms
+2026-03-20 23:29:32,630 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:32,631 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:33,131 DEBUG [server-work-thread-4]	new election time is after 8016 ms
+2026-03-20 23:29:33,131 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:33,133 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:33,633 DEBUG [server-work-thread-6]	new election time is after 7642 ms
+2026-03-20 23:29:33,634 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:33,634 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:34,134 DEBUG [server-work-thread-5]	new election time is after 9667 ms
+2026-03-20 23:29:34,135 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:34,137 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:34,635 DEBUG [server-work-thread-7]	new election time is after 5533 ms
+2026-03-20 23:29:34,635 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:34,636 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:35,135 DEBUG [server-work-thread-3]	new election time is after 5975 ms
+2026-03-20 23:29:35,135 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:35,137 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:35,636 DEBUG [server-work-thread-9]	new election time is after 8222 ms
+2026-03-20 23:29:35,636 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:35,637 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:36,136 DEBUG [server-work-thread-10]	new election time is after 5374 ms
+2026-03-20 23:29:36,136 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:36,138 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:36,637 DEBUG [server-work-thread-12]	new election time is after 8940 ms
+2026-03-20 23:29:36,637 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:36,639 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:37,138 DEBUG [server-work-thread-13]	new election time is after 6962 ms
+2026-03-20 23:29:37,138 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:37,140 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:37,640 DEBUG [server-work-thread-8]	new election time is after 6695 ms
+2026-03-20 23:29:37,640 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:37,642 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:38,140 DEBUG [server-work-thread-14]	new election time is after 5195 ms
+2026-03-20 23:29:38,140 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:38,142 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:38,641 DEBUG [server-work-thread-11]	new election time is after 6612 ms
+2026-03-20 23:29:38,642 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:38,644 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:39,142 DEBUG [server-work-thread-15]	new election time is after 5396 ms
+2026-03-20 23:29:39,142 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:39,145 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:39,643 DEBUG [server-work-thread-2]	new election time is after 5616 ms
+2026-03-20 23:29:39,643 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:39,644 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:40,144 DEBUG [server-work-thread-16]	new election time is after 9146 ms
+2026-03-20 23:29:40,144 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:40,145 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:40,645 DEBUG [server-work-thread-1]	new election time is after 8201 ms
+2026-03-20 23:29:40,645 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:40,646 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:41,145 DEBUG [server-work-thread-4]	new election time is after 9469 ms
+2026-03-20 23:29:41,147 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:41,148 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:41,647 DEBUG [server-work-thread-6]	new election time is after 7679 ms
+2026-03-20 23:29:41,647 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:41,649 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:42,149 DEBUG [server-work-thread-5]	new election time is after 6331 ms
+2026-03-20 23:29:42,149 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:42,151 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:42,651 DEBUG [server-work-thread-7]	new election time is after 7607 ms
+2026-03-20 23:29:42,651 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:42,652 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:43,152 DEBUG [server-work-thread-3]	new election time is after 7954 ms
+2026-03-20 23:29:43,152 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:43,153 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:43,652 DEBUG [server-work-thread-9]	new election time is after 9212 ms
+2026-03-20 23:29:43,652 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:43,653 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:44,152 DEBUG [server-work-thread-10]	new election time is after 6350 ms
+2026-03-20 23:29:44,152 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:44,154 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:44,653 DEBUG [server-work-thread-12]	new election time is after 5486 ms
+2026-03-20 23:29:44,654 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:44,654 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:45,154 DEBUG [server-work-thread-13]	new election time is after 8283 ms
+2026-03-20 23:29:45,154 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:45,156 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:45,655 DEBUG [server-work-thread-8]	new election time is after 8357 ms
+2026-03-20 23:29:45,655 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:45,656 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:46,157 DEBUG [server-work-thread-14]	new election time is after 8858 ms
+2026-03-20 23:29:46,157 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:46,157 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:46,657 DEBUG [server-work-thread-11]	new election time is after 9998 ms
+2026-03-20 23:29:46,657 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:46,659 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:47,160 DEBUG [server-work-thread-15]	new election time is after 6341 ms
+2026-03-20 23:29:47,160 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:47,160 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:47,660 DEBUG [server-work-thread-2]	new election time is after 7293 ms
+2026-03-20 23:29:47,662 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:47,662 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:48,162 DEBUG [server-work-thread-16]	new election time is after 5739 ms
+2026-03-20 23:29:48,162 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:48,164 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:48,663 DEBUG [server-work-thread-1]	new election time is after 9346 ms
+2026-03-20 23:29:48,664 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:48,665 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:49,164 DEBUG [server-work-thread-4]	new election time is after 9590 ms
+2026-03-20 23:29:49,165 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:49,165 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:49,665 DEBUG [server-work-thread-6]	new election time is after 5057 ms
+2026-03-20 23:29:49,666 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:49,666 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:50,166 DEBUG [server-work-thread-5]	new election time is after 9047 ms
+2026-03-20 23:29:50,167 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:50,167 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:50,667 DEBUG [server-work-thread-7]	new election time is after 9661 ms
+2026-03-20 23:29:50,667 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:50,669 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:51,169 DEBUG [server-work-thread-3]	new election time is after 7895 ms
+2026-03-20 23:29:51,169 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:51,170 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:51,670 DEBUG [server-work-thread-9]	new election time is after 6697 ms
+2026-03-20 23:29:51,670 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:51,671 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:52,171 DEBUG [server-work-thread-10]	new election time is after 7242 ms
+2026-03-20 23:29:52,171 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:52,173 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:52,673 DEBUG [server-work-thread-12]	new election time is after 9170 ms
+2026-03-20 23:29:52,673 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:52,674 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:53,174 DEBUG [server-work-thread-13]	new election time is after 5397 ms
+2026-03-20 23:29:53,174 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:53,175 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:53,674 DEBUG [server-work-thread-8]	new election time is after 6208 ms
+2026-03-20 23:29:53,674 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:53,677 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:54,175 DEBUG [server-work-thread-14]	new election time is after 6852 ms
+2026-03-20 23:29:54,175 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:54,177 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:54,675 DEBUG [server-work-thread-11]	new election time is after 5558 ms
+2026-03-20 23:29:54,675 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:54,677 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:55,176 DEBUG [server-work-thread-15]	new election time is after 6101 ms
+2026-03-20 23:29:55,176 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:55,178 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:55,677 DEBUG [server-work-thread-2]	new election time is after 5284 ms
+2026-03-20 23:29:55,677 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:55,678 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:56,179 DEBUG [server-work-thread-16]	new election time is after 8866 ms
+2026-03-20 23:29:56,179 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:56,181 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:56,681 DEBUG [server-work-thread-1]	new election time is after 6120 ms
+2026-03-20 23:29:56,682 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:56,682 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:57,183 DEBUG [server-work-thread-4]	new election time is after 8860 ms
+2026-03-20 23:29:57,183 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:57,184 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:57,682 DEBUG [server-work-thread-6]	new election time is after 8694 ms
+2026-03-20 23:29:57,683 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:57,684 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:58,183 DEBUG [server-work-thread-5]	new election time is after 8114 ms
+2026-03-20 23:29:58,183 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:58,185 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:58,684 DEBUG [server-work-thread-7]	new election time is after 7728 ms
+2026-03-20 23:29:58,684 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:58,686 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:59,186 DEBUG [server-work-thread-3]	new election time is after 9601 ms
+2026-03-20 23:29:59,186 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:59,188 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:29:59,688 DEBUG [server-work-thread-9]	new election time is after 6907 ms
+2026-03-20 23:29:59,688 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:29:59,689 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:00,188 DEBUG [server-work-thread-10]	new election time is after 6867 ms
+2026-03-20 23:30:00,189 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:00,191 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:00,690 DEBUG [server-work-thread-12]	new election time is after 6832 ms
+2026-03-20 23:30:00,690 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:00,693 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:01,193 DEBUG [server-work-thread-13]	new election time is after 5855 ms
+2026-03-20 23:30:01,193 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:01,193 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:01,694 DEBUG [server-work-thread-8]	new election time is after 9390 ms
+2026-03-20 23:30:01,694 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:01,696 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:02,194 DEBUG [server-work-thread-14]	new election time is after 6606 ms
+2026-03-20 23:30:02,194 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:02,196 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:02,695 DEBUG [server-work-thread-11]	new election time is after 7059 ms
+2026-03-20 23:30:02,695 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:02,697 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:03,196 DEBUG [server-work-thread-15]	new election time is after 6678 ms
+2026-03-20 23:30:03,198 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:03,198 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:03,698 DEBUG [server-work-thread-2]	new election time is after 7084 ms
+2026-03-20 23:30:03,698 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:03,700 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:04,198 DEBUG [server-work-thread-16]	new election time is after 8046 ms
+2026-03-20 23:30:04,198 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:04,200 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:04,699 DEBUG [server-work-thread-1]	new election time is after 5531 ms
+2026-03-20 23:30:04,699 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:04,701 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:05,200 DEBUG [server-work-thread-4]	new election time is after 5023 ms
+2026-03-20 23:30:05,200 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:05,201 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:05,701 DEBUG [server-work-thread-6]	new election time is after 8436 ms
+2026-03-20 23:30:05,701 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:05,702 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:06,201 DEBUG [server-work-thread-5]	new election time is after 7702 ms
+2026-03-20 23:30:06,201 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:06,203 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:06,703 DEBUG [server-work-thread-7]	new election time is after 5967 ms
+2026-03-20 23:30:06,703 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:06,704 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:07,205 DEBUG [server-work-thread-3]	new election time is after 5530 ms
+2026-03-20 23:30:07,205 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:07,206 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:07,705 DEBUG [server-work-thread-9]	new election time is after 6579 ms
+2026-03-20 23:30:07,705 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:07,706 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:08,206 DEBUG [server-work-thread-10]	new election time is after 8431 ms
+2026-03-20 23:30:08,206 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:08,208 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:08,707 DEBUG [server-work-thread-12]	new election time is after 9475 ms
+2026-03-20 23:30:08,707 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:08,708 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:09,208 DEBUG [server-work-thread-13]	new election time is after 7057 ms
+2026-03-20 23:30:09,209 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:09,210 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:09,710 DEBUG [server-work-thread-8]	new election time is after 8249 ms
+2026-03-20 23:30:09,711 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:09,712 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:09,834 DEBUG [fairStrategy-timer-thread-1]	begin to updateWeightTree...
+2026-03-20 23:30:10,212 DEBUG [server-work-thread-14]	new election time is after 9488 ms
+2026-03-20 23:30:10,212 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:10,214 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:10,712 DEBUG [server-work-thread-11]	new election time is after 5634 ms
+2026-03-20 23:30:10,712 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:10,714 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:11,215 DEBUG [server-work-thread-15]	new election time is after 9191 ms
+2026-03-20 23:30:11,215 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:11,215 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:11,714 DEBUG [server-work-thread-2]	new election time is after 8454 ms
+2026-03-20 23:30:11,716 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:11,717 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:12,216 DEBUG [server-work-thread-16]	new election time is after 8806 ms
+2026-03-20 23:30:12,216 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:12,217 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:12,717 DEBUG [server-work-thread-1]	new election time is after 8551 ms
+2026-03-20 23:30:12,717 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:12,718 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:13,217 DEBUG [server-work-thread-4]	new election time is after 6175 ms
+2026-03-20 23:30:13,217 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:13,218 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:13,718 DEBUG [server-work-thread-6]	new election time is after 9896 ms
+2026-03-20 23:30:13,718 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:13,720 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:14,218 DEBUG [server-work-thread-5]	new election time is after 7241 ms
+2026-03-20 23:30:14,218 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:14,220 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:14,721 DEBUG [server-work-thread-7]	new election time is after 7641 ms
+2026-03-20 23:30:14,721 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:14,722 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:15,222 DEBUG [server-work-thread-3]	new election time is after 6086 ms
+2026-03-20 23:30:15,222 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:15,224 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:15,724 DEBUG [server-work-thread-9]	new election time is after 5207 ms
+2026-03-20 23:30:15,724 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:15,724 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:16,223 DEBUG [server-work-thread-10]	new election time is after 6711 ms
+2026-03-20 23:30:16,225 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:16,226 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:16,725 DEBUG [server-work-thread-12]	new election time is after 6794 ms
+2026-03-20 23:30:16,725 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:16,726 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:17,226 DEBUG [server-work-thread-13]	new election time is after 6412 ms
+2026-03-20 23:30:17,227 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:17,227 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:17,727 DEBUG [server-work-thread-8]	new election time is after 9896 ms
+2026-03-20 23:30:17,727 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:17,729 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:18,227 DEBUG [server-work-thread-14]	new election time is after 8931 ms
+2026-03-20 23:30:18,227 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:18,229 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:18,729 DEBUG [server-work-thread-11]	new election time is after 6414 ms
+2026-03-20 23:30:18,729 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:18,730 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:19,229 DEBUG [server-work-thread-15]	new election time is after 7396 ms
+2026-03-20 23:30:19,229 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:19,231 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:19,731 DEBUG [server-work-thread-2]	new election time is after 9466 ms
+2026-03-20 23:30:19,732 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:19,733 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:20,232 DEBUG [server-work-thread-16]	new election time is after 7276 ms
+2026-03-20 23:30:20,232 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:20,234 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:20,734 DEBUG [server-work-thread-1]	new election time is after 7417 ms
+2026-03-20 23:30:20,734 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:20,735 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:21,235 DEBUG [server-work-thread-4]	new election time is after 6423 ms
+2026-03-20 23:30:21,235 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:21,237 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:21,737 DEBUG [server-work-thread-6]	new election time is after 5778 ms
+2026-03-20 23:30:21,737 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:21,738 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:22,237 DEBUG [server-work-thread-5]	new election time is after 5602 ms
+2026-03-20 23:30:22,237 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:22,239 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:22,738 DEBUG [server-work-thread-7]	new election time is after 9146 ms
+2026-03-20 23:30:22,738 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:22,740 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:23,239 DEBUG [server-work-thread-3]	new election time is after 8538 ms
+2026-03-20 23:30:23,240 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:23,241 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:23,739 DEBUG [server-work-thread-9]	new election time is after 8280 ms
+2026-03-20 23:30:23,739 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:23,741 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:24,240 DEBUG [server-work-thread-10]	new election time is after 8621 ms
+2026-03-20 23:30:24,241 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:24,242 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:24,741 DEBUG [server-work-thread-12]	new election time is after 6101 ms
+2026-03-20 23:30:24,741 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:24,743 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:25,243 DEBUG [server-work-thread-13]	new election time is after 8443 ms
+2026-03-20 23:30:25,243 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:25,258 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:25,743 DEBUG [server-work-thread-8]	new election time is after 9959 ms
+2026-03-20 23:30:25,743 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:25,745 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:26,245 DEBUG [server-work-thread-14]	new election time is after 9769 ms
+2026-03-20 23:30:26,245 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:26,246 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:26,745 DEBUG [server-work-thread-11]	new election time is after 5284 ms
+2026-03-20 23:30:26,745 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:26,747 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:26,882 DEBUG [fairStrategy-timer-thread-1]	begin to updateWeightTree...
+2026-03-20 23:30:27,247 DEBUG [server-work-thread-15]	new election time is after 7899 ms
+2026-03-20 23:30:27,247 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:27,248 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:27,748 DEBUG [server-work-thread-2]	new election time is after 5954 ms
+2026-03-20 23:30:27,748 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:27,749 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:28,249 DEBUG [server-work-thread-16]	new election time is after 8882 ms
+2026-03-20 23:30:28,250 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:28,251 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:28,636 DEBUG [fairStrategy-timer-thread-1]	begin to updateWeightTree...
+2026-03-20 23:30:28,749 DEBUG [server-work-thread-1]	new election time is after 8741 ms
+2026-03-20 23:30:28,749 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:28,751 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:29,250 DEBUG [server-work-thread-4]	new election time is after 5823 ms
+2026-03-20 23:30:29,250 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:29,252 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:29,751 DEBUG [server-work-thread-6]	new election time is after 9998 ms
+2026-03-20 23:30:29,751 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:29,752 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:30,252 DEBUG [server-work-thread-5]	new election time is after 5354 ms
+2026-03-20 23:30:30,252 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:30,253 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:30,753 DEBUG [server-work-thread-7]	new election time is after 5320 ms
+2026-03-20 23:30:30,753 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:30,755 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:31,254 DEBUG [server-work-thread-3]	new election time is after 6379 ms
+2026-03-20 23:30:31,254 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:31,256 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:31,755 DEBUG [server-work-thread-9]	new election time is after 8126 ms
+2026-03-20 23:30:31,756 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:31,758 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:32,256 DEBUG [server-work-thread-10]	new election time is after 9593 ms
+2026-03-20 23:30:32,256 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:32,258 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:32,757 DEBUG [server-work-thread-12]	new election time is after 5105 ms
+2026-03-20 23:30:32,758 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:32,759 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:33,258 DEBUG [server-work-thread-13]	new election time is after 9448 ms
+2026-03-20 23:30:33,258 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:33,259 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:33,760 DEBUG [server-work-thread-8]	new election time is after 7643 ms
+2026-03-20 23:30:33,760 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:33,761 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:34,261 DEBUG [server-work-thread-14]	new election time is after 7550 ms
+2026-03-20 23:30:34,261 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:34,262 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:34,761 DEBUG [server-work-thread-11]	new election time is after 5991 ms
+2026-03-20 23:30:34,761 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:34,763 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:35,262 DEBUG [server-work-thread-15]	new election time is after 9287 ms
+2026-03-20 23:30:35,262 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:35,264 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:35,762 DEBUG [server-work-thread-2]	new election time is after 8420 ms
+2026-03-20 23:30:35,762 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:35,764 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:36,263 DEBUG [server-work-thread-16]	new election time is after 9498 ms
+2026-03-20 23:30:36,265 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:36,266 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:36,768 DEBUG [server-work-thread-1]	new election time is after 5624 ms
+2026-03-20 23:30:36,768 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:36,769 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:37,266 DEBUG [server-work-thread-4]	new election time is after 7912 ms
+2026-03-20 23:30:37,266 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:37,267 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:37,767 DEBUG [server-work-thread-6]	new election time is after 7557 ms
+2026-03-20 23:30:37,767 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:37,768 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:38,267 DEBUG [server-work-thread-5]	new election time is after 5841 ms
+2026-03-20 23:30:38,267 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:38,269 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:38,768 DEBUG [server-work-thread-7]	new election time is after 5684 ms
+2026-03-20 23:30:38,769 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:38,770 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:39,270 DEBUG [server-work-thread-3]	new election time is after 7683 ms
+2026-03-20 23:30:39,270 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:39,271 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:39,771 DEBUG [server-work-thread-9]	new election time is after 6731 ms
+2026-03-20 23:30:39,771 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:39,773 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:40,273 DEBUG [server-work-thread-10]	new election time is after 5566 ms
+2026-03-20 23:30:40,274 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:40,276 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:40,774 DEBUG [server-work-thread-12]	new election time is after 8361 ms
+2026-03-20 23:30:40,774 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:40,777 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:41,274 DEBUG [server-work-thread-13]	new election time is after 6673 ms
+2026-03-20 23:30:41,275 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:41,276 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:41,776 DEBUG [server-work-thread-8]	new election time is after 8194 ms
+2026-03-20 23:30:41,776 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:41,778 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:42,277 DEBUG [server-work-thread-14]	new election time is after 5178 ms
+2026-03-20 23:30:42,279 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:42,279 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:42,778 DEBUG [server-work-thread-11]	new election time is after 6029 ms
+2026-03-20 23:30:42,778 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:42,780 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:43,279 DEBUG [server-work-thread-15]	new election time is after 7193 ms
+2026-03-20 23:30:43,279 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:43,280 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:43,780 DEBUG [server-work-thread-2]	new election time is after 8231 ms
+2026-03-20 23:30:43,781 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:43,781 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:44,281 DEBUG [server-work-thread-16]	new election time is after 8435 ms
+2026-03-20 23:30:44,281 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:44,283 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:44,783 DEBUG [server-work-thread-1]	new election time is after 6032 ms
+2026-03-20 23:30:44,783 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:44,784 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:45,285 DEBUG [server-work-thread-4]	new election time is after 8747 ms
+2026-03-20 23:30:45,285 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:45,286 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:45,786 DEBUG [server-work-thread-6]	new election time is after 7730 ms
+2026-03-20 23:30:45,786 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:45,788 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:46,287 DEBUG [server-work-thread-5]	new election time is after 7615 ms
+2026-03-20 23:30:46,287 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:46,288 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:46,788 DEBUG [server-work-thread-7]	new election time is after 9839 ms
+2026-03-20 23:30:46,788 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:46,790 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:47,289 DEBUG [server-work-thread-3]	new election time is after 8280 ms
+2026-03-20 23:30:47,290 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:47,291 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:47,791 DEBUG [server-work-thread-9]	new election time is after 6075 ms
+2026-03-20 23:30:47,791 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:47,793 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:48,293 DEBUG [server-work-thread-10]	new election time is after 8715 ms
+2026-03-20 23:30:48,293 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:48,294 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:48,793 DEBUG [server-work-thread-12]	new election time is after 7983 ms
+2026-03-20 23:30:48,793 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:48,795 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:49,293 DEBUG [server-work-thread-13]	new election time is after 5235 ms
+2026-03-20 23:30:49,293 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:49,295 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:49,794 DEBUG [server-work-thread-8]	new election time is after 5858 ms
+2026-03-20 23:30:49,794 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:49,796 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:50,297 DEBUG [server-work-thread-14]	new election time is after 5379 ms
+2026-03-20 23:30:50,297 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:50,299 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:50,797 DEBUG [server-work-thread-11]	new election time is after 8630 ms
+2026-03-20 23:30:50,797 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:50,799 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:51,299 DEBUG [server-work-thread-15]	new election time is after 8665 ms
+2026-03-20 23:30:51,299 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:51,300 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:51,800 DEBUG [server-work-thread-2]	new election time is after 6931 ms
+2026-03-20 23:30:51,800 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:51,802 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:52,302 DEBUG [server-work-thread-16]	new election time is after 5430 ms
+2026-03-20 23:30:52,302 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:52,305 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:52,804 DEBUG [server-work-thread-1]	new election time is after 9743 ms
+2026-03-20 23:30:52,806 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:52,807 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:53,306 DEBUG [server-work-thread-4]	new election time is after 5747 ms
+2026-03-20 23:30:53,306 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:53,308 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:53,806 DEBUG [server-work-thread-6]	new election time is after 9742 ms
+2026-03-20 23:30:53,806 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:53,808 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:54,307 DEBUG [server-work-thread-5]	new election time is after 5870 ms
+2026-03-20 23:30:54,307 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:54,309 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:54,809 DEBUG [server-work-thread-7]	new election time is after 6983 ms
+2026-03-20 23:30:54,809 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:54,811 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:55,309 DEBUG [server-work-thread-3]	new election time is after 8026 ms
+2026-03-20 23:30:55,309 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:55,311 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:55,809 DEBUG [server-work-thread-9]	new election time is after 9365 ms
+2026-03-20 23:30:55,809 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:55,811 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:56,310 DEBUG [server-work-thread-10]	new election time is after 7937 ms
+2026-03-20 23:30:56,310 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:56,313 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:56,812 DEBUG [server-work-thread-12]	new election time is after 5584 ms
+2026-03-20 23:30:56,812 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:56,814 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:57,313 DEBUG [server-work-thread-13]	new election time is after 6753 ms
+2026-03-20 23:30:57,313 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:57,315 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:57,814 DEBUG [server-work-thread-8]	new election time is after 8413 ms
+2026-03-20 23:30:57,814 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:57,816 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:58,315 DEBUG [server-work-thread-14]	new election time is after 6203 ms
+2026-03-20 23:30:58,315 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:58,317 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:58,815 DEBUG [server-work-thread-11]	new election time is after 5633 ms
+2026-03-20 23:30:58,815 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:58,817 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:59,316 DEBUG [server-work-thread-15]	new election time is after 5688 ms
+2026-03-20 23:30:59,316 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:59,318 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:30:59,817 DEBUG [server-work-thread-2]	new election time is after 9851 ms
+2026-03-20 23:30:59,818 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:30:59,818 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:00,318 DEBUG [server-work-thread-16]	new election time is after 7847 ms
+2026-03-20 23:31:00,318 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:00,320 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:00,820 DEBUG [server-work-thread-1]	new election time is after 9648 ms
+2026-03-20 23:31:00,821 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:00,821 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:01,321 DEBUG [server-work-thread-4]	new election time is after 9591 ms
+2026-03-20 23:31:01,321 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:01,322 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:01,823 DEBUG [server-work-thread-6]	new election time is after 5661 ms
+2026-03-20 23:31:01,823 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:01,825 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:02,323 DEBUG [server-work-thread-5]	new election time is after 6710 ms
+2026-03-20 23:31:02,323 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:02,325 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:02,825 DEBUG [server-work-thread-7]	new election time is after 6030 ms
+2026-03-20 23:31:02,825 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:02,826 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:03,327 DEBUG [server-work-thread-3]	new election time is after 5353 ms
+2026-03-20 23:31:03,327 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:03,328 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:03,828 DEBUG [server-work-thread-9]	new election time is after 5480 ms
+2026-03-20 23:31:03,828 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:03,829 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:04,329 DEBUG [server-work-thread-10]	new election time is after 6678 ms
+2026-03-20 23:31:04,331 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:04,332 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:04,831 DEBUG [server-work-thread-12]	new election time is after 6026 ms
+2026-03-20 23:31:04,831 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:04,833 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:05,331 DEBUG [server-work-thread-13]	new election time is after 5351 ms
+2026-03-20 23:31:05,331 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:05,333 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:05,832 DEBUG [server-work-thread-8]	new election time is after 8160 ms
+2026-03-20 23:31:05,832 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:05,833 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:06,332 DEBUG [server-work-thread-14]	new election time is after 8439 ms
+2026-03-20 23:31:06,333 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:06,334 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:06,834 DEBUG [server-work-thread-11]	new election time is after 5876 ms
+2026-03-20 23:31:06,834 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:06,834 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:07,334 DEBUG [server-work-thread-15]	new election time is after 5829 ms
+2026-03-20 23:31:07,334 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:07,335 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:07,836 DEBUG [server-work-thread-2]	new election time is after 7701 ms
+2026-03-20 23:31:07,836 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:07,837 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:08,337 DEBUG [server-work-thread-16]	new election time is after 7895 ms
+2026-03-20 23:31:08,339 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:08,339 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:08,838 DEBUG [server-work-thread-1]	new election time is after 6453 ms
+2026-03-20 23:31:08,840 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:08,840 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:09,339 DEBUG [server-work-thread-4]	new election time is after 9193 ms
+2026-03-20 23:31:09,339 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:09,340 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:09,840 DEBUG [server-work-thread-6]	new election time is after 6321 ms
+2026-03-20 23:31:09,840 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:09,842 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:09,933 DEBUG [fairStrategy-timer-thread-1]	begin to updateWeightTree...
+2026-03-20 23:31:10,342 DEBUG [server-work-thread-5]	new election time is after 9979 ms
+2026-03-20 23:31:10,342 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:10,343 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:10,843 DEBUG [server-work-thread-7]	new election time is after 6597 ms
+2026-03-20 23:31:10,843 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:10,845 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:11,345 DEBUG [server-work-thread-3]	new election time is after 7344 ms
+2026-03-20 23:31:11,345 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:11,347 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:11,846 DEBUG [server-work-thread-9]	new election time is after 7621 ms
+2026-03-20 23:31:11,846 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:11,847 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:12,347 DEBUG [server-work-thread-10]	new election time is after 9838 ms
+2026-03-20 23:31:12,347 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:12,349 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:12,848 DEBUG [server-work-thread-12]	new election time is after 9719 ms
+2026-03-20 23:31:12,848 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:12,850 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:13,349 DEBUG [server-work-thread-13]	new election time is after 7773 ms
+2026-03-20 23:31:13,349 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:13,350 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:13,850 DEBUG [server-work-thread-8]	new election time is after 8228 ms
+2026-03-20 23:31:13,852 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:13,852 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:14,351 DEBUG [server-work-thread-14]	new election time is after 5239 ms
+2026-03-20 23:31:14,351 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:14,353 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:14,851 DEBUG [server-work-thread-11]	new election time is after 6992 ms
+2026-03-20 23:31:14,851 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:14,853 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:15,353 DEBUG [server-work-thread-15]	new election time is after 7729 ms
+2026-03-20 23:31:15,353 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:15,354 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:15,854 DEBUG [server-work-thread-2]	new election time is after 9704 ms
+2026-03-20 23:31:15,854 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:15,856 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:16,359 DEBUG [server-work-thread-16]	new election time is after 9317 ms
+2026-03-20 23:31:16,360 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:16,361 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:16,858 DEBUG [server-work-thread-1]	new election time is after 7653 ms
+2026-03-20 23:31:16,858 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:16,859 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:17,359 DEBUG [server-work-thread-4]	new election time is after 6581 ms
+2026-03-20 23:31:17,359 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:17,360 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:17,859 DEBUG [server-work-thread-6]	new election time is after 9556 ms
+2026-03-20 23:31:17,859 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:17,861 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:18,360 DEBUG [server-work-thread-5]	new election time is after 9203 ms
+2026-03-20 23:31:18,360 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:18,362 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:18,861 DEBUG [server-work-thread-7]	new election time is after 8864 ms
+2026-03-20 23:31:18,861 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:18,863 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:19,364 DEBUG [server-work-thread-3]	new election time is after 6974 ms
+2026-03-20 23:31:19,365 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:19,366 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:19,865 DEBUG [server-work-thread-9]	new election time is after 7832 ms
+2026-03-20 23:31:19,865 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:19,866 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:20,365 DEBUG [server-work-thread-10]	new election time is after 6121 ms
+2026-03-20 23:31:20,365 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:20,367 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:20,866 DEBUG [server-work-thread-12]	new election time is after 5373 ms
+2026-03-20 23:31:20,866 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:20,867 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:21,369 DEBUG [server-work-thread-13]	new election time is after 6386 ms
+2026-03-20 23:31:21,369 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:21,370 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:21,869 DEBUG [server-work-thread-8]	new election time is after 5529 ms
+2026-03-20 23:31:21,870 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:21,871 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:22,370 DEBUG [server-work-thread-14]	new election time is after 7339 ms
+2026-03-20 23:31:22,370 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:22,371 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:22,869 DEBUG [server-work-thread-11]	new election time is after 5854 ms
+2026-03-20 23:31:22,869 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:22,871 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:23,370 DEBUG [server-work-thread-15]	new election time is after 5143 ms
+2026-03-20 23:31:23,370 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:23,371 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:23,871 DEBUG [server-work-thread-2]	new election time is after 9844 ms
+2026-03-20 23:31:23,872 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:23,872 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:24,372 DEBUG [server-work-thread-16]	new election time is after 6493 ms
+2026-03-20 23:31:24,374 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:24,374 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:24,874 DEBUG [server-work-thread-1]	new election time is after 8467 ms
+2026-03-20 23:31:24,874 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:24,875 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:25,375 DEBUG [server-work-thread-4]	new election time is after 6650 ms
+2026-03-20 23:31:25,375 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:25,377 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:25,876 DEBUG [server-work-thread-6]	new election time is after 6121 ms
+2026-03-20 23:31:25,876 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:25,877 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:26,377 DEBUG [server-work-thread-5]	new election time is after 5400 ms
+2026-03-20 23:31:26,377 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:26,378 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:26,878 DEBUG [server-work-thread-7]	new election time is after 6304 ms
+2026-03-20 23:31:26,878 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:26,880 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:26,984 DEBUG [fairStrategy-timer-thread-1]	begin to updateWeightTree...
+2026-03-20 23:31:27,380 DEBUG [server-work-thread-3]	new election time is after 5799 ms
+2026-03-20 23:31:27,380 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:27,380 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:27,881 DEBUG [server-work-thread-9]	new election time is after 7094 ms
+2026-03-20 23:31:27,881 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:27,882 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:28,382 DEBUG [server-work-thread-10]	new election time is after 5853 ms
+2026-03-20 23:31:28,382 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:28,383 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:28,736 DEBUG [fairStrategy-timer-thread-1]	begin to updateWeightTree...
+2026-03-20 23:31:28,883 DEBUG [server-work-thread-12]	new election time is after 5559 ms
+2026-03-20 23:31:28,884 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:28,884 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:29,384 DEBUG [server-work-thread-13]	new election time is after 9539 ms
+2026-03-20 23:31:29,384 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:29,385 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:29,885 DEBUG [server-work-thread-8]	new election time is after 8422 ms
+2026-03-20 23:31:29,885 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:29,886 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:30,385 DEBUG [server-work-thread-14]	new election time is after 7244 ms
+2026-03-20 23:31:30,385 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:30,387 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:30,886 DEBUG [server-work-thread-11]	new election time is after 6334 ms
+2026-03-20 23:31:30,886 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:30,887 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:31,388 DEBUG [server-work-thread-15]	new election time is after 9380 ms
+2026-03-20 23:31:31,388 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:31,389 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:31,890 DEBUG [server-work-thread-2]	new election time is after 5908 ms
+2026-03-20 23:31:31,890 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:31,891 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:32,391 DEBUG [server-work-thread-16]	new election time is after 5787 ms
+2026-03-20 23:31:32,391 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:32,393 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:32,893 DEBUG [server-work-thread-1]	new election time is after 8224 ms
+2026-03-20 23:31:32,893 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:32,894 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:33,394 DEBUG [server-work-thread-4]	new election time is after 9380 ms
+2026-03-20 23:31:33,394 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:33,395 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:33,895 DEBUG [server-work-thread-6]	new election time is after 5557 ms
+2026-03-20 23:31:33,895 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:33,897 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:34,396 DEBUG [server-work-thread-5]	new election time is after 8506 ms
+2026-03-20 23:31:34,396 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:34,398 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:34,898 DEBUG [server-work-thread-7]	new election time is after 5258 ms
+2026-03-20 23:31:34,898 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:34,900 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:35,398 DEBUG [server-work-thread-3]	new election time is after 5059 ms
+2026-03-20 23:31:35,398 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:35,400 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:35,901 DEBUG [server-work-thread-9]	new election time is after 6573 ms
+2026-03-20 23:31:35,901 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:35,902 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:36,402 DEBUG [server-work-thread-10]	new election time is after 6189 ms
+2026-03-20 23:31:36,402 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:36,403 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:36,904 DEBUG [server-work-thread-12]	new election time is after 6283 ms
+2026-03-20 23:31:36,905 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:36,905 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:37,405 DEBUG [server-work-thread-13]	new election time is after 9878 ms
+2026-03-20 23:31:37,405 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:37,407 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:37,905 DEBUG [server-work-thread-8]	new election time is after 8971 ms
+2026-03-20 23:31:37,905 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:37,907 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:38,406 DEBUG [server-work-thread-14]	new election time is after 6965 ms
+2026-03-20 23:31:38,406 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:38,408 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:38,907 DEBUG [server-work-thread-11]	new election time is after 8107 ms
+2026-03-20 23:31:38,907 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:38,908 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:39,408 DEBUG [server-work-thread-15]	new election time is after 8577 ms
+2026-03-20 23:31:39,408 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:39,410 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:39,909 DEBUG [server-work-thread-2]	new election time is after 7544 ms
+2026-03-20 23:31:39,910 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:39,910 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:40,409 DEBUG [server-work-thread-16]	new election time is after 9515 ms
+2026-03-20 23:31:40,409 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:40,411 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:40,910 DEBUG [server-work-thread-1]	new election time is after 7733 ms
+2026-03-20 23:31:40,910 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:40,911 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:41,412 DEBUG [server-work-thread-4]	new election time is after 6118 ms
+2026-03-20 23:31:41,414 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:41,414 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:41,914 DEBUG [server-work-thread-6]	new election time is after 6943 ms
+2026-03-20 23:31:41,914 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:41,916 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:42,415 DEBUG [server-work-thread-5]	new election time is after 8271 ms
+2026-03-20 23:31:42,415 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:42,417 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:42,915 DEBUG [server-work-thread-7]	new election time is after 6865 ms
+2026-03-20 23:31:42,917 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:42,917 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:43,417 DEBUG [server-work-thread-3]	new election time is after 8381 ms
+2026-03-20 23:31:43,417 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:43,418 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:43,919 DEBUG [server-work-thread-9]	new election time is after 5989 ms
+2026-03-20 23:31:43,921 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:43,922 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:44,420 DEBUG [server-work-thread-10]	new election time is after 5540 ms
+2026-03-20 23:31:44,420 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:44,421 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:44,921 DEBUG [server-work-thread-12]	new election time is after 9270 ms
+2026-03-20 23:31:44,923 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:44,923 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:45,424 DEBUG [server-work-thread-13]	new election time is after 5403 ms
+2026-03-20 23:31:45,424 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:45,426 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:45,924 DEBUG [server-work-thread-8]	new election time is after 9885 ms
+2026-03-20 23:31:45,924 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:45,926 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:46,425 DEBUG [server-work-thread-14]	new election time is after 9210 ms
+2026-03-20 23:31:46,425 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:46,427 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:46,927 DEBUG [server-work-thread-11]	new election time is after 8770 ms
+2026-03-20 23:31:46,927 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:46,929 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:47,430 DEBUG [server-work-thread-15]	new election time is after 5422 ms
+2026-03-20 23:31:47,430 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:47,432 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:47,931 DEBUG [server-work-thread-2]	new election time is after 9804 ms
+2026-03-20 23:31:47,932 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:47,933 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:48,431 DEBUG [server-work-thread-16]	new election time is after 8364 ms
+2026-03-20 23:31:48,431 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:48,433 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:48,932 DEBUG [server-work-thread-1]	new election time is after 6463 ms
+2026-03-20 23:31:48,933 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:48,934 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:49,433 DEBUG [server-work-thread-4]	new election time is after 9460 ms
+2026-03-20 23:31:49,433 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:49,435 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:49,935 DEBUG [server-work-thread-6]	new election time is after 8773 ms
+2026-03-20 23:31:49,935 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:49,936 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:50,436 DEBUG [server-work-thread-5]	new election time is after 9488 ms
+2026-03-20 23:31:50,436 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:50,437 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:50,937 DEBUG [server-work-thread-7]	new election time is after 9323 ms
+2026-03-20 23:31:50,937 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:50,939 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:51,438 DEBUG [server-work-thread-3]	new election time is after 9179 ms
+2026-03-20 23:31:51,439 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:51,441 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:51,939 DEBUG [server-work-thread-9]	new election time is after 6363 ms
+2026-03-20 23:31:51,939 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:51,941 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:52,441 DEBUG [server-work-thread-10]	new election time is after 6600 ms
+2026-03-20 23:31:52,441 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:52,442 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:52,942 DEBUG [server-work-thread-12]	new election time is after 7595 ms
+2026-03-20 23:31:52,942 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:52,943 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:53,443 DEBUG [server-work-thread-13]	new election time is after 9230 ms
+2026-03-20 23:31:53,443 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:53,444 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:53,944 DEBUG [server-work-thread-8]	new election time is after 9899 ms
+2026-03-20 23:31:53,944 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:53,945 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:54,445 DEBUG [server-work-thread-14]	new election time is after 9335 ms
+2026-03-20 23:31:54,446 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:54,446 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:54,946 DEBUG [server-work-thread-11]	new election time is after 7385 ms
+2026-03-20 23:31:54,946 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:54,947 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:55,447 DEBUG [server-work-thread-15]	new election time is after 9188 ms
+2026-03-20 23:31:55,447 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:55,448 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:55,948 DEBUG [server-work-thread-2]	new election time is after 8848 ms
+2026-03-20 23:31:55,948 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:55,949 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:56,450 DEBUG [server-work-thread-16]	new election time is after 7340 ms
+2026-03-20 23:31:56,450 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:56,451 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:56,950 DEBUG [server-work-thread-1]	new election time is after 5821 ms
+2026-03-20 23:31:56,950 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:56,952 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:57,452 DEBUG [server-work-thread-4]	new election time is after 7094 ms
+2026-03-20 23:31:57,452 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:57,454 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:57,954 DEBUG [server-work-thread-6]	new election time is after 7326 ms
+2026-03-20 23:31:57,954 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:57,956 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:58,454 DEBUG [server-work-thread-5]	new election time is after 6448 ms
+2026-03-20 23:31:58,454 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:58,456 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:58,955 DEBUG [server-work-thread-7]	new election time is after 7831 ms
+2026-03-20 23:31:58,956 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:58,956 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:59,456 DEBUG [server-work-thread-3]	new election time is after 8660 ms
+2026-03-20 23:31:59,457 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:59,459 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:31:59,957 DEBUG [server-work-thread-9]	new election time is after 7307 ms
+2026-03-20 23:31:59,957 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:31:59,959 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:00,459 DEBUG [server-work-thread-10]	new election time is after 5462 ms
+2026-03-20 23:32:00,459 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:00,461 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:00,960 DEBUG [server-work-thread-12]	new election time is after 5648 ms
+2026-03-20 23:32:00,960 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:00,962 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:01,461 DEBUG [server-work-thread-13]	new election time is after 7494 ms
+2026-03-20 23:32:01,461 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:01,463 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:01,963 DEBUG [server-work-thread-8]	new election time is after 7478 ms
+2026-03-20 23:32:01,963 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:01,964 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:02,463 DEBUG [server-work-thread-14]	new election time is after 5177 ms
+2026-03-20 23:32:02,463 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:02,464 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:02,964 DEBUG [server-work-thread-11]	new election time is after 5809 ms
+2026-03-20 23:32:02,964 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:02,966 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:03,465 DEBUG [server-work-thread-15]	new election time is after 8575 ms
+2026-03-20 23:32:03,466 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:03,467 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:03,967 DEBUG [server-work-thread-2]	new election time is after 5002 ms
+2026-03-20 23:32:03,968 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:03,969 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:04,468 DEBUG [server-work-thread-16]	new election time is after 9889 ms
+2026-03-20 23:32:04,468 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:04,470 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:04,969 DEBUG [server-work-thread-1]	new election time is after 5716 ms
+2026-03-20 23:32:04,969 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:04,971 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:05,471 DEBUG [server-work-thread-4]	new election time is after 7178 ms
+2026-03-20 23:32:05,471 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:05,472 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:05,971 DEBUG [server-work-thread-6]	new election time is after 5054 ms
+2026-03-20 23:32:05,971 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:05,973 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:06,473 DEBUG [server-work-thread-5]	new election time is after 7929 ms
+2026-03-20 23:32:06,473 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:06,475 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:06,974 DEBUG [server-work-thread-7]	new election time is after 5330 ms
+2026-03-20 23:32:06,974 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:06,977 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:07,476 DEBUG [server-work-thread-3]	new election time is after 9494 ms
+2026-03-20 23:32:07,476 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:07,477 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:07,977 DEBUG [server-work-thread-9]	new election time is after 6657 ms
+2026-03-20 23:32:07,977 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:07,979 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:08,479 DEBUG [server-work-thread-10]	new election time is after 5171 ms
+2026-03-20 23:32:08,479 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:08,480 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:08,981 DEBUG [server-work-thread-12]	new election time is after 6536 ms
+2026-03-20 23:32:08,981 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:08,983 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:09,482 DEBUG [server-work-thread-13]	new election time is after 5856 ms
+2026-03-20 23:32:09,482 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:09,484 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:09,984 DEBUG [server-work-thread-8]	new election time is after 5679 ms
+2026-03-20 23:32:09,984 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:09,986 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:10,032 DEBUG [fairStrategy-timer-thread-1]	begin to updateWeightTree...
+2026-03-20 23:32:10,486 DEBUG [server-work-thread-14]	new election time is after 5777 ms
+2026-03-20 23:32:10,486 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:10,487 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:10,987 DEBUG [server-work-thread-11]	new election time is after 7872 ms
+2026-03-20 23:32:10,987 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:10,989 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:11,488 DEBUG [server-work-thread-15]	new election time is after 5919 ms
+2026-03-20 23:32:11,488 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:11,489 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:11,989 DEBUG [server-work-thread-2]	new election time is after 7213 ms
+2026-03-20 23:32:11,989 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:11,991 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:12,490 DEBUG [server-work-thread-16]	new election time is after 6145 ms
+2026-03-20 23:32:12,490 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:12,492 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:12,991 DEBUG [server-work-thread-1]	new election time is after 7273 ms
+2026-03-20 23:32:12,991 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:12,993 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:13,493 DEBUG [server-work-thread-4]	new election time is after 8261 ms
+2026-03-20 23:32:13,493 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:13,494 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:13,993 DEBUG [server-work-thread-6]	new election time is after 8707 ms
+2026-03-20 23:32:13,993 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:13,995 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:14,494 DEBUG [server-work-thread-5]	new election time is after 5934 ms
+2026-03-20 23:32:14,494 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:14,496 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:14,996 DEBUG [server-work-thread-7]	new election time is after 6493 ms
+2026-03-20 23:32:14,996 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:14,998 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:15,497 DEBUG [server-work-thread-3]	new election time is after 7131 ms
+2026-03-20 23:32:15,497 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:15,498 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:15,997 DEBUG [server-work-thread-9]	new election time is after 9003 ms
+2026-03-20 23:32:15,997 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:15,999 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:16,498 DEBUG [server-work-thread-10]	new election time is after 7965 ms
+2026-03-20 23:32:16,498 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:16,500 INFO [server-work-thread-10]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:16,999 DEBUG [server-work-thread-12]	new election time is after 8027 ms
+2026-03-20 23:32:16,999 DEBUG [server-work-thread-12]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:17,001 INFO [server-work-thread-12]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:17,501 DEBUG [server-work-thread-13]	new election time is after 8109 ms
+2026-03-20 23:32:17,501 DEBUG [server-work-thread-13]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:17,502 INFO [server-work-thread-13]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:18,004 DEBUG [server-work-thread-8]	new election time is after 9659 ms
+2026-03-20 23:32:18,004 DEBUG [server-work-thread-8]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:18,006 INFO [server-work-thread-8]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:18,504 DEBUG [server-work-thread-14]	new election time is after 8210 ms
+2026-03-20 23:32:18,504 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:18,505 INFO [server-work-thread-14]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:19,005 DEBUG [server-work-thread-11]	new election time is after 7051 ms
+2026-03-20 23:32:19,005 DEBUG [server-work-thread-11]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:19,007 INFO [server-work-thread-11]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:19,506 DEBUG [server-work-thread-15]	new election time is after 7385 ms
+2026-03-20 23:32:19,506 DEBUG [server-work-thread-15]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:19,508 INFO [server-work-thread-15]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:20,007 DEBUG [server-work-thread-2]	new election time is after 7792 ms
+2026-03-20 23:32:20,007 DEBUG [server-work-thread-2]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:20,009 INFO [server-work-thread-2]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:20,508 DEBUG [server-work-thread-16]	new election time is after 6097 ms
+2026-03-20 23:32:20,509 DEBUG [server-work-thread-16]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:20,518 INFO [server-work-thread-16]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:21,009 DEBUG [server-work-thread-1]	new election time is after 7030 ms
+2026-03-20 23:32:21,009 DEBUG [server-work-thread-1]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:21,010 INFO [server-work-thread-1]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:21,510 DEBUG [server-work-thread-4]	new election time is after 5589 ms
+2026-03-20 23:32:21,510 DEBUG [server-work-thread-4]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:21,511 INFO [server-work-thread-4]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:22,011 DEBUG [server-work-thread-6]	new election time is after 9160 ms
+2026-03-20 23:32:22,011 DEBUG [server-work-thread-6]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:22,012 INFO [server-work-thread-6]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:22,511 DEBUG [server-work-thread-5]	new election time is after 8102 ms
+2026-03-20 23:32:22,511 DEBUG [server-work-thread-5]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:22,513 INFO [server-work-thread-5]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:23,013 DEBUG [server-work-thread-7]	new election time is after 8333 ms
+2026-03-20 23:32:23,013 DEBUG [server-work-thread-7]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:23,014 INFO [server-work-thread-7]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:23,513 DEBUG [server-work-thread-3]	new election time is after 6688 ms
+2026-03-20 23:32:23,513 DEBUG [server-work-thread-3]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:23,515 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:24,015 DEBUG [server-work-thread-9]	new election time is after 8105 ms
+2026-03-20 23:32:24,015 DEBUG [server-work-thread-9]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:24,016 INFO [server-work-thread-9]	new segment meta info, currentTerm=1, votedFor=0, firstLogIndex=1
+2026-03-20 23:32:24,517 DEBUG [server-work-thread-10]	new election time is after 5863 ms
+2026-03-20 23:32:24,517 DEBUG [server-work-thread-10]	heartbeat request from peer=1 at term=1, my term=1
+2026-03-20 23:32:24,518 INFO [s
