@@ -8,7 +8,7 @@
     <Appenders>
 
         <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="%d %p [%t]\t%m%n" />
+            <PatternLayout pattern="%d %p [%t] %C.%M(%F:%L)\t%m%n" />
         </Console>
 
         <!-- Async Loggers will auto-flush in batches, so switch off immediateFlush. -->
@@ -16,7 +16,7 @@
                      bufferSize="65536"
                      filePattern="logs/raft_example.log.%d{yyyy-MM-dd}" append="true">
             <PatternLayout>
-                <Pattern>%d %p [%t]\t%m%n</Pattern>
+                <Pattern>%d %p [%t] %C.%M(%F:%L)\t%m%n</Pattern>
             </PatternLayout>
             <Policies>
                 <TimeBasedTriggeringPolicy/>
@@ -26,15 +26,15 @@
     </Appenders>
 
     <Loggers>
-        <Logger name="com.github.wenweihu86.raft" level="debug" additivity="false">
+        <Logger name="com.github.wenweihu86.raft" level="debug" additivity="false" includeLocation="true">
             <AppenderRef ref="Console" />
             <AppenderRef ref="RollingFile"/>
         </Logger>
-        <Logger name="com.baidu.brpc" level="debug" additivity="false">
+        <Logger name="com.baidu.brpc" level="debug" additivity="false" includeLocation="true">
             <AppenderRef ref="RollingFile"/>
         </Logger>
 
-        <Root level="info" includeLocation="false">
+        <Root level="info" includeLocation="true">
             <AppenderRef ref="Console" />
             <AppenderRef ref="RollingFile"/>
         </Root>
