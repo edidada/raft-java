@@ -1,0 +1,1285 @@
+2026-03-20 22:52:41,466 INFO [main]	register protocol:1 success
+2026-03-20 22:52:41,544 INFO [main]	register protocol:29 success
+2026-03-20 22:52:41,549 INFO [main]	register protocol:4 success
+2026-03-20 22:52:41,556 INFO [main]	register protocol:3 success
+2026-03-20 22:52:41,558 INFO [main]	register protocol:31 success
+2026-03-20 22:52:41,558 INFO [main]	register protocol:28 success
+2026-03-20 22:52:41,561 INFO [main]	register protocol:32 success
+2026-03-20 22:52:41,562 INFO [main]	register protocol:33 success
+2026-03-20 22:52:41,562 INFO [main]	register protocol:30 success
+2026-03-20 22:52:41,564 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2026-03-20 22:52:41,564 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2026-03-20 22:52:41,566 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2026-03-20 22:52:41,566 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2026-03-20 22:52:51,118 INFO [main]	register protocol:1 success
+2026-03-20 22:52:51,183 INFO [main]	register protocol:29 success
+2026-03-20 22:52:51,188 INFO [main]	register protocol:4 success
+2026-03-20 22:52:51,194 INFO [main]	register protocol:3 success
+2026-03-20 22:52:51,194 INFO [main]	register protocol:31 success
+2026-03-20 22:52:51,195 INFO [main]	register protocol:28 success
+2026-03-20 22:52:51,197 INFO [main]	register protocol:32 success
+2026-03-20 22:52:51,197 INFO [main]	register protocol:33 success
+2026-03-20 22:52:51,197 INFO [main]	register protocol:30 success
+2026-03-20 22:52:51,200 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2026-03-20 22:52:51,200 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2026-03-20 22:52:51,201 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2026-03-20 22:52:51,201 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2026-03-20 22:53:06,164 INFO [main]	register protocol:1 success
+2026-03-20 22:53:06,210 INFO [main]	register protocol:29 success
+2026-03-20 22:53:06,213 INFO [main]	register protocol:4 success
+2026-03-20 22:53:06,216 INFO [main]	register protocol:3 success
+2026-03-20 22:53:06,217 INFO [main]	register protocol:31 success
+2026-03-20 22:53:06,217 INFO [main]	register protocol:28 success
+2026-03-20 22:53:06,217 INFO [main]	register protocol:32 success
+2026-03-20 22:53:06,219 INFO [main]	register protocol:33 success
+2026-03-20 22:53:06,219 INFO [main]	register protocol:30 success
+2026-03-20 22:53:06,223 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2026-03-20 22:53:06,223 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2026-03-20 22:53:06,224 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2026-03-20 22:53:06,224 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2026-03-20 22:53:06,237 INFO [main]	create thread:timeout-timer-thread-1
+2026-03-20 22:53:06,239 INFO [main]	create thread:health-check-timer-thread-1
+2026-03-20 22:53:06,242 INFO [main]	create thread:fairStrategy-timer-thread-1
+2026-03-20 22:53:06,244 INFO [main]	create thread:client-work-thread-1
+2026-03-20 22:53:06,244 INFO [main]	create thread:client-work-thread-2
+2026-03-20 22:53:06,245 INFO [main]	create thread:client-work-thread-3
+2026-03-20 22:53:06,245 INFO [main]	create thread:client-work-thread-4
+2026-03-20 22:53:06,245 INFO [main]	create thread:client-work-thread-5
+2026-03-20 22:53:06,245 INFO [main]	create thread:client-work-thread-6
+2026-03-20 22:53:06,245 INFO [main]	create thread:client-work-thread-7
+2026-03-20 22:53:06,245 INFO [main]	create thread:client-work-thread-8
+2026-03-20 22:53:06,245 INFO [main]	create thread:client-work-thread-9
+2026-03-20 22:53:06,245 INFO [main]	create thread:client-work-thread-10
+2026-03-20 22:53:06,245 INFO [main]	create thread:client-work-thread-11
+2026-03-20 22:53:06,245 INFO [main]	create thread:client-work-thread-12
+2026-03-20 22:53:06,245 INFO [main]	create thread:client-work-thread-13
+2026-03-20 22:53:06,246 INFO [main]	create thread:client-work-thread-14
+2026-03-20 22:53:06,246 INFO [main]	create thread:client-work-thread-15
+2026-03-20 22:53:06,246 INFO [main]	create thread:client-work-thread-16
+2026-03-20 22:53:07,295 INFO [main]	create thread:client-io-thread-1
+2026-03-20 22:53:07,305 INFO [main]	create thread:client-io-thread-2
+2026-03-20 22:53:07,305 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xb545181d, L:/127.0.0.1:53131 - R:/127.0.0.1:8051]
+2026-03-20 22:53:07,306 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x7d6efa49, L:/127.0.0.1:53132 - R:/127.0.0.1:8051]
+2026-03-20 22:53:07,306 INFO [main]	create thread:client-io-thread-3
+2026-03-20 22:53:07,308 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xe6455a75, L:/127.0.0.1:53133 - R:/127.0.0.1:8051]
+2026-03-20 22:53:07,308 INFO [main]	create thread:client-io-thread-4
+2026-03-20 22:53:07,308 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x128d319e, L:/127.0.0.1:53134 - R:/127.0.0.1:8051]
+2026-03-20 22:53:07,308 INFO [main]	create thread:client-io-thread-5
+2026-03-20 22:53:07,309 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x9ba1aa90, L:/127.0.0.1:53135 - R:/127.0.0.1:8051]
+2026-03-20 22:53:07,309 INFO [main]	create thread:client-io-thread-6
+2026-03-20 22:53:07,310 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x94add707, L:/127.0.0.1:53136 - R:/127.0.0.1:8051]
+2026-03-20 22:53:07,310 INFO [main]	create thread:client-io-thread-7
+2026-03-20 22:53:07,311 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x768926c5, L:/127.0.0.1:53137 - R:/127.0.0.1:8051]
+2026-03-20 22:53:07,311 INFO [main]	create thread:client-io-thread-8
+2026-03-20 22:53:07,311 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x0bf6c9ec, L:/127.0.0.1:53138 - R:/127.0.0.1:8051]
+2026-03-20 22:53:07,314 INFO [main]	create thread:client-io-thread-9
+2026-03-20 22:53:07,314 DEBUG [client-io-thread-9]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x7fd2faaa, L:/127.0.0.1:53139 - R:/127.0.0.1:8052]
+2026-03-20 22:53:07,314 INFO [main]	create thread:client-io-thread-10
+2026-03-20 22:53:07,316 DEBUG [client-io-thread-10]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x8bd25ebb, L:/127.0.0.1:53140 - R:/127.0.0.1:8052]
+2026-03-20 22:53:07,316 INFO [main]	create thread:client-io-thread-11
+2026-03-20 22:53:07,316 DEBUG [client-io-thread-11]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xfb0638f0, L:/127.0.0.1:53141 - R:/127.0.0.1:8052]
+2026-03-20 22:53:07,317 INFO [main]	create thread:client-io-thread-12
+2026-03-20 22:53:07,317 INFO [main]	create thread:client-io-thread-13
+2026-03-20 22:53:07,317 DEBUG [client-io-thread-12]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x4efd9ddd, L:/127.0.0.1:53142 - R:/127.0.0.1:8052]
+2026-03-20 22:53:07,319 DEBUG [client-io-thread-13]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x0168feb9, L:/127.0.0.1:53143 - R:/127.0.0.1:8052]
+2026-03-20 22:53:07,319 INFO [main]	create thread:client-io-thread-14
+2026-03-20 22:53:07,319 DEBUG [client-io-thread-14]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x73680099, L:/127.0.0.1:53144 - R:/127.0.0.1:8052]
+2026-03-20 22:53:07,319 INFO [main]	create thread:client-io-thread-15
+2026-03-20 22:53:07,320 DEBUG [client-io-thread-15]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xbcf947b8, L:/127.0.0.1:53145 - R:/127.0.0.1:8052]
+2026-03-20 22:53:07,320 INFO [main]	create thread:client-io-thread-16
+2026-03-20 22:53:07,322 DEBUG [client-io-thread-16]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x23b6c066, L:/127.0.0.1:53146 - R:/127.0.0.1:8052]
+2026-03-20 22:53:07,323 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xe6dddcaf, L:/127.0.0.1:53147 - R:/127.0.0.1:8053]
+2026-03-20 22:53:07,323 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x002284a1, L:/127.0.0.1:53148 - R:/127.0.0.1:8053]
+2026-03-20 22:53:07,323 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xdaa81ea9, L:/127.0.0.1:53149 - R:/127.0.0.1:8053]
+2026-03-20 22:53:07,324 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x733558c1, L:/127.0.0.1:53150 - R:/127.0.0.1:8053]
+2026-03-20 22:53:07,325 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x97ebb6b8, L:/127.0.0.1:53151 - R:/127.0.0.1:8053]
+2026-03-20 22:53:07,325 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xad84963c, L:/127.0.0.1:53152 - R:/127.0.0.1:8053]
+2026-03-20 22:53:07,326 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x24ddc9a2, L:/127.0.0.1:53153 - R:/127.0.0.1:8053]
+2026-03-20 22:53:07,326 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x8b22584a, L:/127.0.0.1:53154 - R:/127.0.0.1:8053]
+2026-03-20 22:53:07,356 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 22:53:07,360 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 22:53:07,360 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 22:53:07,362 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 22:53:07,453 DEBUG [client-work-thread-1]	handle response, correlationId=0
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-15]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-16]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-11]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-12]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-14]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-10]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-13]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-9]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:53:07,480 INFO [client-io-thread-15]	create thread:invalid-channel-callback-thread-1
+2026-03-20 22:53:07,482 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:53:07,482 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:53:07,480 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:53:07,482 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:53:07,482 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:53:07,482 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,497 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,512 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,527 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,540 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,552 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,566 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,578 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,579 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,580 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,581 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,582 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,582 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,582 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,583 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,583 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,585 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,585 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,585 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,586 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,586 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,588 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,588 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:07,588 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:09,717 INFO [Thread-0]	Brpc do clean work...
+2026-03-20 22:53:09,719 INFO [Thread-0]	invoke shutdownGlobalThreadPools
+2026-03-20 22:53:25,315 INFO [main]	register protocol:1 success
+2026-03-20 22:53:25,388 INFO [main]	register protocol:29 success
+2026-03-20 22:53:25,392 INFO [main]	register protocol:4 success
+2026-03-20 22:53:25,399 INFO [main]	register protocol:3 success
+2026-03-20 22:53:25,400 INFO [main]	register protocol:31 success
+2026-03-20 22:53:25,402 INFO [main]	register protocol:28 success
+2026-03-20 22:53:25,404 INFO [main]	register protocol:32 success
+2026-03-20 22:53:25,405 INFO [main]	register protocol:33 success
+2026-03-20 22:53:25,405 INFO [main]	register protocol:30 success
+2026-03-20 22:53:25,408 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2026-03-20 22:53:25,408 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2026-03-20 22:53:25,408 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2026-03-20 22:53:25,408 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2026-03-20 22:53:25,429 INFO [main]	create thread:timeout-timer-thread-1
+2026-03-20 22:53:25,431 INFO [main]	create thread:health-check-timer-thread-1
+2026-03-20 22:53:25,434 INFO [main]	create thread:fairStrategy-timer-thread-1
+2026-03-20 22:53:25,437 INFO [main]	create thread:client-work-thread-1
+2026-03-20 22:53:25,437 INFO [main]	create thread:client-work-thread-2
+2026-03-20 22:53:25,437 INFO [main]	create thread:client-work-thread-3
+2026-03-20 22:53:25,437 INFO [main]	create thread:client-work-thread-4
+2026-03-20 22:53:25,437 INFO [main]	create thread:client-work-thread-5
+2026-03-20 22:53:25,437 INFO [main]	create thread:client-work-thread-6
+2026-03-20 22:53:25,437 INFO [main]	create thread:client-work-thread-7
+2026-03-20 22:53:25,439 INFO [main]	create thread:client-work-thread-8
+2026-03-20 22:53:25,439 INFO [main]	create thread:client-work-thread-9
+2026-03-20 22:53:25,439 INFO [main]	create thread:client-work-thread-10
+2026-03-20 22:53:25,439 INFO [main]	create thread:client-work-thread-11
+2026-03-20 22:53:25,440 INFO [main]	create thread:client-work-thread-12
+2026-03-20 22:53:25,440 INFO [main]	create thread:client-work-thread-13
+2026-03-20 22:53:25,440 INFO [main]	create thread:client-work-thread-14
+2026-03-20 22:53:25,440 INFO [main]	create thread:client-work-thread-15
+2026-03-20 22:53:25,440 INFO [main]	create thread:client-work-thread-16
+2026-03-20 22:53:27,189 INFO [main]	create thread:client-io-thread-1
+2026-03-20 22:53:27,207 INFO [main]	create thread:client-io-thread-2
+2026-03-20 22:53:27,207 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xccd3f64e, L:/127.0.0.1:53189 - R:/127.0.0.1:8051]
+2026-03-20 22:53:27,208 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x68f6b775, L:/127.0.0.1:53190 - R:/127.0.0.1:8051]
+2026-03-20 22:53:27,208 INFO [main]	create thread:client-io-thread-3
+2026-03-20 22:53:27,210 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xd1bdbf3c, L:/127.0.0.1:53191 - R:/127.0.0.1:8051]
+2026-03-20 22:53:27,211 INFO [main]	create thread:client-io-thread-4
+2026-03-20 22:53:27,212 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xcbf8902d, L:/127.0.0.1:53192 - R:/127.0.0.1:8051]
+2026-03-20 22:53:27,214 INFO [main]	create thread:client-io-thread-5
+2026-03-20 22:53:27,215 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xd9f167cb, L:/127.0.0.1:53193 - R:/127.0.0.1:8051]
+2026-03-20 22:53:27,215 INFO [main]	create thread:client-io-thread-6
+2026-03-20 22:53:27,216 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x9c0f6539, L:/127.0.0.1:53194 - R:/127.0.0.1:8051]
+2026-03-20 22:53:27,217 INFO [main]	create thread:client-io-thread-7
+2026-03-20 22:53:27,219 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x57cc0d85, L:/127.0.0.1:53195 - R:/127.0.0.1:8051]
+2026-03-20 22:53:27,219 INFO [main]	create thread:client-io-thread-8
+2026-03-20 22:53:27,221 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x5011b477, L:/127.0.0.1:53196 - R:/127.0.0.1:8051]
+2026-03-20 22:53:27,223 INFO [main]	create thread:client-io-thread-9
+2026-03-20 22:53:27,225 DEBUG [client-io-thread-9]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x1e7cdc2f, L:/127.0.0.1:53197 - R:/127.0.0.1:8052]
+2026-03-20 22:53:27,226 INFO [main]	create thread:client-io-thread-10
+2026-03-20 22:53:27,228 DEBUG [client-io-thread-10]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xc0ce96e2, L:/127.0.0.1:53198 - R:/127.0.0.1:8052]
+2026-03-20 22:53:27,228 INFO [main]	create thread:client-io-thread-11
+2026-03-20 22:53:27,229 DEBUG [client-io-thread-11]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x084fbef9, L:/127.0.0.1:53199 - R:/127.0.0.1:8052]
+2026-03-20 22:53:27,229 INFO [main]	create thread:client-io-thread-12
+2026-03-20 22:53:27,233 DEBUG [client-io-thread-12]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x651987b2, L:/127.0.0.1:53200 - R:/127.0.0.1:8052]
+2026-03-20 22:53:27,233 INFO [main]	create thread:client-io-thread-13
+2026-03-20 22:53:27,234 DEBUG [client-io-thread-13]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x9f8b9aba, L:/127.0.0.1:53201 - R:/127.0.0.1:8052]
+2026-03-20 22:53:27,234 INFO [main]	create thread:client-io-thread-14
+2026-03-20 22:53:27,236 DEBUG [client-io-thread-14]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x58993c13, L:/127.0.0.1:53202 - R:/127.0.0.1:8052]
+2026-03-20 22:53:27,236 INFO [main]	create thread:client-io-thread-15
+2026-03-20 22:53:27,237 DEBUG [client-io-thread-15]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x35e13339, L:/127.0.0.1:53203 - R:/127.0.0.1:8052]
+2026-03-20 22:53:27,238 INFO [main]	create thread:client-io-thread-16
+2026-03-20 22:53:27,240 DEBUG [client-io-thread-16]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xede18e9c, L:/127.0.0.1:53204 - R:/127.0.0.1:8052]
+2026-03-20 22:53:27,242 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xcec3dcda, L:/127.0.0.1:53205 - R:/127.0.0.1:8053]
+2026-03-20 22:53:27,243 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xc0cccdc4, L:/127.0.0.1:53206 - R:/127.0.0.1:8053]
+2026-03-20 22:53:27,245 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x38909b4a, L:/127.0.0.1:53207 - R:/127.0.0.1:8053]
+2026-03-20 22:53:27,246 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x50155219, L:/127.0.0.1:53208 - R:/127.0.0.1:8053]
+2026-03-20 22:53:27,248 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xaf1ea43e, L:/127.0.0.1:53209 - R:/127.0.0.1:8053]
+2026-03-20 22:53:27,250 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x3396d985, L:/127.0.0.1:53210 - R:/127.0.0.1:8053]
+2026-03-20 22:53:27,252 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x249ea161, L:/127.0.0.1:53211 - R:/127.0.0.1:8053]
+2026-03-20 22:53:27,253 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xdeb3bdec, L:/127.0.0.1:53212 - R:/127.0.0.1:8053]
+2026-03-20 22:53:27,316 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 22:53:27,323 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 22:53:27,323 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 22:53:27,326 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 22:53:27,415 DEBUG [client-work-thread-1]	handle response, correlationId=0
+2026-03-20 22:53:27,474 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:53:27,474 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:53:27,474 DEBUG [client-io-thread-11]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:53:27,474 DEBUG [client-io-thread-10]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:53:27,474 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:53:27,474 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:53:27,474 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:53:27,474 DEBUG [client-io-thread-16]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:53:27,474 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:53:27,474 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:53:27,474 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:53:27,474 DEBUG [client-io-thread-14]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:53:27,474 DEBUG [client-io-thread-15]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:53:27,474 DEBUG [client-io-thread-13]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:53:27,474 DEBUG [client-io-thread-9]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:53:27,474 DEBUG [client-io-thread-12]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:53:27,475 INFO [client-io-thread-6]	create thread:invalid-channel-callback-thread-1
+2026-03-20 22:53:27,475 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:53:27,475 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:53:27,475 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:53:27,475 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:53:27,475 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:53:27,475 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:53:27,475 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:53:27,477 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:53:27,478 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,518 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,527 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,531 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,533 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,535 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,535 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,536 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,538 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,541 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,542 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,544 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,545 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,547 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,550 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,552 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,554 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,557 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,559 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,562 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,563 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,565 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,566 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:27,568 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:53:30,709 INFO [Thread-0]	Brpc do clean work...
+2026-03-20 22:53:30,709 INFO [Thread-0]	invoke shutdownGlobalThreadPools
+2026-03-20 22:53:46,196 INFO [main]	register protocol:1 success
+2026-03-20 22:53:46,302 INFO [main]	register protocol:29 success
+2026-03-20 22:53:46,307 INFO [main]	register protocol:4 success
+2026-03-20 22:53:46,314 INFO [main]	register protocol:3 success
+2026-03-20 22:53:46,316 INFO [main]	register protocol:31 success
+2026-03-20 22:53:46,317 INFO [main]	register protocol:28 success
+2026-03-20 22:53:46,320 INFO [main]	register protocol:32 success
+2026-03-20 22:53:46,322 INFO [main]	register protocol:33 success
+2026-03-20 22:53:46,323 INFO [main]	register protocol:30 success
+2026-03-20 22:53:46,326 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2026-03-20 22:53:46,326 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2026-03-20 22:53:46,326 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2026-03-20 22:53:46,327 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2026-03-20 22:53:46,346 INFO [main]	create thread:timeout-timer-thread-1
+2026-03-20 22:53:46,349 INFO [main]	create thread:health-check-timer-thread-1
+2026-03-20 22:53:46,352 INFO [main]	create thread:fairStrategy-timer-thread-1
+2026-03-20 22:53:46,356 INFO [main]	create thread:client-work-thread-1
+2026-03-20 22:53:46,356 INFO [main]	create thread:client-work-thread-2
+2026-03-20 22:53:46,356 INFO [main]	create thread:client-work-thread-3
+2026-03-20 22:53:46,356 INFO [main]	create thread:client-work-thread-4
+2026-03-20 22:53:46,357 INFO [main]	create thread:client-work-thread-5
+2026-03-20 22:53:46,357 INFO [main]	create thread:client-work-thread-6
+2026-03-20 22:53:46,357 INFO [main]	create thread:client-work-thread-7
+2026-03-20 22:53:46,357 INFO [main]	create thread:client-work-thread-8
+2026-03-20 22:53:46,358 INFO [main]	create thread:client-work-thread-9
+2026-03-20 22:53:46,358 INFO [main]	create thread:client-work-thread-10
+2026-03-20 22:53:46,358 INFO [main]	create thread:client-work-thread-11
+2026-03-20 22:53:46,358 INFO [main]	create thread:client-work-thread-12
+2026-03-20 22:53:46,358 INFO [main]	create thread:client-work-thread-13
+2026-03-20 22:53:46,358 INFO [main]	create thread:client-work-thread-14
+2026-03-20 22:53:46,358 INFO [main]	create thread:client-work-thread-15
+2026-03-20 22:53:46,359 INFO [main]	create thread:client-work-thread-16
+2026-03-20 22:53:48,038 INFO [main]	create thread:client-io-thread-1
+2026-03-20 22:53:48,050 INFO [main]	create thread:client-io-thread-2
+2026-03-20 22:53:48,050 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xe12114f5, L:/127.0.0.1:53214 - R:/127.0.0.1:8051]
+2026-03-20 22:53:48,052 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x96c97a8c, L:/127.0.0.1:53215 - R:/127.0.0.1:8051]
+2026-03-20 22:53:48,052 INFO [main]	create thread:client-io-thread-3
+2026-03-20 22:53:48,053 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xa8d75941, L:/127.0.0.1:53216 - R:/127.0.0.1:8051]
+2026-03-20 22:53:48,053 INFO [main]	create thread:client-io-thread-4
+2026-03-20 22:53:48,054 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x598a753e, L:/127.0.0.1:53217 - R:/127.0.0.1:8051]
+2026-03-20 22:53:48,054 INFO [main]	create thread:client-io-thread-5
+2026-03-20 22:53:48,056 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x1848acd3, L:/127.0.0.1:53218 - R:/127.0.0.1:8051]
+2026-03-20 22:53:48,056 INFO [main]	create thread:client-io-thread-6
+2026-03-20 22:53:48,057 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x542e067f, L:/127.0.0.1:53219 - R:/127.0.0.1:8051]
+2026-03-20 22:53:48,057 INFO [main]	create thread:client-io-thread-7
+2026-03-20 22:53:48,059 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x710a0540, L:/127.0.0.1:53220 - R:/127.0.0.1:8051]
+2026-03-20 22:53:48,059 INFO [main]	create thread:client-io-thread-8
+2026-03-20 22:53:48,060 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xb373c937, L:/127.0.0.1:53221 - R:/127.0.0.1:8051]
+2026-03-20 22:53:48,063 INFO [main]	create thread:client-io-thread-9
+2026-03-20 22:53:48,065 INFO [main]	create thread:client-io-thread-10
+2026-03-20 22:53:48,065 DEBUG [client-io-thread-9]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xcc8aeb47, L:/127.0.0.1:53222 - R:/127.0.0.1:8052]
+2026-03-20 22:53:48,066 DEBUG [client-io-thread-10]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x4f0b1349, L:/127.0.0.1:53223 - R:/127.0.0.1:8052]
+2026-03-20 22:53:48,066 INFO [main]	create thread:client-io-thread-11
+2026-03-20 22:53:48,067 DEBUG [client-io-thread-11]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x4c944fb6, L:/127.0.0.1:53224 - R:/127.0.0.1:8052]
+2026-03-20 22:53:48,067 INFO [main]	create thread:client-io-thread-12
+2026-03-20 22:53:48,068 DEBUG [client-io-thread-12]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x761f7155, L:/127.0.0.1:53225 - R:/127.0.0.1:8052]
+2026-03-20 22:53:48,068 INFO [main]	create thread:client-io-thread-13
+2026-03-20 22:53:48,068 DEBUG [client-io-thread-13]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xe1cd1b3c, L:/127.0.0.1:53226 - R:/127.0.0.1:8052]
+2026-03-20 22:53:48,068 INFO [main]	create thread:client-io-thread-14
+2026-03-20 22:53:48,070 DEBUG [client-io-thread-14]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x4274d3ef, L:/127.0.0.1:53227 - R:/127.0.0.1:8052]
+2026-03-20 22:53:48,070 INFO [main]	create thread:client-io-thread-15
+2026-03-20 22:53:48,072 DEBUG [client-io-thread-15]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x869d758a, L:/127.0.0.1:53228 - R:/127.0.0.1:8052]
+2026-03-20 22:53:48,072 INFO [main]	create thread:client-io-thread-16
+2026-03-20 22:53:48,072 DEBUG [client-io-thread-16]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xf2e0e58e, L:/127.0.0.1:53229 - R:/127.0.0.1:8052]
+2026-03-20 22:53:48,073 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x229532d6, L:/127.0.0.1:53230 - R:/127.0.0.1:8053]
+2026-03-20 22:53:48,074 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x2312fab0, L:/127.0.0.1:53231 - R:/127.0.0.1:8053]
+2026-03-20 22:53:48,074 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x01575fee, L:/127.0.0.1:53232 - R:/127.0.0.1:8053]
+2026-03-20 22:53:48,076 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x8410dd16, L:/127.0.0.1:53233 - R:/127.0.0.1:8053]
+2026-03-20 22:53:48,076 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xc2f73693, L:/127.0.0.1:53234 - R:/127.0.0.1:8053]
+2026-03-20 22:53:48,078 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x8112241c, L:/127.0.0.1:53235 - R:/127.0.0.1:8053]
+2026-03-20 22:53:48,078 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xeac4d95c, L:/127.0.0.1:53236 - R:/127.0.0.1:8053]
+2026-03-20 22:53:48,078 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xeaa93a2b, L:/127.0.0.1:53237 - R:/127.0.0.1:8053]
+2026-03-20 22:53:48,118 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 22:53:48,125 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 22:53:48,125 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 22:53:48,125 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 22:53:49,206 DEBUG [client-work-thread-1]	handle response, correlationId=1
+2026-03-20 22:53:49,210 DEBUG [client-work-thread-2]	handle response, correlationId=2
+2026-03-20 22:53:49,212 ERROR [main]	exception :
+com.baidu.brpc.exceptions.RpcException: com.baidu.brpc.exceptions.RpcException: com.baidu.brpc.exceptions.RpcException: Cannot invoke "com.baidu.brpc.client.RpcClient.setServiceInterface(java.lang.Class, com.baidu.brpc.naming.NamingOptions)" because "rpcClient" is null
+	at com.baidu.brpc.client.BrpcProxy.intercept(BrpcProxy.java:268) [brpc-java-2.5.9.jar:?]
+	at com.github.wenweihu86.raft.example.server.service.ExampleService$$EnhancerByCGLIB$$c1bbc38a.set(<generated>) [raft-java-example-1.9.0.jar:?]
+	at com.github.wenweihu86.raft.example.client.ClientMain.main(ClientMain.java:36) [raft-java-example-1.9.0.jar:?]
+Caused by: com.baidu.brpc.exceptions.RpcException: com.baidu.brpc.exceptions.RpcException: Cannot invoke "com.baidu.brpc.client.RpcClient.setServiceInterface(java.lang.Class, com.baidu.brpc.naming.NamingOptions)" because "rpcClient" is null
+	at com.baidu.brpc.client.RpcFuture.get(RpcFuture.java:178) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.LoadBalanceInterceptor.rpcCore(LoadBalanceInterceptor.java:93) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.LoadBalanceInterceptor.invokeRpc(LoadBalanceInterceptor.java:82) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.LoadBalanceInterceptor.aroundProcess(LoadBalanceInterceptor.java:62) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.AbstractInterceptor.aroundProcess(AbstractInterceptor.java:35) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.ClientTraceInterceptor.aroundProcess(ClientTraceInterceptor.java:40) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.client.BrpcProxy.intercept(BrpcProxy.java:266) ~[brpc-java-2.5.9.jar:?]
+	... 2 more
+Caused by: com.baidu.brpc.exceptions.RpcException: Cannot invoke "com.baidu.brpc.client.RpcClient.setServiceInterface(java.lang.Class, com.baidu.brpc.naming.NamingOptions)" because "rpcClient" is null
+	at com.baidu.brpc.protocol.standard.BaiduRpcProtocol.decodeResponse(BaiduRpcProtocol.java:162) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.protocol.standard.BaiduRpcProtocol.decodeResponse(BaiduRpcProtocol.java:70) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.client.handler.ClientWorkTask.run(ClientWorkTask.java:65) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.consume(ThreadPool.java:131) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.access$000(ThreadPool.java:37) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool$1.run(ThreadPool.java:79) ~[brpc-java-2.5.9.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+2026-03-20 22:53:49,235 INFO [Thread-0]	Brpc do clean work...
+2026-03-20 22:53:49,235 INFO [Thread-0]	invoke shutdownGlobalThreadPools
+2026-03-20 22:54:04,202 INFO [main]	register protocol:1 success
+2026-03-20 22:54:04,282 INFO [main]	register protocol:29 success
+2026-03-20 22:54:04,287 INFO [main]	register protocol:4 success
+2026-03-20 22:54:04,293 INFO [main]	register protocol:3 success
+2026-03-20 22:54:04,295 INFO [main]	register protocol:31 success
+2026-03-20 22:54:04,296 INFO [main]	register protocol:28 success
+2026-03-20 22:54:04,298 INFO [main]	register protocol:32 success
+2026-03-20 22:54:04,299 INFO [main]	register protocol:33 success
+2026-03-20 22:54:04,299 INFO [main]	register protocol:30 success
+2026-03-20 22:54:04,301 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2026-03-20 22:54:04,302 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2026-03-20 22:54:04,302 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2026-03-20 22:54:04,302 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2026-03-20 22:54:04,326 INFO [main]	create thread:timeout-timer-thread-1
+2026-03-20 22:54:04,329 INFO [main]	create thread:health-check-timer-thread-1
+2026-03-20 22:54:04,332 INFO [main]	create thread:fairStrategy-timer-thread-1
+2026-03-20 22:54:04,335 INFO [main]	create thread:client-work-thread-1
+2026-03-20 22:54:04,335 INFO [main]	create thread:client-work-thread-2
+2026-03-20 22:54:04,336 INFO [main]	create thread:client-work-thread-3
+2026-03-20 22:54:04,336 INFO [main]	create thread:client-work-thread-4
+2026-03-20 22:54:04,336 INFO [main]	create thread:client-work-thread-5
+2026-03-20 22:54:04,336 INFO [main]	create thread:client-work-thread-6
+2026-03-20 22:54:04,337 INFO [main]	create thread:client-work-thread-7
+2026-03-20 22:54:04,337 INFO [main]	create thread:client-work-thread-8
+2026-03-20 22:54:04,337 INFO [main]	create thread:client-work-thread-9
+2026-03-20 22:54:04,337 INFO [main]	create thread:client-work-thread-10
+2026-03-20 22:54:04,337 INFO [main]	create thread:client-work-thread-11
+2026-03-20 22:54:04,337 INFO [main]	create thread:client-work-thread-12
+2026-03-20 22:54:04,337 INFO [main]	create thread:client-work-thread-13
+2026-03-20 22:54:04,338 INFO [main]	create thread:client-work-thread-14
+2026-03-20 22:54:04,338 INFO [main]	create thread:client-work-thread-15
+2026-03-20 22:54:04,338 INFO [main]	create thread:client-work-thread-16
+2026-03-20 22:54:06,036 INFO [main]	create thread:client-io-thread-1
+2026-03-20 22:54:06,051 INFO [main]	create thread:client-io-thread-2
+2026-03-20 22:54:06,053 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xd59faf27, L:/127.0.0.1:49724 - R:/127.0.0.1:8051]
+2026-03-20 22:54:06,053 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xc89a8544, L:/127.0.0.1:49725 - R:/127.0.0.1:8051]
+2026-03-20 22:54:06,054 INFO [main]	create thread:client-io-thread-3
+2026-03-20 22:54:06,054 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x41b86655, L:/127.0.0.1:49726 - R:/127.0.0.1:8051]
+2026-03-20 22:54:06,056 INFO [main]	create thread:client-io-thread-4
+2026-03-20 22:54:06,057 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x79926680, L:/127.0.0.1:49727 - R:/127.0.0.1:8051]
+2026-03-20 22:54:06,057 INFO [main]	create thread:client-io-thread-5
+2026-03-20 22:54:06,058 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xb93de7f8, L:/127.0.0.1:49728 - R:/127.0.0.1:8051]
+2026-03-20 22:54:06,059 INFO [main]	create thread:client-io-thread-6
+2026-03-20 22:54:06,059 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x6addee79, L:/127.0.0.1:49729 - R:/127.0.0.1:8051]
+2026-03-20 22:54:06,060 INFO [main]	create thread:client-io-thread-7
+2026-03-20 22:54:06,061 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x87b705f0, L:/127.0.0.1:49730 - R:/127.0.0.1:8051]
+2026-03-20 22:54:06,062 INFO [main]	create thread:client-io-thread-8
+2026-03-20 22:54:06,062 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xbeb849a2, L:/127.0.0.1:49731 - R:/127.0.0.1:8051]
+2026-03-20 22:54:06,066 INFO [main]	create thread:client-io-thread-9
+2026-03-20 22:54:06,066 DEBUG [client-io-thread-9]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x446af8e1, L:/127.0.0.1:49732 - R:/127.0.0.1:8052]
+2026-03-20 22:54:06,067 INFO [main]	create thread:client-io-thread-10
+2026-03-20 22:54:06,069 DEBUG [client-io-thread-10]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x18860594, L:/127.0.0.1:49733 - R:/127.0.0.1:8052]
+2026-03-20 22:54:06,069 INFO [main]	create thread:client-io-thread-11
+2026-03-20 22:54:06,070 DEBUG [client-io-thread-11]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x6d657c58, L:/127.0.0.1:49734 - R:/127.0.0.1:8052]
+2026-03-20 22:54:06,071 INFO [main]	create thread:client-io-thread-12
+2026-03-20 22:54:06,072 INFO [main]	create thread:client-io-thread-13
+2026-03-20 22:54:06,072 DEBUG [client-io-thread-12]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x02487c1c, L:/127.0.0.1:49735 - R:/127.0.0.1:8052]
+2026-03-20 22:54:06,073 DEBUG [client-io-thread-13]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xbe8fb4cd, L:/127.0.0.1:49736 - R:/127.0.0.1:8052]
+2026-03-20 22:54:06,074 INFO [main]	create thread:client-io-thread-14
+2026-03-20 22:54:06,075 DEBUG [client-io-thread-14]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xa33c5e96, L:/127.0.0.1:49737 - R:/127.0.0.1:8052]
+2026-03-20 22:54:06,075 INFO [main]	create thread:client-io-thread-15
+2026-03-20 22:54:06,075 DEBUG [client-io-thread-15]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x744e7763, L:/127.0.0.1:49738 - R:/127.0.0.1:8052]
+2026-03-20 22:54:06,077 INFO [main]	create thread:client-io-thread-16
+2026-03-20 22:54:06,078 DEBUG [client-io-thread-16]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xc6da9699, L:/127.0.0.1:49739 - R:/127.0.0.1:8052]
+2026-03-20 22:54:06,079 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x3795c4fb, L:/127.0.0.1:49740 - R:/127.0.0.1:8053]
+2026-03-20 22:54:06,079 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xf06d772c, L:/127.0.0.1:49741 - R:/127.0.0.1:8053]
+2026-03-20 22:54:06,081 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x29802832, L:/127.0.0.1:49742 - R:/127.0.0.1:8053]
+2026-03-20 22:54:06,082 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x51fe9b95, L:/127.0.0.1:49745 - R:/127.0.0.1:8053]
+2026-03-20 22:54:06,082 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xaf4ebf71, L:/127.0.0.1:49747 - R:/127.0.0.1:8053]
+2026-03-20 22:54:06,084 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x37473a07, L:/127.0.0.1:49748 - R:/127.0.0.1:8053]
+2026-03-20 22:54:06,085 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x446b8f8c, L:/127.0.0.1:49749 - R:/127.0.0.1:8053]
+2026-03-20 22:54:06,085 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x328d6d43, L:/127.0.0.1:49750 - R:/127.0.0.1:8053]
+2026-03-20 22:54:06,142 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 22:54:06,151 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 22:54:06,152 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 22:54:06,153 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 22:54:06,226 DEBUG [client-work-thread-1]	handle response, correlationId=0
+2026-03-20 22:54:07,240 DEBUG [client-work-thread-2]	handle response, correlationId=2
+2026-03-20 22:54:07,297 DEBUG [client-io-thread-16]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:54:07,297 DEBUG [client-io-thread-14]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:54:07,297 DEBUG [client-io-thread-12]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:54:07,297 DEBUG [client-io-thread-9]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:54:07,297 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:54:07,297 DEBUG [client-io-thread-15]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:54:07,299 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:54:07,299 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:54:07,299 DEBUG [client-io-thread-10]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:54:07,297 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:54:07,297 DEBUG [client-io-thread-11]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:54:07,297 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:54:07,299 INFO [client-io-thread-14]	create thread:invalid-channel-callback-thread-1
+2026-03-20 22:54:07,297 DEBUG [client-io-thread-13]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:54:07,297 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:54:07,299 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:54:07,299 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:54:07,299 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:54:07,297 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:54:07,299 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:54:07,299 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:54:07,299 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:54:07,299 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:54:07,299 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:54:07,299 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:54:07,300 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,304 INFO [timeout-timer-thread-1]	request timeout,correlationId=1,ip=127.0.0.1,port=8053,elapse=1078ms
+2026-03-20 22:54:07,348 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,420 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,488 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,507 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,508 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,511 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,513 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,514 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,517 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,519 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,521 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,522 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,524 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,526 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,527 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,528 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,529 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,532 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,532 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,534 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,536 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,538 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:07,541 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:09,537 INFO [Thread-0]	Brpc do clean work...
+2026-03-20 22:54:09,537 INFO [Thread-0]	invoke shutdownGlobalThreadPools
+2026-03-20 22:54:26,584 INFO [main]	register protocol:1 success
+2026-03-20 22:54:26,663 INFO [main]	register protocol:29 success
+2026-03-20 22:54:26,668 INFO [main]	register protocol:4 success
+2026-03-20 22:54:26,674 INFO [main]	register protocol:3 success
+2026-03-20 22:54:26,675 INFO [main]	register protocol:31 success
+2026-03-20 22:54:26,676 INFO [main]	register protocol:28 success
+2026-03-20 22:54:26,678 INFO [main]	register protocol:32 success
+2026-03-20 22:54:26,679 INFO [main]	register protocol:33 success
+2026-03-20 22:54:26,679 INFO [main]	register protocol:30 success
+2026-03-20 22:54:26,682 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2026-03-20 22:54:26,683 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2026-03-20 22:54:26,683 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2026-03-20 22:54:26,684 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2026-03-20 22:54:26,711 INFO [main]	create thread:timeout-timer-thread-1
+2026-03-20 22:54:26,713 INFO [main]	create thread:health-check-timer-thread-1
+2026-03-20 22:54:26,716 INFO [main]	create thread:fairStrategy-timer-thread-1
+2026-03-20 22:54:26,723 INFO [main]	create thread:client-work-thread-1
+2026-03-20 22:54:26,723 INFO [main]	create thread:client-work-thread-2
+2026-03-20 22:54:26,723 INFO [main]	create thread:client-work-thread-3
+2026-03-20 22:54:26,723 INFO [main]	create thread:client-work-thread-4
+2026-03-20 22:54:26,723 INFO [main]	create thread:client-work-thread-5
+2026-03-20 22:54:26,723 INFO [main]	create thread:client-work-thread-6
+2026-03-20 22:54:26,723 INFO [main]	create thread:client-work-thread-7
+2026-03-20 22:54:26,723 INFO [main]	create thread:client-work-thread-8
+2026-03-20 22:54:26,723 INFO [main]	create thread:client-work-thread-9
+2026-03-20 22:54:26,723 INFO [main]	create thread:client-work-thread-10
+2026-03-20 22:54:26,723 INFO [main]	create thread:client-work-thread-11
+2026-03-20 22:54:26,723 INFO [main]	create thread:client-work-thread-12
+2026-03-20 22:54:26,724 INFO [main]	create thread:client-work-thread-13
+2026-03-20 22:54:26,724 INFO [main]	create thread:client-work-thread-14
+2026-03-20 22:54:26,724 INFO [main]	create thread:client-work-thread-15
+2026-03-20 22:54:26,724 INFO [main]	create thread:client-work-thread-16
+2026-03-20 22:54:28,423 INFO [main]	create thread:client-io-thread-1
+2026-03-20 22:54:28,437 INFO [main]	create thread:client-io-thread-2
+2026-03-20 22:54:28,439 INFO [main]	create thread:client-io-thread-3
+2026-03-20 22:54:28,439 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xcf86ef9f, L:/127.0.0.1:52539 - R:/127.0.0.1:8051]
+2026-03-20 22:54:28,439 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x2cc8e09e, L:/127.0.0.1:52540 - R:/127.0.0.1:8051]
+2026-03-20 22:54:28,441 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xb5f41c54, L:/127.0.0.1:52541 - R:/127.0.0.1:8051]
+2026-03-20 22:54:28,442 INFO [main]	create thread:client-io-thread-4
+2026-03-20 22:54:28,444 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xefdce74e, L:/127.0.0.1:52542 - R:/127.0.0.1:8051]
+2026-03-20 22:54:28,445 INFO [main]	create thread:client-io-thread-5
+2026-03-20 22:54:28,446 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xd39b7994, L:/127.0.0.1:52543 - R:/127.0.0.1:8051]
+2026-03-20 22:54:28,446 INFO [main]	create thread:client-io-thread-6
+2026-03-20 22:54:28,447 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xca03d5db, L:/127.0.0.1:52544 - R:/127.0.0.1:8051]
+2026-03-20 22:54:28,447 INFO [main]	create thread:client-io-thread-7
+2026-03-20 22:54:28,449 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x3f225a6f, L:/127.0.0.1:52545 - R:/127.0.0.1:8051]
+2026-03-20 22:54:28,449 INFO [main]	create thread:client-io-thread-8
+2026-03-20 22:54:28,449 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x1a185d48, L:/127.0.0.1:52546 - R:/127.0.0.1:8051]
+2026-03-20 22:54:28,452 INFO [main]	create thread:client-io-thread-9
+2026-03-20 22:54:28,453 DEBUG [client-io-thread-9]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xeafab63d, L:/127.0.0.1:52547 - R:/127.0.0.1:8052]
+2026-03-20 22:54:28,453 INFO [main]	create thread:client-io-thread-10
+2026-03-20 22:54:28,456 DEBUG [client-io-thread-10]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x334f46e2, L:/127.0.0.1:52548 - R:/127.0.0.1:8052]
+2026-03-20 22:54:28,456 INFO [main]	create thread:client-io-thread-11
+2026-03-20 22:54:28,457 DEBUG [client-io-thread-11]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xb72cf032, L:/127.0.0.1:52549 - R:/127.0.0.1:8052]
+2026-03-20 22:54:28,457 INFO [main]	create thread:client-io-thread-12
+2026-03-20 22:54:28,458 INFO [main]	create thread:client-io-thread-13
+2026-03-20 22:54:28,458 DEBUG [client-io-thread-12]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xf79c2526, L:/127.0.0.1:52550 - R:/127.0.0.1:8052]
+2026-03-20 22:54:28,459 DEBUG [client-io-thread-13]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xdc742044, L:/127.0.0.1:52551 - R:/127.0.0.1:8052]
+2026-03-20 22:54:28,459 INFO [main]	create thread:client-io-thread-14
+2026-03-20 22:54:28,460 DEBUG [client-io-thread-14]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x170b3b7f, L:/127.0.0.1:52552 - R:/127.0.0.1:8052]
+2026-03-20 22:54:28,460 INFO [main]	create thread:client-io-thread-15
+2026-03-20 22:54:28,462 DEBUG [client-io-thread-15]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x85907438, L:/127.0.0.1:52553 - R:/127.0.0.1:8052]
+2026-03-20 22:54:28,462 INFO [main]	create thread:client-io-thread-16
+2026-03-20 22:54:28,464 DEBUG [client-io-thread-16]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xeb28d68e, L:/127.0.0.1:52554 - R:/127.0.0.1:8052]
+2026-03-20 22:54:28,465 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xca3071ef, L:/127.0.0.1:52555 - R:/127.0.0.1:8053]
+2026-03-20 22:54:28,467 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x6ce541f7, L:/127.0.0.1:52556 - R:/127.0.0.1:8053]
+2026-03-20 22:54:28,467 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xa95c200f, L:/127.0.0.1:52557 - R:/127.0.0.1:8053]
+2026-03-20 22:54:28,467 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x0f6bcafd, L:/127.0.0.1:52558 - R:/127.0.0.1:8053]
+2026-03-20 22:54:28,469 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x89fe3957, L:/127.0.0.1:52559 - R:/127.0.0.1:8053]
+2026-03-20 22:54:28,469 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xcf2bdfbc, L:/127.0.0.1:52560 - R:/127.0.0.1:8053]
+2026-03-20 22:54:28,471 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x9cefae09, L:/127.0.0.1:52561 - R:/127.0.0.1:8053]
+2026-03-20 22:54:28,471 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xfaf660d7, L:/127.0.0.1:52562 - R:/127.0.0.1:8053]
+2026-03-20 22:54:28,526 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 22:54:28,533 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 22:54:28,533 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 22:54:28,537 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 22:54:28,611 DEBUG [client-work-thread-1]	handle response, correlationId=0
+2026-03-20 22:54:28,661 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:54:28,661 DEBUG [client-io-thread-9]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:54:28,661 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:54:28,661 DEBUG [client-io-thread-10]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:54:28,661 DEBUG [client-io-thread-16]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:54:28,661 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:54:28,661 DEBUG [client-io-thread-15]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:54:28,661 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:54:28,661 DEBUG [client-io-thread-11]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:54:28,661 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:54:28,661 DEBUG [client-io-thread-14]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:54:28,661 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:54:28,661 DEBUG [client-io-thread-13]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:54:28,661 DEBUG [client-io-thread-12]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 22:54:28,662 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:54:28,662 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 22:54:28,662 INFO [client-io-thread-6]	create thread:invalid-channel-callback-thread-1
+2026-03-20 22:54:28,662 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:54:28,662 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:54:28,662 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:54:28,662 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:54:28,662 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:54:28,664 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:54:28,664 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:54:28,664 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 22:54:28,664 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,705 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,739 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,776 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,813 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,846 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,874 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,876 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,879 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,880 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,882 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,884 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,885 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,888 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,891 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,893 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,894 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,895 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,897 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,898 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,901 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,902 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,903 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:28,905 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 22:54:30,895 INFO [Thread-0]	Brpc do clean work...
+2026-03-20 22:54:30,896 INFO [Thread-0]	invoke shutdownGlobalThreadPools
+2026-03-20 23:09:03,641 INFO [main]	register protocol:1 success
+2026-03-20 23:09:03,719 INFO [main]	register protocol:29 success
+2026-03-20 23:09:03,724 INFO [main]	register protocol:4 success
+2026-03-20 23:09:03,731 INFO [main]	register protocol:3 success
+2026-03-20 23:09:03,732 INFO [main]	register protocol:31 success
+2026-03-20 23:09:03,732 INFO [main]	register protocol:28 success
+2026-03-20 23:09:03,734 INFO [main]	register protocol:32 success
+2026-03-20 23:09:03,735 INFO [main]	register protocol:33 success
+2026-03-20 23:09:03,735 INFO [main]	register protocol:30 success
+2026-03-20 23:09:03,738 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2026-03-20 23:09:03,738 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2026-03-20 23:09:03,738 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2026-03-20 23:09:03,738 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2026-03-20 23:09:03,759 INFO [main]	create thread:timeout-timer-thread-1
+2026-03-20 23:09:03,763 INFO [main]	create thread:health-check-timer-thread-1
+2026-03-20 23:09:03,766 INFO [main]	create thread:fairStrategy-timer-thread-1
+2026-03-20 23:09:03,770 INFO [main]	create thread:client-work-thread-1
+2026-03-20 23:09:03,770 INFO [main]	create thread:client-work-thread-2
+2026-03-20 23:09:03,770 INFO [main]	create thread:client-work-thread-3
+2026-03-20 23:09:03,770 INFO [main]	create thread:client-work-thread-4
+2026-03-20 23:09:03,770 INFO [main]	create thread:client-work-thread-5
+2026-03-20 23:09:03,770 INFO [main]	create thread:client-work-thread-6
+2026-03-20 23:09:03,770 INFO [main]	create thread:client-work-thread-7
+2026-03-20 23:09:03,770 INFO [main]	create thread:client-work-thread-8
+2026-03-20 23:09:03,770 INFO [main]	create thread:client-work-thread-9
+2026-03-20 23:09:03,770 INFO [main]	create thread:client-work-thread-10
+2026-03-20 23:09:03,772 INFO [main]	create thread:client-work-thread-11
+2026-03-20 23:09:03,772 INFO [main]	create thread:client-work-thread-12
+2026-03-20 23:09:03,772 INFO [main]	create thread:client-work-thread-13
+2026-03-20 23:09:03,772 INFO [main]	create thread:client-work-thread-14
+2026-03-20 23:09:03,772 INFO [main]	create thread:client-work-thread-15
+2026-03-20 23:09:03,772 INFO [main]	create thread:client-work-thread-16
+2026-03-20 23:09:04,233 INFO [main]	create thread:client-io-thread-1
+2026-03-20 23:09:04,251 INFO [main]	create thread:client-io-thread-2
+2026-03-20 23:09:04,252 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x751ebca1, L:/127.0.0.1:51307 - R:/127.0.0.1:8051]
+2026-03-20 23:09:04,255 INFO [main]	create thread:client-io-thread-3
+2026-03-20 23:09:04,254 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x9ac7f828, L:/127.0.0.1:51308 - R:/127.0.0.1:8051]
+2026-03-20 23:09:04,255 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x4bd9621a, L:/127.0.0.1:51309 - R:/127.0.0.1:8051]
+2026-03-20 23:09:04,255 INFO [main]	create thread:client-io-thread-4
+2026-03-20 23:09:04,257 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x3251efbc, L:/127.0.0.1:51310 - R:/127.0.0.1:8051]
+2026-03-20 23:09:04,258 INFO [main]	create thread:client-io-thread-5
+2026-03-20 23:09:04,258 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x6a70fefe, L:/127.0.0.1:51311 - R:/127.0.0.1:8051]
+2026-03-20 23:09:04,259 INFO [main]	create thread:client-io-thread-6
+2026-03-20 23:09:04,261 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x7a2d088f, L:/127.0.0.1:51312 - R:/127.0.0.1:8051]
+2026-03-20 23:09:04,261 INFO [main]	create thread:client-io-thread-7
+2026-03-20 23:09:04,263 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xdbc2dbff, L:/127.0.0.1:51313 - R:/127.0.0.1:8051]
+2026-03-20 23:09:04,263 INFO [main]	create thread:client-io-thread-8
+2026-03-20 23:09:04,264 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x47aeff2e, L:/127.0.0.1:51314 - R:/127.0.0.1:8051]
+2026-03-20 23:09:04,268 INFO [main]	create thread:client-io-thread-9
+2026-03-20 23:09:04,269 DEBUG [client-io-thread-9]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x4322c041, L:/127.0.0.1:51315 - R:/127.0.0.1:8052]
+2026-03-20 23:09:04,269 INFO [main]	create thread:client-io-thread-10
+2026-03-20 23:09:04,271 DEBUG [client-io-thread-10]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x3cd3cddf, L:/127.0.0.1:51316 - R:/127.0.0.1:8052]
+2026-03-20 23:09:04,272 INFO [main]	create thread:client-io-thread-11
+2026-03-20 23:09:04,273 DEBUG [client-io-thread-11]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x4f10717c, L:/127.0.0.1:51317 - R:/127.0.0.1:8052]
+2026-03-20 23:09:04,273 INFO [main]	create thread:client-io-thread-12
+2026-03-20 23:09:04,275 DEBUG [client-io-thread-12]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xb79e34a9, L:/127.0.0.1:51318 - R:/127.0.0.1:8052]
+2026-03-20 23:09:04,275 INFO [main]	create thread:client-io-thread-13
+2026-03-20 23:09:04,276 DEBUG [client-io-thread-13]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xcdadfdef, L:/127.0.0.1:51319 - R:/127.0.0.1:8052]
+2026-03-20 23:09:04,276 INFO [main]	create thread:client-io-thread-14
+2026-03-20 23:09:04,278 DEBUG [client-io-thread-14]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x4e260255, L:/127.0.0.1:51320 - R:/127.0.0.1:8052]
+2026-03-20 23:09:04,278 INFO [main]	create thread:client-io-thread-15
+2026-03-20 23:09:04,279 DEBUG [client-io-thread-15]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x2fe6c537, L:/127.0.0.1:51321 - R:/127.0.0.1:8052]
+2026-03-20 23:09:04,281 INFO [main]	create thread:client-io-thread-16
+2026-03-20 23:09:04,283 DEBUG [client-io-thread-16]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xe750d4f6, L:/127.0.0.1:51322 - R:/127.0.0.1:8052]
+2026-03-20 23:09:04,285 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x077844c9, L:/127.0.0.1:51323 - R:/127.0.0.1:8053]
+2026-03-20 23:09:04,287 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x3c6283c8, L:/127.0.0.1:51324 - R:/127.0.0.1:8053]
+2026-03-20 23:09:04,287 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xd9696a69, L:/127.0.0.1:51325 - R:/127.0.0.1:8053]
+2026-03-20 23:09:04,289 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x64969e6f, L:/127.0.0.1:51326 - R:/127.0.0.1:8053]
+2026-03-20 23:09:04,289 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x8f714e1b, L:/127.0.0.1:51327 - R:/127.0.0.1:8053]
+2026-03-20 23:09:04,290 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xe3b8ea99, L:/127.0.0.1:51328 - R:/127.0.0.1:8053]
+2026-03-20 23:09:04,290 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xacaf23cc, L:/127.0.0.1:51329 - R:/127.0.0.1:8053]
+2026-03-20 23:09:04,292 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xaa036411, L:/127.0.0.1:51330 - R:/127.0.0.1:8053]
+2026-03-20 23:09:04,355 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:09:04,362 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:09:04,362 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:09:04,364 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:09:04,446 DEBUG [client-work-thread-1]	handle response, correlationId=0
+2026-03-20 23:09:04,504 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:09:04,504 DEBUG [client-io-thread-13]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:09:04,504 DEBUG [client-io-thread-12]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:09:04,504 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:09:04,504 DEBUG [client-io-thread-15]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:09:04,504 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:09:04,504 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:09:04,504 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:09:04,504 DEBUG [client-io-thread-10]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:09:04,504 DEBUG [client-io-thread-9]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:09:04,504 DEBUG [client-io-thread-11]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:09:04,504 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:09:04,504 DEBUG [client-io-thread-16]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:09:04,504 DEBUG [client-io-thread-14]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:09:04,504 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:09:04,504 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:09:04,505 INFO [client-io-thread-13]	create thread:invalid-channel-callback-thread-1
+2026-03-20 23:09:04,505 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:09:04,505 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:09:04,505 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:09:04,505 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:09:04,505 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:09:04,505 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:09:04,507 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:09:04,505 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:09:04,507 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,529 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,543 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,544 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,546 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,547 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,549 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,551 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,552 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,555 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,555 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,558 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,560 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,562 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,563 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,565 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,566 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,568 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,570 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,571 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,574 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,576 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,577 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:04,579 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:09:06,738 INFO [Thread-0]	Brpc do clean work...
+2026-03-20 23:09:06,740 INFO [Thread-0]	invoke shutdownGlobalThreadPools
+2026-03-20 23:12:40,183 INFO [main]	register protocol:1 success
+2026-03-20 23:12:40,253 INFO [main]	register protocol:29 success
+2026-03-20 23:12:40,258 INFO [main]	register protocol:4 success
+2026-03-20 23:12:40,263 INFO [main]	register protocol:3 success
+2026-03-20 23:12:40,265 INFO [main]	register protocol:31 success
+2026-03-20 23:12:40,265 INFO [main]	register protocol:28 success
+2026-03-20 23:12:40,266 INFO [main]	register protocol:32 success
+2026-03-20 23:12:40,267 INFO [main]	register protocol:33 success
+2026-03-20 23:12:40,267 INFO [main]	register protocol:30 success
+2026-03-20 23:12:40,269 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2026-03-20 23:12:40,270 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2026-03-20 23:12:40,270 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2026-03-20 23:12:40,271 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2026-03-20 23:12:40,293 INFO [main]	create thread:timeout-timer-thread-1
+2026-03-20 23:12:40,296 INFO [main]	create thread:health-check-timer-thread-1
+2026-03-20 23:12:40,298 INFO [main]	create thread:fairStrategy-timer-thread-1
+2026-03-20 23:12:40,303 INFO [main]	create thread:client-work-thread-1
+2026-03-20 23:12:40,303 INFO [main]	create thread:client-work-thread-2
+2026-03-20 23:12:40,305 INFO [main]	create thread:client-work-thread-3
+2026-03-20 23:12:40,305 INFO [main]	create thread:client-work-thread-4
+2026-03-20 23:12:40,305 INFO [main]	create thread:client-work-thread-5
+2026-03-20 23:12:40,305 INFO [main]	create thread:client-work-thread-6
+2026-03-20 23:12:40,305 INFO [main]	create thread:client-work-thread-7
+2026-03-20 23:12:40,305 INFO [main]	create thread:client-work-thread-8
+2026-03-20 23:12:40,305 INFO [main]	create thread:client-work-thread-9
+2026-03-20 23:12:40,305 INFO [main]	create thread:client-work-thread-10
+2026-03-20 23:12:40,306 INFO [main]	create thread:client-work-thread-11
+2026-03-20 23:12:40,306 INFO [main]	create thread:client-work-thread-12
+2026-03-20 23:12:40,306 INFO [main]	create thread:client-work-thread-13
+2026-03-20 23:12:40,306 INFO [main]	create thread:client-work-thread-14
+2026-03-20 23:12:40,306 INFO [main]	create thread:client-work-thread-15
+2026-03-20 23:12:40,306 INFO [main]	create thread:client-work-thread-16
+2026-03-20 23:12:40,753 INFO [main]	create thread:client-io-thread-1
+2026-03-20 23:12:40,768 INFO [main]	create thread:client-io-thread-2
+2026-03-20 23:12:40,768 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x5b56a78d, L:/127.0.0.1:63011 - R:/127.0.0.1:8051]
+2026-03-20 23:12:40,770 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x2acb1184, L:/127.0.0.1:63012 - R:/127.0.0.1:8051]
+2026-03-20 23:12:40,770 INFO [main]	create thread:client-io-thread-3
+2026-03-20 23:12:40,773 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x6fb79402, L:/127.0.0.1:63013 - R:/127.0.0.1:8051]
+2026-03-20 23:12:40,773 INFO [main]	create thread:client-io-thread-4
+2026-03-20 23:12:40,774 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x37d41827, L:/127.0.0.1:63014 - R:/127.0.0.1:8051]
+2026-03-20 23:12:40,774 INFO [main]	create thread:client-io-thread-5
+2026-03-20 23:12:40,776 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xc46ccde9, L:/127.0.0.1:63015 - R:/127.0.0.1:8051]
+2026-03-20 23:12:40,776 INFO [main]	create thread:client-io-thread-6
+2026-03-20 23:12:40,776 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xb4823fb7, L:/127.0.0.1:63016 - R:/127.0.0.1:8051]
+2026-03-20 23:12:40,777 INFO [main]	create thread:client-io-thread-7
+2026-03-20 23:12:40,779 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x5c7b795b, L:/127.0.0.1:63017 - R:/127.0.0.1:8051]
+2026-03-20 23:12:40,779 INFO [main]	create thread:client-io-thread-8
+2026-03-20 23:12:40,780 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x345e3121, L:/127.0.0.1:63018 - R:/127.0.0.1:8051]
+2026-03-20 23:12:40,783 INFO [main]	create thread:client-io-thread-9
+2026-03-20 23:12:40,784 DEBUG [client-io-thread-9]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xfd442d57, L:/127.0.0.1:63019 - R:/127.0.0.1:8052]
+2026-03-20 23:12:40,784 INFO [main]	create thread:client-io-thread-10
+2026-03-20 23:12:40,787 INFO [main]	create thread:client-io-thread-11
+2026-03-20 23:12:40,786 DEBUG [client-io-thread-10]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x8c776191, L:/127.0.0.1:63020 - R:/127.0.0.1:8052]
+2026-03-20 23:12:40,787 DEBUG [client-io-thread-11]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x03f191a0, L:/127.0.0.1:63021 - R:/127.0.0.1:8052]
+2026-03-20 23:12:40,789 INFO [main]	create thread:client-io-thread-12
+2026-03-20 23:12:40,790 DEBUG [client-io-thread-12]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x3d5825ed, L:/127.0.0.1:63022 - R:/127.0.0.1:8052]
+2026-03-20 23:12:40,790 INFO [main]	create thread:client-io-thread-13
+2026-03-20 23:12:40,792 DEBUG [client-io-thread-13]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x055637e7, L:/127.0.0.1:63023 - R:/127.0.0.1:8052]
+2026-03-20 23:12:40,792 INFO [main]	create thread:client-io-thread-14
+2026-03-20 23:12:40,793 DEBUG [client-io-thread-14]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xd4f3ebc8, L:/127.0.0.1:63024 - R:/127.0.0.1:8052]
+2026-03-20 23:12:40,793 INFO [main]	create thread:client-io-thread-15
+2026-03-20 23:12:40,795 DEBUG [client-io-thread-15]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x6ea9222a, L:/127.0.0.1:63025 - R:/127.0.0.1:8052]
+2026-03-20 23:12:40,795 INFO [main]	create thread:client-io-thread-16
+2026-03-20 23:12:40,796 DEBUG [client-io-thread-16]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xd65bcdb3, L:/127.0.0.1:63026 - R:/127.0.0.1:8052]
+2026-03-20 23:12:40,798 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x4c8f5b4c, L:/127.0.0.1:63027 - R:/127.0.0.1:8053]
+2026-03-20 23:12:40,800 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x671f0652, L:/127.0.0.1:63028 - R:/127.0.0.1:8053]
+2026-03-20 23:12:40,800 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x34742f45, L:/127.0.0.1:63029 - R:/127.0.0.1:8053]
+2026-03-20 23:12:40,801 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x074ca366, L:/127.0.0.1:63030 - R:/127.0.0.1:8053]
+2026-03-20 23:12:40,801 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x1eda2de3, L:/127.0.0.1:63031 - R:/127.0.0.1:8053]
+2026-03-20 23:12:40,803 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x4888ca12, L:/127.0.0.1:63032 - R:/127.0.0.1:8053]
+2026-03-20 23:12:40,804 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xae505f2c, L:/127.0.0.1:63033 - R:/127.0.0.1:8053]
+2026-03-20 23:12:40,804 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x706dd4fc, L:/127.0.0.1:63034 - R:/127.0.0.1:8053]
+2026-03-20 23:12:40,858 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:12:40,867 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:12:40,867 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:12:40,870 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:12:40,952 DEBUG [client-work-thread-1]	handle response, correlationId=0
+2026-03-20 23:12:41,005 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:12:41,005 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:12:41,006 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:12:41,006 DEBUG [client-io-thread-11]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:12:41,006 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:12:41,006 DEBUG [client-io-thread-14]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:12:41,005 DEBUG [client-io-thread-10]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:12:41,005 DEBUG [client-io-thread-13]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:12:41,005 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:12:41,006 DEBUG [client-io-thread-16]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:12:41,006 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:12:41,006 DEBUG [client-io-thread-9]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:12:41,006 DEBUG [client-io-thread-15]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:12:41,005 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:12:41,006 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:12:41,006 DEBUG [client-io-thread-12]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:12:41,006 INFO [client-io-thread-15]	create thread:invalid-channel-callback-thread-1
+2026-03-20 23:12:41,006 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:12:41,006 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:12:41,006 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:12:41,006 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:12:41,006 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:12:41,006 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:12:41,007 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:12:41,007 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:12:41,008 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,051 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,091 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,126 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,129 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,131 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,133 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,135 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,137 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,139 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,140 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,142 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,143 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,145 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,146 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,148 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,149 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,150 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,152 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,155 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,157 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,159 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,160 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:41,162 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:12:44,236 INFO [Thread-0]	Brpc do clean work...
+2026-03-20 23:12:44,238 INFO [Thread-0]	invoke shutdownGlobalThreadPools
+2026-03-20 23:16:43,346 INFO [main]	register protocol:1 success
+2026-03-20 23:16:43,422 INFO [main]	register protocol:29 success
+2026-03-20 23:16:43,426 INFO [main]	register protocol:4 success
+2026-03-20 23:16:43,432 INFO [main]	register protocol:3 success
+2026-03-20 23:16:43,434 INFO [main]	register protocol:31 success
+2026-03-20 23:16:43,434 INFO [main]	register protocol:28 success
+2026-03-20 23:16:43,436 INFO [main]	register protocol:32 success
+2026-03-20 23:16:43,437 INFO [main]	register protocol:33 success
+2026-03-20 23:16:43,437 INFO [main]	register protocol:30 success
+2026-03-20 23:16:43,440 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2026-03-20 23:16:43,440 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2026-03-20 23:16:43,440 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2026-03-20 23:16:43,442 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2026-03-20 23:16:43,462 INFO [main]	create thread:timeout-timer-thread-1
+2026-03-20 23:16:43,466 INFO [main]	create thread:health-check-timer-thread-1
+2026-03-20 23:16:43,469 INFO [main]	create thread:fairStrategy-timer-thread-1
+2026-03-20 23:16:43,473 INFO [main]	create thread:client-work-thread-1
+2026-03-20 23:16:43,473 INFO [main]	create thread:client-work-thread-2
+2026-03-20 23:16:43,473 INFO [main]	create thread:client-work-thread-3
+2026-03-20 23:16:43,473 INFO [main]	create thread:client-work-thread-4
+2026-03-20 23:16:43,473 INFO [main]	create thread:client-work-thread-5
+2026-03-20 23:16:43,473 INFO [main]	create thread:client-work-thread-6
+2026-03-20 23:16:43,473 INFO [main]	create thread:client-work-thread-7
+2026-03-20 23:16:43,473 INFO [main]	create thread:client-work-thread-8
+2026-03-20 23:16:43,473 INFO [main]	create thread:client-work-thread-9
+2026-03-20 23:16:43,473 INFO [main]	create thread:client-work-thread-10
+2026-03-20 23:16:43,475 INFO [main]	create thread:client-work-thread-11
+2026-03-20 23:16:43,475 INFO [main]	create thread:client-work-thread-12
+2026-03-20 23:16:43,475 INFO [main]	create thread:client-work-thread-13
+2026-03-20 23:16:43,475 INFO [main]	create thread:client-work-thread-14
+2026-03-20 23:16:43,475 INFO [main]	create thread:client-work-thread-15
+2026-03-20 23:16:43,475 INFO [main]	create thread:client-work-thread-16
+2026-03-20 23:16:43,932 INFO [main]	create thread:client-io-thread-1
+2026-03-20 23:16:43,949 INFO [main]	create thread:client-io-thread-2
+2026-03-20 23:16:43,949 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x7641c1a4, L:/127.0.0.1:56698 - R:/127.0.0.1:8051]
+2026-03-20 23:16:43,951 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x64752d49, L:/127.0.0.1:56699 - R:/127.0.0.1:8051]
+2026-03-20 23:16:43,951 INFO [main]	create thread:client-io-thread-3
+2026-03-20 23:16:43,952 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x90b4474e, L:/127.0.0.1:56700 - R:/127.0.0.1:8051]
+2026-03-20 23:16:43,952 INFO [main]	create thread:client-io-thread-4
+2026-03-20 23:16:43,954 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x43e4a02b, L:/127.0.0.1:56701 - R:/127.0.0.1:8051]
+2026-03-20 23:16:43,954 INFO [main]	create thread:client-io-thread-5
+2026-03-20 23:16:43,954 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xe2c79152, L:/127.0.0.1:56702 - R:/127.0.0.1:8051]
+2026-03-20 23:16:43,955 INFO [main]	create thread:client-io-thread-6
+2026-03-20 23:16:43,956 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x82e6bd21, L:/127.0.0.1:56703 - R:/127.0.0.1:8051]
+2026-03-20 23:16:43,957 INFO [main]	create thread:client-io-thread-7
+2026-03-20 23:16:43,958 INFO [main]	create thread:client-io-thread-8
+2026-03-20 23:16:43,958 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xb79e5fb6, L:/127.0.0.1:56704 - R:/127.0.0.1:8051]
+2026-03-20 23:16:43,958 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x0f582d83, L:/127.0.0.1:56705 - R:/127.0.0.1:8051]
+2026-03-20 23:16:43,962 INFO [main]	create thread:client-io-thread-9
+2026-03-20 23:16:43,963 DEBUG [client-io-thread-9]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x4b7cee0b, L:/127.0.0.1:56706 - R:/127.0.0.1:8052]
+2026-03-20 23:16:43,965 INFO [main]	create thread:client-io-thread-10
+2026-03-20 23:16:43,965 DEBUG [client-io-thread-10]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x812feb80, L:/127.0.0.1:56707 - R:/127.0.0.1:8052]
+2026-03-20 23:16:43,966 INFO [main]	create thread:client-io-thread-11
+2026-03-20 23:16:43,967 DEBUG [client-io-thread-11]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x8c347030, L:/127.0.0.1:56708 - R:/127.0.0.1:8052]
+2026-03-20 23:16:43,968 INFO [main]	create thread:client-io-thread-12
+2026-03-20 23:16:43,968 DEBUG [client-io-thread-12]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x413f2338, L:/127.0.0.1:56709 - R:/127.0.0.1:8052]
+2026-03-20 23:16:43,968 INFO [main]	create thread:client-io-thread-13
+2026-03-20 23:16:43,969 DEBUG [client-io-thread-13]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xa3fdd09c, L:/127.0.0.1:56710 - R:/127.0.0.1:8052]
+2026-03-20 23:16:43,969 INFO [main]	create thread:client-io-thread-14
+2026-03-20 23:16:43,971 DEBUG [client-io-thread-14]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x4797621f, L:/127.0.0.1:56711 - R:/127.0.0.1:8052]
+2026-03-20 23:16:43,971 INFO [main]	create thread:client-io-thread-15
+2026-03-20 23:16:43,972 DEBUG [client-io-thread-15]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x08190018, L:/127.0.0.1:56712 - R:/127.0.0.1:8052]
+2026-03-20 23:16:43,973 INFO [main]	create thread:client-io-thread-16
+2026-03-20 23:16:43,973 DEBUG [client-io-thread-16]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x6d051db0, L:/127.0.0.1:56713 - R:/127.0.0.1:8052]
+2026-03-20 23:16:43,976 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x420f56be, L:/127.0.0.1:56714 - R:/127.0.0.1:8053]
+2026-03-20 23:16:43,976 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x5d8cb78e, L:/127.0.0.1:56715 - R:/127.0.0.1:8053]
+2026-03-20 23:16:43,978 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xbbf6a866, L:/127.0.0.1:56716 - R:/127.0.0.1:8053]
+2026-03-20 23:16:43,978 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x1e30d9d9, L:/127.0.0.1:56717 - R:/127.0.0.1:8053]
+2026-03-20 23:16:43,980 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x7708df81, L:/127.0.0.1:56718 - R:/127.0.0.1:8053]
+2026-03-20 23:16:43,980 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xb8d33ed3, L:/127.0.0.1:56719 - R:/127.0.0.1:8053]
+2026-03-20 23:16:43,981 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xe907bd48, L:/127.0.0.1:56720 - R:/127.0.0.1:8053]
+2026-03-20 23:16:43,982 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x35d4c727, L:/127.0.0.1:56721 - R:/127.0.0.1:8053]
+2026-03-20 23:16:44,040 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:16:44,048 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:16:44,049 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:16:44,052 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:16:44,128 DEBUG [client-work-thread-1]	handle response, correlationId=0
+2026-03-20 23:16:44,182 DEBUG [client-io-thread-15]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:16:44,182 DEBUG [client-io-thread-16]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:16:44,182 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:16:44,182 DEBUG [client-io-thread-14]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:16:44,182 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:16:44,182 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:16:44,182 DEBUG [client-io-thread-12]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:16:44,182 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:16:44,182 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:16:44,182 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:16:44,182 DEBUG [client-io-thread-10]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:16:44,182 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:16:44,184 DEBUG [client-io-thread-11]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:16:44,182 DEBUG [client-io-thread-13]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:16:44,182 DEBUG [client-io-thread-9]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:16:44,182 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:16:44,184 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:16:44,184 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:16:44,184 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:16:44,184 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:16:44,184 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:16:44,184 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:16:44,184 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:16:44,184 INFO [client-io-thread-8]	create thread:invalid-channel-callback-thread-1
+2026-03-20 23:16:44,185 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:16:44,186 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,197 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,204 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,206 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,208 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,210 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,211 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,213 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,213 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,216 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,217 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,219 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,221 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,222 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,224 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,225 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,227 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,228 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,231 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,233 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,235 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,236 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,238 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:44,240 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:16:46,402 INFO [Thread-0]	Brpc do clean work...
+2026-03-20 23:16:46,403 INFO [Thread-0]	invoke shutdownGlobalThreadPools
+2026-03-20 23:21:42,535 INFO [main]	register protocol:1 success
+2026-03-20 23:21:42,615 INFO [main]	register protocol:29 success
+2026-03-20 23:21:42,619 INFO [main]	register protocol:4 success
+2026-03-20 23:21:42,626 INFO [main]	register protocol:3 success
+2026-03-20 23:21:42,627 INFO [main]	register protocol:31 success
+2026-03-20 23:21:42,627 INFO [main]	register protocol:28 success
+2026-03-20 23:21:42,629 INFO [main]	register protocol:32 success
+2026-03-20 23:21:42,631 INFO [main]	register protocol:33 success
+2026-03-20 23:21:42,632 INFO [main]	register protocol:30 success
+2026-03-20 23:21:42,633 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2026-03-20 23:21:42,633 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2026-03-20 23:21:42,633 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2026-03-20 23:21:42,633 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2026-03-20 23:21:42,660 INFO [main]	create thread:timeout-timer-thread-1
+2026-03-20 23:21:42,662 INFO [main]	create thread:health-check-timer-thread-1
+2026-03-20 23:21:42,666 INFO [main]	create thread:fairStrategy-timer-thread-1
+2026-03-20 23:21:42,670 INFO [main]	create thread:client-work-thread-1
+2026-03-20 23:21:42,671 INFO [main]	create thread:client-work-thread-2
+2026-03-20 23:21:42,671 INFO [main]	create thread:client-work-thread-3
+2026-03-20 23:21:42,672 INFO [main]	create thread:client-work-thread-4
+2026-03-20 23:21:42,672 INFO [main]	create thread:client-work-thread-5
+2026-03-20 23:21:42,672 INFO [main]	create thread:client-work-thread-6
+2026-03-20 23:21:42,672 INFO [main]	create thread:client-work-thread-7
+2026-03-20 23:21:42,673 INFO [main]	create thread:client-work-thread-8
+2026-03-20 23:21:42,673 INFO [main]	create thread:client-work-thread-9
+2026-03-20 23:21:42,673 INFO [main]	create thread:client-work-thread-10
+2026-03-20 23:21:42,673 INFO [main]	create thread:client-work-thread-11
+2026-03-20 23:21:42,673 INFO [main]	create thread:client-work-thread-12
+2026-03-20 23:21:42,673 INFO [main]	create thread:client-work-thread-13
+2026-03-20 23:21:42,673 INFO [main]	create thread:client-work-thread-14
+2026-03-20 23:21:42,673 INFO [main]	create thread:client-work-thread-15
+2026-03-20 23:21:42,674 INFO [main]	create thread:client-work-thread-16
+2026-03-20 23:21:43,156 INFO [main]	create thread:client-io-thread-1
+2026-03-20 23:21:43,174 INFO [main]	create thread:client-io-thread-2
+2026-03-20 23:21:43,174 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x02127928, L:/127.0.0.1:55443 - R:/127.0.0.1:8051]
+2026-03-20 23:21:43,174 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xcbf92ac0, L:/127.0.0.1:55444 - R:/127.0.0.1:8051]
+2026-03-20 23:21:43,175 INFO [main]	create thread:client-io-thread-3
+2026-03-20 23:21:43,177 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xbc448050, L:/127.0.0.1:55445 - R:/127.0.0.1:8051]
+2026-03-20 23:21:43,177 INFO [main]	create thread:client-io-thread-4
+2026-03-20 23:21:43,178 INFO [main]	create thread:client-io-thread-5
+2026-03-20 23:21:43,177 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x10044135, L:/127.0.0.1:55446 - R:/127.0.0.1:8051]
+2026-03-20 23:21:43,179 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x8d05f668, L:/127.0.0.1:55447 - R:/127.0.0.1:8051]
+2026-03-20 23:21:43,179 INFO [main]	create thread:client-io-thread-6
+2026-03-20 23:21:43,180 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x203e1858, L:/127.0.0.1:55448 - R:/127.0.0.1:8051]
+2026-03-20 23:21:43,180 INFO [main]	create thread:client-io-thread-7
+2026-03-20 23:21:43,181 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xa2a6fdb9, L:/127.0.0.1:55449 - R:/127.0.0.1:8051]
+2026-03-20 23:21:43,183 INFO [main]	create thread:client-io-thread-8
+2026-03-20 23:21:43,183 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x7a777407, L:/127.0.0.1:55450 - R:/127.0.0.1:8051]
+2026-03-20 23:21:43,187 INFO [main]	create thread:client-io-thread-9
+2026-03-20 23:21:43,189 DEBUG [client-io-thread-9]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x64b92762, L:/127.0.0.1:55451 - R:/127.0.0.1:8052]
+2026-03-20 23:21:43,189 INFO [main]	create thread:client-io-thread-10
+2026-03-20 23:21:43,190 DEBUG [client-io-thread-10]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xc069d9a3, L:/127.0.0.1:55452 - R:/127.0.0.1:8052]
+2026-03-20 23:21:43,190 INFO [main]	create thread:client-io-thread-11
+2026-03-20 23:21:43,192 DEBUG [client-io-thread-11]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x808bb474, L:/127.0.0.1:55453 - R:/127.0.0.1:8052]
+2026-03-20 23:21:43,192 INFO [main]	create thread:client-io-thread-12
+2026-03-20 23:21:43,194 DEBUG [client-io-thread-12]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xcda11583, L:/127.0.0.1:55454 - R:/127.0.0.1:8052]
+2026-03-20 23:21:43,194 INFO [main]	create thread:client-io-thread-13
+2026-03-20 23:21:43,195 DEBUG [client-io-thread-13]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x0c93f23c, L:/127.0.0.1:55455 - R:/127.0.0.1:8052]
+2026-03-20 23:21:43,195 INFO [main]	create thread:client-io-thread-14
+2026-03-20 23:21:43,196 DEBUG [client-io-thread-14]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xb35de854, L:/127.0.0.1:55456 - R:/127.0.0.1:8052]
+2026-03-20 23:21:43,196 INFO [main]	create thread:client-io-thread-15
+2026-03-20 23:21:43,198 DEBUG [client-io-thread-15]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x7bc446e1, L:/127.0.0.1:55457 - R:/127.0.0.1:8052]
+2026-03-20 23:21:43,198 INFO [main]	create thread:client-io-thread-16
+2026-03-20 23:21:43,200 DEBUG [client-io-thread-16]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x5959e687, L:/127.0.0.1:55458 - R:/127.0.0.1:8052]
+2026-03-20 23:21:43,203 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x489cb23c, L:/127.0.0.1:55459 - R:/127.0.0.1:8053]
+2026-03-20 23:21:43,203 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xa146c85f, L:/127.0.0.1:55460 - R:/127.0.0.1:8053]
+2026-03-20 23:21:43,206 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xb0a16d65, L:/127.0.0.1:55461 - R:/127.0.0.1:8053]
+2026-03-20 23:21:43,206 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x4caa9c36, L:/127.0.0.1:55462 - R:/127.0.0.1:8053]
+2026-03-20 23:21:43,208 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x629ec4ba, L:/127.0.0.1:55463 - R:/127.0.0.1:8053]
+2026-03-20 23:21:43,209 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xa2d18843, L:/127.0.0.1:55464 - R:/127.0.0.1:8053]
+2026-03-20 23:21:43,210 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x75694aa9, L:/127.0.0.1:55465 - R:/127.0.0.1:8053]
+2026-03-20 23:21:43,211 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x02af93ee, L:/127.0.0.1:55466 - R:/127.0.0.1:8053]
+2026-03-20 23:21:43,276 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:21:43,283 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:21:43,283 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:21:43,284 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:21:43,373 DEBUG [client-work-thread-1]	handle response, correlationId=0
+2026-03-20 23:21:43,431 DEBUG [client-io-thread-10]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:21:43,431 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:21:43,431 DEBUG [client-io-thread-9]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:21:43,431 DEBUG [client-io-thread-11]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:21:43,431 DEBUG [client-io-thread-16]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:21:43,431 DEBUG [client-io-thread-12]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:21:43,431 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:21:43,431 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:21:43,431 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:21:43,431 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:21:43,431 DEBUG [client-io-thread-14]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:21:43,431 DEBUG [client-io-thread-15]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:21:43,431 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:21:43,431 DEBUG [client-io-thread-13]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:21:43,431 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:21:43,431 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:21:43,433 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:21:43,433 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:21:43,433 INFO [client-io-thread-10]	create thread:invalid-channel-callback-thread-1
+2026-03-20 23:21:43,433 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:21:43,433 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:21:43,433 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:21:43,433 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:21:43,433 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:21:43,433 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:21:43,434 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,456 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,461 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,463 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,466 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,467 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,469 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,471 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,472 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,475 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,475 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,477 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,478 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,481 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,483 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,484 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,486 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,487 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,488 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,491 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,493 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,495 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,496 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:43,497 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:45,673 INFO [Thread-0]	Brpc do clean work...
+2026-03-20 23:21:45,674 INFO [Thread-0]	invoke shutdownGlobalThreadPools
+2026-03-20 23:21:47,857 INFO [main]	register protocol:1 success
+2026-03-20 23:21:47,938 INFO [main]	register protocol:29 success
+2026-03-20 23:21:47,942 INFO [main]	register protocol:4 success
+2026-03-20 23:21:47,948 INFO [main]	register protocol:3 success
+2026-03-20 23:21:47,950 INFO [main]	register protocol:31 success
+2026-03-20 23:21:47,951 INFO [main]	register protocol:28 success
+2026-03-20 23:21:47,953 INFO [main]	register protocol:32 success
+2026-03-20 23:21:47,954 INFO [main]	register protocol:33 success
+2026-03-20 23:21:47,954 INFO [main]	register protocol:30 success
+2026-03-20 23:21:47,958 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2026-03-20 23:21:47,958 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2026-03-20 23:21:47,958 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2026-03-20 23:21:47,959 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2026-03-20 23:21:47,982 INFO [main]	create thread:timeout-timer-thread-1
+2026-03-20 23:21:47,986 INFO [main]	create thread:health-check-timer-thread-1
+2026-03-20 23:21:47,989 INFO [main]	create thread:fairStrategy-timer-thread-1
+2026-03-20 23:21:47,993 INFO [main]	create thread:client-work-thread-1
+2026-03-20 23:21:47,993 INFO [main]	create thread:client-work-thread-2
+2026-03-20 23:21:47,993 INFO [main]	create thread:client-work-thread-3
+2026-03-20 23:21:47,994 INFO [main]	create thread:client-work-thread-4
+2026-03-20 23:21:47,994 INFO [main]	create thread:client-work-thread-5
+2026-03-20 23:21:47,994 INFO [main]	create thread:client-work-thread-6
+2026-03-20 23:21:47,994 INFO [main]	create thread:client-work-thread-7
+2026-03-20 23:21:47,994 INFO [main]	create thread:client-work-thread-8
+2026-03-20 23:21:47,994 INFO [main]	create thread:client-work-thread-9
+2026-03-20 23:21:47,995 INFO [main]	create thread:client-work-thread-10
+2026-03-20 23:21:47,995 INFO [main]	create thread:client-work-thread-11
+2026-03-20 23:21:47,995 INFO [main]	create thread:client-work-thread-12
+2026-03-20 23:21:47,995 INFO [main]	create thread:client-work-thread-13
+2026-03-20 23:21:47,995 INFO [main]	create thread:client-work-thread-14
+2026-03-20 23:21:47,995 INFO [main]	create thread:client-work-thread-15
+2026-03-20 23:21:47,995 INFO [main]	create thread:client-work-thread-16
+2026-03-20 23:21:48,476 INFO [main]	create thread:client-io-thread-1
+2026-03-20 23:21:48,496 INFO [main]	create thread:client-io-thread-2
+2026-03-20 23:21:48,495 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xdb85e2eb, L:/127.0.0.1:55467 - R:/127.0.0.1:8051]
+2026-03-20 23:21:48,500 INFO [main]	create thread:client-io-thread-3
+2026-03-20 23:21:48,498 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x5ae580a7, L:/127.0.0.1:55468 - R:/127.0.0.1:8051]
+2026-03-20 23:21:48,502 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x44bbb37b, L:/127.0.0.1:55469 - R:/127.0.0.1:8051]
+2026-03-20 23:21:48,502 INFO [main]	create thread:client-io-thread-4
+2026-03-20 23:21:48,505 INFO [main]	create thread:client-io-thread-5
+2026-03-20 23:21:48,505 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x54f8be80, L:/127.0.0.1:55470 - R:/127.0.0.1:8051]
+2026-03-20 23:21:48,507 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xa0e0d271, L:/127.0.0.1:55471 - R:/127.0.0.1:8051]
+2026-03-20 23:21:48,508 INFO [main]	create thread:client-io-thread-6
+2026-03-20 23:21:48,509 INFO [main]	create thread:client-io-thread-7
+2026-03-20 23:21:48,509 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x71145087, L:/127.0.0.1:55472 - R:/127.0.0.1:8051]
+2026-03-20 23:21:48,510 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x2e55ddad, L:/127.0.0.1:55473 - R:/127.0.0.1:8051]
+2026-03-20 23:21:48,512 INFO [main]	create thread:client-io-thread-8
+2026-03-20 23:21:48,514 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x72ded8fc, L:/127.0.0.1:55474 - R:/127.0.0.1:8051]
+2026-03-20 23:21:48,518 INFO [main]	create thread:client-io-thread-9
+2026-03-20 23:21:48,519 DEBUG [client-io-thread-9]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x5646bd47, L:/127.0.0.1:55475 - R:/127.0.0.1:8052]
+2026-03-20 23:21:48,519 INFO [main]	create thread:client-io-thread-10
+2026-03-20 23:21:48,521 DEBUG [client-io-thread-10]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xa865d21d, L:/127.0.0.1:55476 - R:/127.0.0.1:8052]
+2026-03-20 23:21:48,521 INFO [main]	create thread:client-io-thread-11
+2026-03-20 23:21:48,522 DEBUG [client-io-thread-11]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xf93f54d4, L:/127.0.0.1:55477 - R:/127.0.0.1:8052]
+2026-03-20 23:21:48,524 INFO [main]	create thread:client-io-thread-12
+2026-03-20 23:21:48,526 INFO [main]	create thread:client-io-thread-13
+2026-03-20 23:21:48,526 DEBUG [client-io-thread-12]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x9f4efa07, L:/127.0.0.1:55478 - R:/127.0.0.1:8052]
+2026-03-20 23:21:48,528 INFO [main]	create thread:client-io-thread-14
+2026-03-20 23:21:48,527 DEBUG [client-io-thread-13]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xf740747f, L:/127.0.0.1:55479 - R:/127.0.0.1:8052]
+2026-03-20 23:21:48,530 INFO [main]	create thread:client-io-thread-15
+2026-03-20 23:21:48,530 DEBUG [client-io-thread-14]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x20283969, L:/127.0.0.1:55480 - R:/127.0.0.1:8052]
+2026-03-20 23:21:48,532 DEBUG [client-io-thread-15]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x6fd42534, L:/127.0.0.1:55481 - R:/127.0.0.1:8052]
+2026-03-20 23:21:48,533 INFO [main]	create thread:client-io-thread-16
+2026-03-20 23:21:48,534 DEBUG [client-io-thread-16]	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x756db993, L:/127.0.0.1:55482 - R:/127.0.0.1:8052]
+2026-03-20 23:21:48,536 DEBUG [client-io-thread-1]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x13bda799, L:/127.0.0.1:55483 - R:/127.0.0.1:8053]
+2026-03-20 23:21:48,538 DEBUG [client-io-thread-2]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xea9c318f, L:/127.0.0.1:55484 - R:/127.0.0.1:8053]
+2026-03-20 23:21:48,539 DEBUG [client-io-thread-3]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x393e5701, L:/127.0.0.1:55485 - R:/127.0.0.1:8053]
+2026-03-20 23:21:48,541 DEBUG [client-io-thread-4]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x2ca75e61, L:/127.0.0.1:55486 - R:/127.0.0.1:8053]
+2026-03-20 23:21:48,542 DEBUG [client-io-thread-5]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xc694570b, L:/127.0.0.1:55487 - R:/127.0.0.1:8053]
+2026-03-20 23:21:48,543 DEBUG [client-io-thread-6]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xce59da65, L:/127.0.0.1:55488 - R:/127.0.0.1:8053]
+2026-03-20 23:21:48,543 DEBUG [client-io-thread-7]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xed40edc1, L:/127.0.0.1:55489 - R:/127.0.0.1:8053]
+2026-03-20 23:21:48,545 DEBUG [client-io-thread-8]	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xd6226821, L:/127.0.0.1:55490 - R:/127.0.0.1:8053]
+2026-03-20 23:21:48,602 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:21:48,609 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:21:48,609 DEBUG [main]	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:21:48,612 DEBUG [main]	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:21:48,699 DEBUG [client-work-thread-1]	handle response, correlationId=0
+2026-03-20 23:21:48,755 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:21:48,755 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:21:48,755 DEBUG [client-io-thread-15]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:21:48,755 DEBUG [client-io-thread-12]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:21:48,755 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:21:48,755 DEBUG [client-io-thread-9]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:21:48,755 DEBUG [client-io-thread-10]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:21:48,755 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:21:48,755 DEBUG [client-io-thread-14]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:21:48,755 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:21:48,755 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:21:48,755 DEBUG [client-io-thread-11]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:21:48,755 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:21:48,755 DEBUG [client-io-thread-13]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:21:48,755 DEBUG [client-io-thread-16]	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:21:48,755 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:21:48,756 DEBUG [client-io-thread-8]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:21:48,756 INFO [client-io-thread-13]	create thread:invalid-channel-callback-thread-1
+2026-03-20 23:21:48,756 DEBUG [client-io-thread-3]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:21:48,757 DEBUG [client-io-thread-5]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:21:48,756 DEBUG [client-io-thread-1]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:21:48,757 DEBUG [client-io-thread-2]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:21:48,757 DEBUG [client-io-thread-7]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:21:48,757 DEBUG [client-io-thread-6]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:21:48,758 DEBUG [client-io-thread-4]	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:21:48,758 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,769 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,775 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,778 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,781 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,783 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,785 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,786 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,787 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,788 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,791 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,793 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,795 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,797 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,798 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,801 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,802 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,804 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,806 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,808 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,810 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,812 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,813 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:48,817 DEBUG [invalid-channel-callback-thread-1]	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:21:51,987 INFO [Thread-0]	Brpc do clean work...
+2026-03-20 23:21:51,988 INFO [Thread-0]	invoke shutdownGlobalThreadPools

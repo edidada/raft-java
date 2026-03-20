@@ -12,7 +12,7 @@ output
 *MANIFEST
 *artifacts
 .DS_Store
-# Exclude env runtime data but keep logs and config
-env/**/data/
+# Exclude deployment tar.gz files
 env/**/*.tar.gz
-env/**/lib/
+# Exclude data directories when nodes are running (LOCK files)
+env/**/data/
