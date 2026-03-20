@@ -21168,4 +21168,670 @@ com.baidu.brpc.exceptions.RpcException: serviceInterface must not be set repeate
 2026-03-20 23:34:10,812 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
 2026-03-20 23:34:11,312 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8299 ms
 2026-03-20 23:34:11,312 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
-2026-03-20 23:34:11,313 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, curre
+2026-03-20 23:34:11,313 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:11,812 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7344 ms
+2026-03-20 23:34:11,812 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:11,814 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:12,313 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7029 ms
+2026-03-20 23:34:12,313 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:12,314 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:12,815 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7057 ms
+2026-03-20 23:34:12,815 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:12,816 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:13,317 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8666 ms
+2026-03-20 23:34:13,317 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:13,318 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:13,818 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9104 ms
+2026-03-20 23:34:13,819 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:13,819 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:14,321 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7211 ms
+2026-03-20 23:34:14,321 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:14,322 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:14,822 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6163 ms
+2026-03-20 23:34:14,822 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:14,823 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:15,323 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8853 ms
+2026-03-20 23:34:15,323 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:15,324 INFO [server-work-thread-16] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:15,825 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8581 ms
+2026-03-20 23:34:15,825 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:15,835 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:16,327 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8557 ms
+2026-03-20 23:34:16,328 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:16,329 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:16,828 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6677 ms
+2026-03-20 23:34:16,828 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:16,829 INFO [server-work-thread-2] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:17,330 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5519 ms
+2026-03-20 23:34:17,330 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:17,331 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:17,832 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5960 ms
+2026-03-20 23:34:17,832 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:17,833 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:18,332 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7527 ms
+2026-03-20 23:34:18,333 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:18,334 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:18,833 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5781 ms
+2026-03-20 23:34:18,834 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:18,835 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:19,335 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9651 ms
+2026-03-20 23:34:19,335 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:19,335 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:19,836 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6546 ms
+2026-03-20 23:34:19,836 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:19,838 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:20,338 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6173 ms
+2026-03-20 23:34:20,338 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:20,339 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:20,838 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5124 ms
+2026-03-20 23:34:20,838 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:20,840 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:21,341 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6185 ms
+2026-03-20 23:34:21,341 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:21,342 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:21,842 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5073 ms
+2026-03-20 23:34:21,842 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:21,844 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:22,343 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6401 ms
+2026-03-20 23:34:22,345 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:22,347 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:22,846 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6332 ms
+2026-03-20 23:34:22,846 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:22,847 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:23,348 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8682 ms
+2026-03-20 23:34:23,348 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:23,349 INFO [server-work-thread-16] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:23,850 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7013 ms
+2026-03-20 23:34:23,850 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:23,851 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:24,353 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8421 ms
+2026-03-20 23:34:24,353 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:24,354 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:24,852 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7947 ms
+2026-03-20 23:34:24,852 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:24,854 INFO [server-work-thread-2] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:25,355 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6250 ms
+2026-03-20 23:34:25,357 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:25,359 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:25,858 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8919 ms
+2026-03-20 23:34:25,858 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:25,871 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:26,359 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5444 ms
+2026-03-20 23:34:26,359 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:26,361 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:26,861 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7049 ms
+2026-03-20 23:34:26,862 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:26,863 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:27,361 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8441 ms
+2026-03-20 23:34:27,363 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:27,363 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:27,863 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7855 ms
+2026-03-20 23:34:27,863 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:27,865 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:28,365 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8922 ms
+2026-03-20 23:34:28,366 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:28,368 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:28,868 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7825 ms
+2026-03-20 23:34:28,868 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:28,870 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:29,369 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9266 ms
+2026-03-20 23:34:29,369 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:29,370 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:29,869 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7963 ms
+2026-03-20 23:34:29,869 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:29,871 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:30,370 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9720 ms
+2026-03-20 23:34:30,371 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:30,372 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:30,870 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8411 ms
+2026-03-20 23:34:30,870 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:30,872 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:31,372 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6513 ms
+2026-03-20 23:34:31,372 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:31,374 INFO [server-work-thread-16] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:31,873 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8616 ms
+2026-03-20 23:34:31,874 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:31,875 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:32,374 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9320 ms
+2026-03-20 23:34:32,374 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:32,376 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:32,845 DEBUG [fairStrategy-timer-thread-1] com.baidu.brpc.client.loadbalance.FairStrategy.updateWeightTree(FairStrategy.java:204)	begin to updateWeightTree...
+2026-03-20 23:34:35,038 DEBUG [server-io-thread-13] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:34:35,038 DEBUG [server-io-thread-13] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:34:35,039 DEBUG [server-io-thread-13] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:34:35,041 DEBUG [server-io-thread-12] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:34:35,041 DEBUG [server-io-thread-11] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:34:35,042 DEBUG [server-io-thread-11] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:34:35,042 DEBUG [server-io-thread-12] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:34:35,042 DEBUG [server-io-thread-2] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:34:35,042 DEBUG [server-io-thread-2] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:34:35,043 DEBUG [server-io-thread-2] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:34:35,043 DEBUG [server-io-thread-12] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:34:35,043 DEBUG [server-io-thread-11] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:34:38,249 INFO [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.preVote(RaftConsensusServiceImpl.java:55)	preVote request from server 3 in term 3 (my term is 3), granted=true
+2026-03-20 23:34:38,256 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=0, firstLogIndex=1
+2026-03-20 23:34:38,256 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6513 ms
+2026-03-20 23:34:38,257 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6498 ms
+2026-03-20 23:34:38,259 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:38,259 INFO [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.requestVote(RaftConsensusServiceImpl.java:91)	RequestVote request from server 3 in term 4 (my term is 4), granted=true
+2026-03-20 23:34:38,266 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8363 ms
+2026-03-20 23:34:38,267 INFO [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:116)	new leaderId=3, conf={"servers": [{"server_id": 1,"endpoint": {"host": "127.0.0.1","port": 8051}},{"server_id": 2,"endpoint": {"host": "127.0.0.1","port": 8052}},{"server_id": 3,"endpoint": {"host": "127.0.0.1","port": 8053}}]}
+2026-03-20 23:34:38,268 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:38,270 INFO [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:182)	AppendEntries request from server 3 in term 4 (my term is 4), entryCount=2 resCode=RES_CODE_SUCCESS
+2026-03-20 23:34:38,775 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9243 ms
+2026-03-20 23:34:38,775 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:38,776 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:39,287 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8291 ms
+2026-03-20 23:34:39,287 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:39,289 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:39,794 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9137 ms
+2026-03-20 23:34:39,794 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:39,795 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:40,310 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9386 ms
+2026-03-20 23:34:40,310 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:40,312 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:40,815 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7822 ms
+2026-03-20 23:34:40,815 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:40,816 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:41,321 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9612 ms
+2026-03-20 23:34:41,321 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:41,322 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:41,827 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5835 ms
+2026-03-20 23:34:41,827 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:41,830 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:42,335 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9393 ms
+2026-03-20 23:34:42,335 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:42,337 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:42,835 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6925 ms
+2026-03-20 23:34:42,835 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:42,836 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:43,336 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9203 ms
+2026-03-20 23:34:43,337 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:43,337 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:43,842 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9614 ms
+2026-03-20 23:34:43,843 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:43,845 INFO [server-work-thread-16] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:44,351 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8466 ms
+2026-03-20 23:34:44,351 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:44,353 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:44,868 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6586 ms
+2026-03-20 23:34:44,868 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:44,870 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:45,377 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8643 ms
+2026-03-20 23:34:45,377 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:45,378 INFO [server-work-thread-2] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:45,884 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7527 ms
+2026-03-20 23:34:45,884 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:45,886 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:46,401 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5858 ms
+2026-03-20 23:34:46,401 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:46,402 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:46,918 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6633 ms
+2026-03-20 23:34:46,918 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:46,919 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:47,419 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6139 ms
+2026-03-20 23:34:47,419 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:47,421 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:47,925 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5072 ms
+2026-03-20 23:34:47,927 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:47,927 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:48,434 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7238 ms
+2026-03-20 23:34:48,434 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:48,436 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:48,942 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7527 ms
+2026-03-20 23:34:48,942 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:48,944 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:49,450 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9468 ms
+2026-03-20 23:34:49,452 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:49,453 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:49,960 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6040 ms
+2026-03-20 23:34:49,960 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:49,961 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:50,469 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6156 ms
+2026-03-20 23:34:50,469 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:50,470 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:50,976 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9374 ms
+2026-03-20 23:34:50,976 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:50,978 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:51,492 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6442 ms
+2026-03-20 23:34:51,492 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:51,494 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:51,992 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9383 ms
+2026-03-20 23:34:51,992 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:51,994 INFO [server-work-thread-16] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:52,501 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8444 ms
+2026-03-20 23:34:52,501 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:52,503 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:53,007 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7379 ms
+2026-03-20 23:34:53,007 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:53,009 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:53,514 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9667 ms
+2026-03-20 23:34:53,514 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:53,515 INFO [server-work-thread-2] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:54,017 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9935 ms
+2026-03-20 23:34:54,018 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:54,018 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:54,526 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8816 ms
+2026-03-20 23:34:54,527 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:54,535 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:55,034 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7284 ms
+2026-03-20 23:34:55,034 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:55,036 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:55,547 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7899 ms
+2026-03-20 23:34:55,549 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:55,550 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:56,060 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5467 ms
+2026-03-20 23:34:56,060 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:56,062 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:56,576 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5359 ms
+2026-03-20 23:34:56,576 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:56,577 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:57,084 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5155 ms
+2026-03-20 23:34:57,084 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:57,086 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:57,591 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6549 ms
+2026-03-20 23:34:57,592 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:57,594 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:58,092 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9101 ms
+2026-03-20 23:34:58,093 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:58,094 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:58,609 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9944 ms
+2026-03-20 23:34:58,610 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:58,612 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:59,111 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7036 ms
+2026-03-20 23:34:59,111 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:59,112 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:59,625 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8603 ms
+2026-03-20 23:34:59,625 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:34:59,626 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:34:59,654 INFO [server-work-thread-16] com.github.wenweihu86.raft.example.server.service.impl.ExampleServiceImpl.get(ExampleServiceImpl.java:87)	get request, request={"key": "test_key"}, response={"value": "test_value"}
+2026-03-20 23:34:59,717 DEBUG [server-io-thread-3] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:34:59,717 DEBUG [server-io-thread-2] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:34:59,717 DEBUG [server-io-thread-5] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:34:59,718 DEBUG [server-io-thread-4] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:34:59,718 DEBUG [server-io-thread-16] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:34:59,719 DEBUG [server-io-thread-1] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:34:59,719 DEBUG [server-io-thread-6] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:34:59,719 DEBUG [server-io-thread-15] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:35:00,134 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5280 ms
+2026-03-20 23:35:00,134 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:00,136 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:00,650 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7250 ms
+2026-03-20 23:35:00,650 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:00,651 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:01,151 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8866 ms
+2026-03-20 23:35:01,151 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:01,152 INFO [server-work-thread-2] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:01,667 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7576 ms
+2026-03-20 23:35:01,667 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:01,688 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:02,182 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6808 ms
+2026-03-20 23:35:02,182 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:02,185 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:02,693 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5660 ms
+2026-03-20 23:35:02,693 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:02,694 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:03,207 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5553 ms
+2026-03-20 23:35:03,207 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:03,209 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:03,709 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8829 ms
+2026-03-20 23:35:03,709 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:03,711 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:04,217 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5648 ms
+2026-03-20 23:35:04,217 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:04,218 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:04,719 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6746 ms
+2026-03-20 23:35:04,719 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:04,720 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:05,024 DEBUG [fairStrategy-timer-thread-1] com.baidu.brpc.client.loadbalance.FairStrategy.updateWeightTree(FairStrategy.java:204)	begin to updateWeightTree...
+2026-03-20 23:35:05,226 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8538 ms
+2026-03-20 23:35:05,226 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:05,228 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:05,736 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6345 ms
+2026-03-20 23:35:05,736 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:05,737 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:06,242 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6027 ms
+2026-03-20 23:35:06,242 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:06,244 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:06,732 DEBUG [fairStrategy-timer-thread-1] com.baidu.brpc.client.loadbalance.FairStrategy.updateWeightTree(FairStrategy.java:204)	begin to updateWeightTree...
+2026-03-20 23:35:06,751 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6741 ms
+2026-03-20 23:35:06,751 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:06,752 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:07,260 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8893 ms
+2026-03-20 23:35:07,260 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:07,261 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:07,766 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8638 ms
+2026-03-20 23:35:07,766 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:07,768 INFO [server-work-thread-16] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:08,276 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5801 ms
+2026-03-20 23:35:08,276 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:08,277 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:08,790 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7526 ms
+2026-03-20 23:35:08,792 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:08,793 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:09,301 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8109 ms
+2026-03-20 23:35:09,301 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:09,303 INFO [server-work-thread-2] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:09,810 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9237 ms
+2026-03-20 23:35:09,810 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:09,812 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:10,325 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5841 ms
+2026-03-20 23:35:10,325 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:10,327 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:10,835 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6638 ms
+2026-03-20 23:35:10,835 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:10,837 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:11,343 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9662 ms
+2026-03-20 23:35:11,343 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:11,345 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:11,851 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7770 ms
+2026-03-20 23:35:11,852 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:11,854 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:12,359 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6005 ms
+2026-03-20 23:35:12,359 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:12,361 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:12,875 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9783 ms
+2026-03-20 23:35:12,875 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:12,876 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:13,386 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8678 ms
+2026-03-20 23:35:13,386 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:13,388 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:13,892 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6871 ms
+2026-03-20 23:35:13,892 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:13,893 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:14,407 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8245 ms
+2026-03-20 23:35:14,407 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:14,409 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:14,917 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8874 ms
+2026-03-20 23:35:14,917 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:14,919 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:15,425 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7170 ms
+2026-03-20 23:35:15,425 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:15,426 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:15,942 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8509 ms
+2026-03-20 23:35:15,942 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:15,944 INFO [server-work-thread-16] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:16,450 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7316 ms
+2026-03-20 23:35:16,450 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:16,450 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:16,951 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5237 ms
+2026-03-20 23:35:16,951 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:16,953 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:17,459 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9216 ms
+2026-03-20 23:35:17,459 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:17,461 INFO [server-work-thread-2] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:17,962 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6611 ms
+2026-03-20 23:35:17,962 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:17,963 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:18,476 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6319 ms
+2026-03-20 23:35:18,476 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:18,478 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:18,983 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8049 ms
+2026-03-20 23:35:18,983 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:18,985 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:19,485 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7961 ms
+2026-03-20 23:35:19,486 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:19,486 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:19,994 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9024 ms
+2026-03-20 23:35:19,995 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:19,996 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:20,507 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5050 ms
+2026-03-20 23:35:20,507 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:20,508 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:21,008 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9644 ms
+2026-03-20 23:35:21,008 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:21,010 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:21,514 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9450 ms
+2026-03-20 23:35:21,515 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:21,516 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:22,017 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7834 ms
+2026-03-20 23:35:22,017 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:22,019 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:22,526 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6130 ms
+2026-03-20 23:35:22,526 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:22,527 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:23,034 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9815 ms
+2026-03-20 23:35:23,035 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:23,036 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:23,541 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9674 ms
+2026-03-20 23:35:23,541 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:23,543 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:24,050 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5759 ms
+2026-03-20 23:35:24,050 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:24,052 INFO [server-work-thread-16] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:24,557 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5098 ms
+2026-03-20 23:35:24,559 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:24,560 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:25,068 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8544 ms
+2026-03-20 23:35:25,068 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:25,070 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:25,575 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8099 ms
+2026-03-20 23:35:25,575 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:25,577 INFO [server-work-thread-2] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:26,083 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9052 ms
+2026-03-20 23:35:26,083 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:26,090 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:26,598 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7381 ms
+2026-03-20 23:35:26,599 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:26,601 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:27,109 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7827 ms
+2026-03-20 23:35:27,109 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:27,110 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:27,618 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7593 ms
+2026-03-20 23:35:27,618 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:27,619 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:28,125 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7949 ms
+2026-03-20 23:35:28,125 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:28,127 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:28,634 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5810 ms
+2026-03-20 23:35:28,634 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:28,636 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:29,143 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6555 ms
+2026-03-20 23:35:29,143 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:29,144 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:29,657 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7563 ms
+2026-03-20 23:35:29,657 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:29,657 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:30,157 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5726 ms
+2026-03-20 23:35:30,158 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:30,159 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:30,666 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8796 ms
+2026-03-20 23:35:30,666 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:30,668 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:31,174 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6724 ms
+2026-03-20 23:35:31,175 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:31,177 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:31,680 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8214 ms
+2026-03-20 23:35:31,680 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:31,681 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:32,184 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5297 ms
+2026-03-20 23:35:32,184 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:32,185 INFO [server-work-thread-16] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:32,692 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6096 ms
+2026-03-20 23:35:32,692 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:32,693 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:32,947 DEBUG [fairStrategy-timer-thread-1] com.baidu.brpc.client.loadbalance.FairStrategy.updateWeightTree(FairStrategy.java:204)	begin to updateWeightTree...
+2026-03-20 23:35:33,206 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7528 ms
+2026-03-20 23:35:33,206 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:33,209 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:33,708 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8830 ms
+2026-03-20 23:35:33,708 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:33,710 INFO [server-work-thread-2] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:34,216 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8282 ms
+2026-03-20 23:35:34,217 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:34,217 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:34,725 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7326 ms
+2026-03-20 23:35:34,725 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:34,727 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:35,227 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5164 ms
+2026-03-20 23:35:35,227 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:35,228 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:35,734 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6208 ms
+2026-03-20 23:35:35,734 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:35,736 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:36,242 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7300 ms
+2026-03-20 23:35:36,242 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:36,243 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:36,743 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5704 ms
+2026-03-20 23:35:36,743 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:36,744 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:37,258 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7317 ms
+2026-03-20 23:35:37,258 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:37,259 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:37,766 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6574 ms
+2026-03-20 23:35:37,766 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:37,767 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:38,270 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5805 ms
+2026-03-20 23:35:38,270 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:38,271 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:38,774 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6751 ms
+2026-03-20 23:35:38,774 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:38,776 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:39,277 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5140 ms
+2026-03-20 23:35:39,277 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:39,279 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:39,782 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8249 ms
+2026-03-20 23:35:39,783 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:39,783 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:40,291 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9857 ms
+2026-03-20 23:35:40,291 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:40,293 INFO [server-work-thread-16] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:40,800 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6285 ms
+2026-03-20 23:35:40,800 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:40,802 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:41,309 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7147 ms
+2026-03-20 23:35:41,309 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:41,310 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:41,816 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5036 ms
+2026-03-20 23:35:41,816 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:41,818 INFO [server-work-thread-2] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:42,332 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8021 ms
+2026-03-20 23:35:42,332 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:42,334 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:42,833 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6464 ms
+2026-03-20 23:35:42,834 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:42,835 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:43,342 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9456 ms
+2026-03-20 23:35:43,342 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:43,343 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:43,849 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5897 ms
+2026-03-20 23:35:43,849 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:43,850 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:44,350 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8503 ms
+2026-03-20 23:35:44,350 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:44,352 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:44,857 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5600 ms
+2026-03-20 23:35:44,857 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:44,859 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:45,372 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6866 ms
+2026-03-20 23:35:45,373 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:45,375 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:45,875 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7889 ms
+2026-03-20 23:35:45,875 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:45,877 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:46,390 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6442 ms
+2026-03-20 23:35:46,390 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:46,391 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:46,890 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5659 ms
+2026-03-20 23:35:46,891 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:46,892 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:47,398 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6414 ms
+2026-03-20 23:35:47,399 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:47,399 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:47,900 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8857 ms
+2026-03-20 23:35:47,900 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:47,901 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:48,408 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7274 ms
+2026-03-20 23:35:48,408 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:48,409 INFO [server-work-thread-16] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:48,914 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7026 ms
+2026-03-20 23:35:48,914 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:48,916 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:49,453 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8902 ms
+2026-03-20 23:35:49,453 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:49,454 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:49,933 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6509 ms
+2026-03-20 23:35:49,933 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:49,933 INFO [server-work-thread-2] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:50,441 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5336 ms
+2026-03-20 23:35:50,442 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:50,443 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:50,948 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6551 ms
+2026-03-20 23:35:50,949 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:50,949 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:51,464 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6723 ms
+2026-03-20 23:35:51,464 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:51,466 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:51,966 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8168 ms
+2026-03-20 23:35:51,967 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:51,967 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:52,474 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5495 ms
+2026-03-20 23:35:52,474 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:52,475 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:52,983 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9581 ms
+2026-03-20 23:35:52,983 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:52,984 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:53,490 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6681 ms
+2026-03-20 23:35:53,490 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:53,492 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:54,000 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8527 ms
+2026-03-20 23:35:54,000 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:54,002 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:54,505 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7164 ms
+2026-03-20 23:35:54,506 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:54,508 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:55,007 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8772 ms
+2026-03-20 23:35:55,008 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:55,009 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:55,514 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5700 ms
+2026-03-20 23:35:55,514 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:55,515 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:56,014 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7430 ms
+2026-03-20 23:35:56,016 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:56,016 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:56,524 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5691 ms
+2026-03-20 23:35:56,524 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:56,525 INFO [server-work-thread-16] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:57,025 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9002 ms
+2026-03-20 23:35:57,025 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:57,026 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:57,532 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9747 ms
+2026-03-20 23:35:57,532 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:57,534 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:58,047 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7848 ms
+2026-03-20 23:35:58,047 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:58,049 INFO [server-work-thread-2] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:58,550 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6389 ms
+2026-03-20 23:35:58,550 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:58,552 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:59,056 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7151 ms
+2026-03-20 23:35:59,056 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:59,058 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:35:59,565 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5700 ms
+2026-03-20 23:35:59,565 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:35:59,567 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:36:00,081 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7009 ms
+2026-03-20 23:36:00,081 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:36:00,083 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:36:00,582 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7773 ms
+2026-03-20 23:36:00,582 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:36:00,583 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:36:01,083 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7654 ms
+2026-03-20 23:36:01,083 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:36:01,084 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:36:01,589 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5845 ms
+2026-03-20 23:36:01,590 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:36:01,592 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:36:02,099 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6272 ms
+2026-03-20 23:36:02,099 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:36:02,101 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:36:02,608 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9045 ms
+2026-03-20 23:36:02,608 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:36:02,609 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:36:03,120 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9832 ms
+2026-03-20 23:36:03,120 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:36:03,124 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:36:03,624 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6417 ms
+2026-03-20 23:36:03,624 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=3 at term=4, my term=4
+2026-03-20 23:36:03,625 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=4, votedFor=3, firstLogIndex=1
+2026-03-20 23:36:04,141 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNod
