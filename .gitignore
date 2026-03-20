@@ -14,6 +14,6 @@ output
 *artifacts
 .DS_Store
 # Exclude deployment tar.gz files
-env/**/*.tar.gz
+**/env/**/*.tar.gz
 # Exclude data directories when nodes are running (LOCK files)
-env/**/data/
+**/env/**/data/
