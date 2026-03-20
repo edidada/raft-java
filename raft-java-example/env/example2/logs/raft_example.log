@@ -20455,4 +20455,717 @@ com.baidu.brpc.exceptions.RpcException: serviceInterface must not be set repeate
 2026-03-20 23:31:31,891 INFO [server-work-thread-3]	new segment meta info, currentTerm=1, votedFor=1, firstLogIndex=1
 2026-03-20 23:31:32,391 DEBUG [server-work-thread-14]	new election time is after 8509 ms
 2026-03-20 23:31:32,391 DEBUG [server-work-thread-14]	heartbeat request from peer=1 at term=1, my term=1
-2026-03-20 23:31:32,393 INFO [server-work-thr
+2026-03-20 23:31:32,393 INFO [server-work-thr2026-03-20 23:33:01,044 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:1 success
+2026-03-20 23:33:01,106 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:29 success
+2026-03-20 23:33:01,111 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:4 success
+2026-03-20 23:33:01,118 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:3 success
+2026-03-20 23:33:01,119 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:31 success
+2026-03-20 23:33:01,119 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:28 success
+2026-03-20 23:33:01,121 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:32 success
+2026-03-20 23:33:01,123 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:33 success
+2026-03-20 23:33:01,123 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:30 success
+2026-03-20 23:33:01,126 INFO [main] com.baidu.brpc.client.loadbalance.LoadBalanceManager.registerLoadBalanceFactory(LoadBalanceManager.java:49)	register load balance factory:RandomLoadBalanceFactory success
+2026-03-20 23:33:01,126 INFO [main] com.baidu.brpc.client.loadbalance.LoadBalanceManager.registerLoadBalanceFactory(LoadBalanceManager.java:49)	register load balance factory:RoundRobinLoadBalanceFactory success
+2026-03-20 23:33:01,126 INFO [main] com.baidu.brpc.client.loadbalance.LoadBalanceManager.registerLoadBalanceFactory(LoadBalanceManager.java:49)	register load balance factory:WeightLoadBalanceFactory success
+2026-03-20 23:33:01,127 INFO [main] com.baidu.brpc.client.loadbalance.LoadBalanceManager.registerLoadBalanceFactory(LoadBalanceManager.java:49)	register load balance factory:FairLoadBalanceFactory success
+2026-03-20 23:33:01,135 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-work-thread-1
+2026-03-20 23:33:01,137 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-work-thread-2
+2026-03-20 23:33:01,137 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-work-thread-3
+2026-03-20 23:33:01,137 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-work-thread-4
+2026-03-20 23:33:01,137 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-work-thread-5
+2026-03-20 23:33:01,137 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-work-thread-6
+2026-03-20 23:33:01,138 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-work-thread-7
+2026-03-20 23:33:01,138 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-work-thread-8
+2026-03-20 23:33:01,138 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-work-thread-9
+2026-03-20 23:33:01,138 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-work-thread-10
+2026-03-20 23:33:01,138 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-work-thread-11
+2026-03-20 23:33:01,138 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-work-thread-12
+2026-03-20 23:33:01,140 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-work-thread-13
+2026-03-20 23:33:01,140 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-work-thread-14
+2026-03-20 23:33:01,140 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-work-thread-15
+2026-03-20 23:33:01,140 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-work-thread-16
+2026-03-20 23:33:02,554 INFO [main] com.baidu.brpc.server.RpcServer.<init>(RpcServer.java:210)	use jdk nio event mode
+2026-03-20 23:33:02,592 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:timeout-timer-thread-1
+2026-03-20 23:33:02,824 WARN [main] com.github.wenweihu86.raft.storage.Snapshot.readMetaData(Snapshot.java:102)	meta file not exist, name=./data\snapshot\metadata
+2026-03-20 23:33:04,385 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=preVote
+2026-03-20 23:33:04,390 INFO [main] com.baidu.brpc.server.ServiceManager.registerService(ServiceManager.java:120)	register service, serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=preVote
+2026-03-20 23:33:04,390 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=requestVote
+2026-03-20 23:33:04,390 INFO [main] com.baidu.brpc.server.ServiceManager.registerService(ServiceManager.java:120)	register service, serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=requestVote
+2026-03-20 23:33:04,390 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=installSnapshot
+2026-03-20 23:33:04,396 INFO [main] com.baidu.brpc.server.ServiceManager.registerService(ServiceManager.java:120)	register service, serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=installSnapshot
+2026-03-20 23:33:04,396 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=appendEntries
+2026-03-20 23:33:04,399 INFO [main] com.baidu.brpc.server.ServiceManager.registerService(ServiceManager.java:120)	register service, serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=appendEntries
+2026-03-20 23:33:04,407 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftClientService, methodName=getConfiguration
+2026-03-20 23:33:04,411 INFO [main] com.baidu.brpc.server.ServiceManager.registerService(ServiceManager.java:120)	register service, serviceName=com.github.wenweihu86.raft.service.RaftClientService, methodName=getConfiguration
+2026-03-20 23:33:04,411 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftClientService, methodName=getLeader
+2026-03-20 23:33:04,414 INFO [main] com.baidu.brpc.server.ServiceManager.registerService(ServiceManager.java:120)	register service, serviceName=com.github.wenweihu86.raft.service.RaftClientService, methodName=getLeader
+2026-03-20 23:33:04,414 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftClientService, methodName=removePeers
+2026-03-20 23:33:04,417 INFO [main] com.baidu.brpc.server.ServiceManager.registerService(ServiceManager.java:120)	register service, serviceName=com.github.wenweihu86.raft.service.RaftClientService, methodName=removePeers
+2026-03-20 23:33:04,417 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftClientService, methodName=addPeers
+2026-03-20 23:33:04,421 INFO [main] com.baidu.brpc.server.ServiceManager.registerService(ServiceManager.java:120)	register service, serviceName=com.github.wenweihu86.raft.service.RaftClientService, methodName=addPeers
+2026-03-20 23:33:04,425 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:33:04,429 INFO [main] com.baidu.brpc.server.ServiceManager.registerService(ServiceManager.java:120)	register service, serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:33:04,429 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:33:04,432 INFO [main] com.baidu.brpc.server.ServiceManager.registerService(ServiceManager.java:120)	register service, serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:33:04,801 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-acceptor-thread-1
+2026-03-20 23:33:04,807 INFO [main] com.baidu.brpc.server.RpcServer.start(RpcServer.java:346)	server started on port=8052 success
+2026-03-20 23:33:04,818 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:fairStrategy-timer-thread-1
+2026-03-20 23:33:04,820 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-1
+2026-03-20 23:33:04,821 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-2
+2026-03-20 23:33:04,821 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-3
+2026-03-20 23:33:04,821 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-4
+2026-03-20 23:33:04,821 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-5
+2026-03-20 23:33:04,822 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-6
+2026-03-20 23:33:04,823 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-7
+2026-03-20 23:33:04,823 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-8
+2026-03-20 23:33:04,823 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-9
+2026-03-20 23:33:04,824 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-10
+2026-03-20 23:33:04,824 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-11
+2026-03-20 23:33:04,824 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-12
+2026-03-20 23:33:04,824 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-13
+2026-03-20 23:33:04,824 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-14
+2026-03-20 23:33:04,824 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-15
+2026-03-20 23:33:04,824 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-16
+2026-03-20 23:33:06,148 INFO [server-acceptor-thread-1] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-io-thread-1
+2026-03-20 23:33:06,217 INFO [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.preVote(RaftConsensusServiceImpl.java:55)	preVote request from server 1 in term 1 (my term is 1), granted=true
+2026-03-20 23:33:06,248 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=2, votedFor=0, firstLogIndex=1
+2026-03-20 23:33:06,250 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5867 ms
+2026-03-20 23:33:06,251 WARN [server-work-thread-3] com.baidu.brpc.interceptor.ServerInvokeInterceptor.aroundProcess(ServerInvokeInterceptor.java:39)	invoke method failed, msg=Cannot invoke "java.util.concurrent.ScheduledExecutorService.schedule(java.lang.Runnable, long, java.util.concurrent.TimeUnit)" because "this.scheduledExecutorService" is null
+java.lang.NullPointerException: Cannot invoke "java.util.concurrent.ScheduledExecutorService.schedule(java.lang.Runnable, long, java.util.concurrent.TimeUnit)" because "this.scheduledExecutorService" is null
+	at com.github.wenweihu86.raft.RaftNode.resetElectionTimer(RaftNode.java:437) ~[raft-java-core-1.9.0.jar:?]
+	at com.github.wenweihu86.raft.RaftNode.stepDown(RaftNode.java:314) ~[raft-java-core-1.9.0.jar:?]
+	at com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.requestVote(RaftConsensusServiceImpl.java:79) ~[raft-java-core-1.9.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at com.baidu.brpc.interceptor.ServerInvokeInterceptor.aroundProcess(ServerInvokeInterceptor.java:32) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.AbstractInterceptor.aroundProcess(AbstractInterceptor.java:35) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.ServerTraceInterceptor.aroundProcess(ServerTraceInterceptor.java:40) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.server.handler.ServerWorkTask.run(ServerWorkTask.java:79) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.server.handler.DecodeWorkTask.run(DecodeWorkTask.java:143) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.consume(ThreadPool.java:131) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.access$000(ThreadPool.java:37) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool$1.run(ThreadPool.java:79) [brpc-java-2.5.9.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2026-03-20 23:33:06,426 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-1
+2026-03-20 23:33:06,435 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-2
+2026-03-20 23:33:06,438 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-3
+2026-03-20 23:33:06,439 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-4
+2026-03-20 23:33:06,441 DEBUG [client-io-thread-3] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xe9ec40fd, L:/127.0.0.1:62793 - R:/127.0.0.1:8051]
+2026-03-20 23:33:06,441 DEBUG [client-io-thread-2] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xff93ebaa, L:/127.0.0.1:62792 - R:/127.0.0.1:8051]
+2026-03-20 23:33:06,441 DEBUG [client-io-thread-1] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x1428db0e, L:/127.0.0.1:62791 - R:/127.0.0.1:8051]
+2026-03-20 23:33:06,441 DEBUG [client-io-thread-4] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xf96c0684, L:/127.0.0.1:62794 - R:/127.0.0.1:8051]
+2026-03-20 23:33:06,442 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-5
+2026-03-20 23:33:06,444 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-6
+2026-03-20 23:33:06,444 DEBUG [client-io-thread-5] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xd2dd789b, L:/127.0.0.1:62795 - R:/127.0.0.1:8051]
+2026-03-20 23:33:06,445 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-7
+2026-03-20 23:33:06,445 DEBUG [client-io-thread-6] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xa8defc5b, L:/127.0.0.1:62796 - R:/127.0.0.1:8051]
+2026-03-20 23:33:06,448 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-8
+2026-03-20 23:33:06,448 DEBUG [client-io-thread-7] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x9c6cd05b, L:/127.0.0.1:62797 - R:/127.0.0.1:8051]
+2026-03-20 23:33:06,450 DEBUG [client-io-thread-8] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xb88490da, L:/127.0.0.1:62798 - R:/127.0.0.1:8051]
+2026-03-20 23:33:06,503 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=preVote
+2026-03-20 23:33:06,503 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.service.RaftConsensusServiceAsync, methodName=preVote
+2026-03-20 23:33:06,503 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=requestVote
+2026-03-20 23:33:06,503 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.service.RaftConsensusServiceAsync, methodName=requestVote
+2026-03-20 23:33:06,503 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=installSnapshot
+2026-03-20 23:33:06,503 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.service.RaftConsensusServiceAsync, methodName=installSnapshot
+2026-03-20 23:33:06,504 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=appendEntries
+2026-03-20 23:33:06,504 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.service.RaftConsensusServiceAsync, methodName=appendEntries
+2026-03-20 23:33:06,504 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=preVote
+2026-03-20 23:33:06,504 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=preVote
+2026-03-20 23:33:06,505 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=requestVote
+2026-03-20 23:33:06,505 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=requestVote
+2026-03-20 23:33:06,505 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=installSnapshot
+2026-03-20 23:33:06,505 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=installSnapshot
+2026-03-20 23:33:06,505 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=appendEntries
+2026-03-20 23:33:06,506 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=appendEntries
+2026-03-20 23:33:06,529 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:fairStrategy-timer-thread-1
+2026-03-20 23:33:06,529 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-1
+2026-03-20 23:33:06,529 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-2
+2026-03-20 23:33:06,530 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-3
+2026-03-20 23:33:06,530 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-4
+2026-03-20 23:33:06,530 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-5
+2026-03-20 23:33:06,530 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-6
+2026-03-20 23:33:06,530 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-7
+2026-03-20 23:33:06,530 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-8
+2026-03-20 23:33:06,532 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-9
+2026-03-20 23:33:06,532 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-10
+2026-03-20 23:33:06,532 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-11
+2026-03-20 23:33:06,532 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-12
+2026-03-20 23:33:06,532 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-13
+2026-03-20 23:33:06,532 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-14
+2026-03-20 23:33:06,533 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-15
+2026-03-20 23:33:06,533 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-16
+2026-03-20 23:33:07,621 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-1
+2026-03-20 23:33:07,623 WARN [main] com.baidu.brpc.client.channel.BrpcPooledChannel.<init>(BrpcPooledChannel.java:79)	init min idle object pool failed
+2026-03-20 23:33:07,623 DEBUG [client-io-thread-1] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:105)	future callback, connect to 127.0.0.1:8053 failed due to Connection refused: no further information: /127.0.0.1:8053
+2026-03-20 23:33:07,624 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=preVote
+2026-03-20 23:33:07,624 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.service.RaftConsensusServiceAsync, methodName=preVote
+2026-03-20 23:33:07,624 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=requestVote
+2026-03-20 23:33:07,624 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.service.RaftConsensusServiceAsync, methodName=requestVote
+2026-03-20 23:33:07,625 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=installSnapshot
+2026-03-20 23:33:07,625 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.service.RaftConsensusServiceAsync, methodName=installSnapshot
+2026-03-20 23:33:07,625 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=appendEntries
+2026-03-20 23:33:07,625 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.service.RaftConsensusServiceAsync, methodName=appendEntries
+2026-03-20 23:33:07,625 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=preVote
+2026-03-20 23:33:07,625 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=preVote
+2026-03-20 23:33:07,625 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=requestVote
+2026-03-20 23:33:07,625 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=requestVote
+2026-03-20 23:33:07,625 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=installSnapshot
+2026-03-20 23:33:07,625 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=installSnapshot
+2026-03-20 23:33:07,625 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=appendEntries
+2026-03-20 23:33:07,625 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.service.RaftConsensusService, methodName=appendEntries
+2026-03-20 23:33:07,627 DEBUG [main] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8611 ms
+2026-03-20 23:33:11,281 DEBUG [server-io-thread-1] com.baidu.brpc.server.handler.RpcServerChannelIdleHandler.userEventTriggered(RpcServerChannelIdleHandler.java:40)	channel=[id: 0xd0a292dd, L:/127.0.0.1:8052 - R:/127.0.0.1:62784] ip=/127.0.0.1:62784 is idle for period time, close now.
+2026-03-20 23:33:11,285 DEBUG [server-io-thread-1] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:33:11,468 DEBUG [client-io-thread-6] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:33:11,468 DEBUG [client-io-thread-8] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:33:11,468 DEBUG [client-io-thread-4] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:33:11,468 DEBUG [client-io-thread-7] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:33:11,468 DEBUG [client-io-thread-1] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:33:11,468 DEBUG [client-io-thread-5] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:33:11,468 DEBUG [client-io-thread-3] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:33:11,469 DEBUG [client-io-thread-2] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:33:11,469 INFO [client-io-thread-6] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:invalid-channel-callback-thread-1
+2026-03-20 23:33:16,068 INFO [server-acceptor-thread-1] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-io-thread-2
+2026-03-20 23:33:16,101 INFO [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.preVote(RaftConsensusServiceImpl.java:55)	preVote request from server 1 in term 2 (my term is 2), granted=true
+2026-03-20 23:33:16,118 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=0, firstLogIndex=1
+2026-03-20 23:33:16,120 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5171 ms
+2026-03-20 23:33:16,121 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8774 ms
+2026-03-20 23:33:16,123 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:16,124 INFO [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.requestVote(RaftConsensusServiceImpl.java:91)	RequestVote request from server 1 in term 3 (my term is 3), granted=true
+2026-03-20 23:33:16,157 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7605 ms
+2026-03-20 23:33:16,234 INFO [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:116)	new leaderId=1, conf={"servers": [{"server_id": 1,"endpoint": {"host": "127.0.0.1","port": 8051}},{"server_id": 2,"endpoint": {"host": "127.0.0.1","port": 8052}},{"server_id": 3,"endpoint": {"host": "127.0.0.1","port": 8053}}]}
+2026-03-20 23:33:16,236 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:16,237 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:16,658 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7910 ms
+2026-03-20 23:33:16,659 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:16,660 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:17,160 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5147 ms
+2026-03-20 23:33:17,162 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:17,163 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:17,662 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9049 ms
+2026-03-20 23:33:17,663 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:17,665 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:18,163 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9029 ms
+2026-03-20 23:33:18,165 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:18,167 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:18,665 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9079 ms
+2026-03-20 23:33:18,666 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:18,667 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:19,009 INFO [server-acceptor-thread-1] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-io-thread-3
+2026-03-20 23:33:19,012 INFO [server-acceptor-thread-1] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-io-thread-4
+2026-03-20 23:33:19,013 INFO [server-acceptor-thread-1] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-io-thread-5
+2026-03-20 23:33:19,015 INFO [server-acceptor-thread-1] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-io-thread-6
+2026-03-20 23:33:19,016 INFO [server-acceptor-thread-1] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-io-thread-7
+2026-03-20 23:33:19,019 INFO [server-acceptor-thread-1] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-io-thread-8
+2026-03-20 23:33:19,022 INFO [server-acceptor-thread-1] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-io-thread-9
+2026-03-20 23:33:19,023 INFO [server-acceptor-thread-1] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-io-thread-10
+2026-03-20 23:33:19,165 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8837 ms
+2026-03-20 23:33:19,166 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:19,168 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:19,666 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8445 ms
+2026-03-20 23:33:19,667 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:19,668 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:20,169 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8990 ms
+2026-03-20 23:33:20,169 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:20,172 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:20,670 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5608 ms
+2026-03-20 23:33:20,671 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:20,672 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:21,170 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6868 ms
+2026-03-20 23:33:21,172 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:21,173 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:21,672 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6076 ms
+2026-03-20 23:33:21,672 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:21,674 INFO [server-work-thread-16] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:22,173 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7437 ms
+2026-03-20 23:33:22,174 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:22,176 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:22,675 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9929 ms
+2026-03-20 23:33:22,676 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:22,678 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:23,178 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7882 ms
+2026-03-20 23:33:23,179 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:23,180 INFO [server-work-thread-2] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:23,680 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5487 ms
+2026-03-20 23:33:23,680 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:23,682 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:24,018 DEBUG [server-io-thread-7] com.baidu.brpc.server.handler.RpcServerChannelIdleHandler.userEventTriggered(RpcServerChannelIdleHandler.java:40)	channel=[id: 0xa5e73c35, L:/127.0.0.1:8052 - R:/127.0.0.1:62820] ip=/127.0.0.1:62820 is idle for period time, close now.
+2026-03-20 23:33:24,018 DEBUG [server-io-thread-4] com.baidu.brpc.server.handler.RpcServerChannelIdleHandler.userEventTriggered(RpcServerChannelIdleHandler.java:40)	channel=[id: 0xf8b889fc, L:/127.0.0.1:8052 - R:/127.0.0.1:62817] ip=/127.0.0.1:62817 is idle for period time, close now.
+2026-03-20 23:33:24,018 DEBUG [server-io-thread-6] com.baidu.brpc.server.handler.RpcServerChannelIdleHandler.userEventTriggered(RpcServerChannelIdleHandler.java:40)	channel=[id: 0xf87bbc69, L:/127.0.0.1:8052 - R:/127.0.0.1:62819] ip=/127.0.0.1:62819 is idle for period time, close now.
+2026-03-20 23:33:24,018 DEBUG [server-io-thread-5] com.baidu.brpc.server.handler.RpcServerChannelIdleHandler.userEventTriggered(RpcServerChannelIdleHandler.java:40)	channel=[id: 0xd2fc4120, L:/127.0.0.1:8052 - R:/127.0.0.1:62818] ip=/127.0.0.1:62818 is idle for period time, close now.
+2026-03-20 23:33:24,018 DEBUG [server-io-thread-3] com.baidu.brpc.server.handler.RpcServerChannelIdleHandler.userEventTriggered(RpcServerChannelIdleHandler.java:40)	channel=[id: 0x2a586420, L:/127.0.0.1:8052 - R:/127.0.0.1:62816] ip=/127.0.0.1:62816 is idle for period time, close now.
+2026-03-20 23:33:24,020 DEBUG [server-io-thread-4] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:33:24,020 DEBUG [server-io-thread-7] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:33:24,021 DEBUG [server-io-thread-5] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:33:24,021 DEBUG [server-io-thread-6] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:33:24,021 DEBUG [server-io-thread-3] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:33:24,035 DEBUG [server-io-thread-8] com.baidu.brpc.server.handler.RpcServerChannelIdleHandler.userEventTriggered(RpcServerChannelIdleHandler.java:40)	channel=[id: 0x54d54f66, L:/127.0.0.1:8052 - R:/127.0.0.1:62821] ip=/127.0.0.1:62821 is idle for period time, close now.
+2026-03-20 23:33:24,035 DEBUG [server-io-thread-9] com.baidu.brpc.server.handler.RpcServerChannelIdleHandler.userEventTriggered(RpcServerChannelIdleHandler.java:40)	channel=[id: 0xc4b295af, L:/127.0.0.1:8052 - R:/127.0.0.1:62822] ip=/127.0.0.1:62822 is idle for period time, close now.
+2026-03-20 23:33:24,035 DEBUG [server-io-thread-10] com.baidu.brpc.server.handler.RpcServerChannelIdleHandler.userEventTriggered(RpcServerChannelIdleHandler.java:40)	channel=[id: 0x7b19a16f, L:/127.0.0.1:8052 - R:/127.0.0.1:62823] ip=/127.0.0.1:62823 is idle for period time, close now.
+2026-03-20 23:33:24,036 DEBUG [server-io-thread-9] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:33:24,036 DEBUG [server-io-thread-8] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:33:24,036 DEBUG [server-io-thread-10] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:33:24,179 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9392 ms
+2026-03-20 23:33:24,180 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:24,181 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:24,680 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5257 ms
+2026-03-20 23:33:24,682 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:24,683 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:25,182 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9923 ms
+2026-03-20 23:33:25,184 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:25,185 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:25,685 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8025 ms
+2026-03-20 23:33:25,685 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:25,699 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:26,185 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9531 ms
+2026-03-20 23:33:26,186 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:26,188 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:26,687 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5056 ms
+2026-03-20 23:33:26,689 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:26,691 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:27,188 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7284 ms
+2026-03-20 23:33:27,189 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:27,191 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:27,689 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5941 ms
+2026-03-20 23:33:27,690 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:27,692 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:28,191 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9663 ms
+2026-03-20 23:33:28,192 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:28,194 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:28,694 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6174 ms
+2026-03-20 23:33:28,694 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:28,696 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:29,195 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8273 ms
+2026-03-20 23:33:29,196 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:29,197 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:29,696 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7456 ms
+2026-03-20 23:33:29,697 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:29,699 INFO [server-work-thread-16] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:30,197 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9106 ms
+2026-03-20 23:33:30,197 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:30,199 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:30,698 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7534 ms
+2026-03-20 23:33:30,699 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:30,700 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:31,199 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6513 ms
+2026-03-20 23:33:31,201 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:31,203 INFO [server-work-thread-2] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:31,701 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6727 ms
+2026-03-20 23:33:31,702 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:31,703 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:32,203 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8309 ms
+2026-03-20 23:33:32,204 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:32,205 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:32,587 INFO [server-acceptor-thread-1] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-io-thread-11
+2026-03-20 23:33:32,590 INFO [server-acceptor-thread-1] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-io-thread-12
+2026-03-20 23:33:32,591 INFO [server-acceptor-thread-1] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-io-thread-13
+2026-03-20 23:33:32,594 INFO [server-acceptor-thread-1] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-io-thread-14
+2026-03-20 23:33:32,597 INFO [server-acceptor-thread-1] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-io-thread-15
+2026-03-20 23:33:32,599 INFO [server-acceptor-thread-1] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:server-io-thread-16
+2026-03-20 23:33:32,703 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5544 ms
+2026-03-20 23:33:32,703 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:32,705 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:32,744 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:fairStrategy-timer-thread-1
+2026-03-20 23:33:32,745 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-work-thread-1
+2026-03-20 23:33:32,745 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-work-thread-2
+2026-03-20 23:33:32,745 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-work-thread-3
+2026-03-20 23:33:32,745 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-work-thread-4
+2026-03-20 23:33:32,745 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-work-thread-5
+2026-03-20 23:33:32,745 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-work-thread-6
+2026-03-20 23:33:32,747 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-work-thread-7
+2026-03-20 23:33:32,747 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-work-thread-8
+2026-03-20 23:33:32,747 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-work-thread-9
+2026-03-20 23:33:32,747 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-work-thread-10
+2026-03-20 23:33:32,747 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-work-thread-11
+2026-03-20 23:33:32,747 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-work-thread-12
+2026-03-20 23:33:32,748 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-work-thread-13
+2026-03-20 23:33:32,748 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-work-thread-14
+2026-03-20 23:33:32,748 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-work-thread-15
+2026-03-20 23:33:32,748 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-work-thread-16
+2026-03-20 23:33:33,206 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9921 ms
+2026-03-20 23:33:33,206 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:33,208 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:33,705 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5303 ms
+2026-03-20 23:33:33,707 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:33,709 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:33,756 WARN [server-work-thread-10] com.baidu.brpc.interceptor.ServerInvokeInterceptor.aroundProcess(ServerInvokeInterceptor.java:39)	invoke method failed, msg=Cannot invoke "com.baidu.brpc.client.RpcClient.setServiceInterface(java.lang.Class, com.baidu.brpc.naming.NamingOptions)" because "rpcClient" is null
+java.lang.NullPointerException: Cannot invoke "com.baidu.brpc.client.RpcClient.setServiceInterface(java.lang.Class, com.baidu.brpc.naming.NamingOptions)" because "rpcClient" is null
+	at com.baidu.brpc.client.BrpcProxy.getProxy(BrpcProxy.java:140) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.client.BrpcProxy.getProxy(BrpcProxy.java:136) ~[brpc-java-2.5.9.jar:?]
+	at com.github.wenweihu86.raft.example.server.service.impl.ExampleServiceImpl.set(ExampleServiceImpl.java:68) ~[raft-java-example-1.9.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at com.baidu.brpc.interceptor.ServerInvokeInterceptor.aroundProcess(ServerInvokeInterceptor.java:32) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.AbstractInterceptor.aroundProcess(AbstractInterceptor.java:35) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.ServerTraceInterceptor.aroundProcess(ServerTraceInterceptor.java:40) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.server.handler.ServerWorkTask.run(ServerWorkTask.java:79) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.server.handler.DecodeWorkTask.run(DecodeWorkTask.java:143) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.consume(ThreadPool.java:131) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.access$000(ThreadPool.java:37) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool$1.run(ThreadPool.java:79) [brpc-java-2.5.9.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2026-03-20 23:33:33,775 WARN [server-work-thread-11] com.baidu.brpc.interceptor.ServerInvokeInterceptor.aroundProcess(ServerInvokeInterceptor.java:39)	invoke method failed, msg=Cannot invoke "com.baidu.brpc.client.RpcClient.setServiceInterface(java.lang.Class, com.baidu.brpc.naming.NamingOptions)" because "rpcClient" is null
+java.lang.NullPointerException: Cannot invoke "com.baidu.brpc.client.RpcClient.setServiceInterface(java.lang.Class, com.baidu.brpc.naming.NamingOptions)" because "rpcClient" is null
+	at com.baidu.brpc.client.BrpcProxy.getProxy(BrpcProxy.java:140) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.client.BrpcProxy.getProxy(BrpcProxy.java:136) ~[brpc-java-2.5.9.jar:?]
+	at com.github.wenweihu86.raft.example.server.service.impl.ExampleServiceImpl.set(ExampleServiceImpl.java:68) ~[raft-java-example-1.9.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at com.baidu.brpc.interceptor.ServerInvokeInterceptor.aroundProcess(ServerInvokeInterceptor.java:32) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.AbstractInterceptor.aroundProcess(AbstractInterceptor.java:35) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.ServerTraceInterceptor.aroundProcess(ServerTraceInterceptor.java:40) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.server.handler.ServerWorkTask.run(ServerWorkTask.java:79) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.server.handler.DecodeWorkTask.run(DecodeWorkTask.java:143) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.consume(ThreadPool.java:131) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.access$000(ThreadPool.java:37) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool$1.run(ThreadPool.java:79) [brpc-java-2.5.9.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2026-03-20 23:33:34,112 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-io-thread-1
+2026-03-20 23:33:34,114 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-io-thread-2
+2026-03-20 23:33:34,114 DEBUG [brpc-io-thread-1] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x62ab10b8, L:/127.0.0.1:56352 - R:/127.0.0.1:8051]
+2026-03-20 23:33:34,115 DEBUG [brpc-io-thread-2] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x26eb0a36, L:/127.0.0.1:56353 - R:/127.0.0.1:8051]
+2026-03-20 23:33:34,115 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-io-thread-3
+2026-03-20 23:33:34,118 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-io-thread-4
+2026-03-20 23:33:34,118 DEBUG [brpc-io-thread-3] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xef86fc69, L:/127.0.0.1:56354 - R:/127.0.0.1:8051]
+2026-03-20 23:33:34,119 DEBUG [brpc-io-thread-4] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x431f33c8, L:/127.0.0.1:56355 - R:/127.0.0.1:8051]
+2026-03-20 23:33:34,121 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-io-thread-5
+2026-03-20 23:33:34,122 DEBUG [brpc-io-thread-5] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xe73b4184, L:/127.0.0.1:56356 - R:/127.0.0.1:8051]
+2026-03-20 23:33:34,122 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-io-thread-6
+2026-03-20 23:33:34,124 DEBUG [brpc-io-thread-6] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x2f4ab002, L:/127.0.0.1:56357 - R:/127.0.0.1:8051]
+2026-03-20 23:33:34,124 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-io-thread-7
+2026-03-20 23:33:34,127 DEBUG [brpc-io-thread-7] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xbc813166, L:/127.0.0.1:56358 - R:/127.0.0.1:8051]
+2026-03-20 23:33:34,127 INFO [server-work-thread-7] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:brpc-io-thread-8
+2026-03-20 23:33:34,128 DEBUG [server-work-thread-7] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:33:34,128 DEBUG [brpc-io-thread-8] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x84570b45, L:/127.0.0.1:56359 - R:/127.0.0.1:8051]
+2026-03-20 23:33:34,128 DEBUG [server-work-thread-7] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:33:34,129 DEBUG [server-work-thread-7] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:33:34,129 DEBUG [server-work-thread-7] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:33:34,157 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9319 ms
+2026-03-20 23:33:34,158 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:34,160 INFO [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:182)	AppendEntries request from server 1 in term 3 (my term is 3), entryCount=1 resCode=RES_CODE_SUCCESS
+2026-03-20 23:33:34,208 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7237 ms
+2026-03-20 23:33:34,209 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:34,211 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:34,218 DEBUG [brpc-work-thread-1] com.baidu.brpc.client.handler.ClientWorkTask.run(ClientWorkTask.java:72)	handle response, correlationId=0
+2026-03-20 23:33:34,221 INFO [server-work-thread-7] com.github.wenweihu86.raft.example.server.service.impl.ExampleServiceImpl.set(ExampleServiceImpl.java:79)	set request, request={"key": "test_key_new","value": "test_value_new"}, response={"success": true}
+2026-03-20 23:33:34,386 DEBUG [server-io-thread-1] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:33:34,386 DEBUG [server-io-thread-1] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:33:34,387 DEBUG [server-io-thread-2] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:33:34,389 DEBUG [server-io-thread-2] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:33:34,389 DEBUG [server-io-thread-15] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:33:34,389 DEBUG [server-io-thread-12] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:33:34,389 DEBUG [server-io-thread-15] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:33:34,389 DEBUG [server-io-thread-12] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:33:34,389 DEBUG [server-io-thread-14] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:33:34,391 DEBUG [server-io-thread-14] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:33:34,391 DEBUG [server-io-thread-16] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:33:34,391 DEBUG [server-io-thread-16] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:33:34,393 DEBUG [server-io-thread-13] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:33:34,393 DEBUG [server-io-thread-11] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:33:34,393 DEBUG [server-io-thread-13] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:33:34,393 DEBUG [server-io-thread-11] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:33:34,394 DEBUG [server-io-thread-2] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:33:34,394 DEBUG [server-io-thread-1] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:33:34,395 DEBUG [server-io-thread-15] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:33:34,395 DEBUG [server-io-thread-12] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:33:34,395 DEBUG [server-io-thread-14] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:33:34,395 DEBUG [server-io-thread-16] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:33:34,395 DEBUG [server-io-thread-11] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:33:34,395 DEBUG [server-io-thread-13] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:33:34,709 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5697 ms
+2026-03-20 23:33:34,709 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:34,711 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:35,213 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8713 ms
+2026-03-20 23:33:35,213 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:35,214 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:35,713 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5733 ms
+2026-03-20 23:33:35,714 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:35,716 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:36,214 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6589 ms
+2026-03-20 23:33:36,216 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:36,217 INFO [server-work-thread-16] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:36,716 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6126 ms
+2026-03-20 23:33:36,717 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:36,719 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:37,217 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9035 ms
+2026-03-20 23:33:37,218 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:37,220 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:37,719 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6683 ms
+2026-03-20 23:33:37,719 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:37,721 INFO [server-work-thread-2] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:38,220 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6752 ms
+2026-03-20 23:33:38,221 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:38,222 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:38,722 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6015 ms
+2026-03-20 23:33:38,722 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:38,723 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:39,121 DEBUG [brpc-io-thread-1] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:33:39,121 DEBUG [brpc-io-thread-2] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:33:39,124 DEBUG [brpc-io-thread-3] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:33:39,127 DEBUG [brpc-io-thread-4] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:33:39,127 DEBUG [brpc-io-thread-5] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:33:39,130 DEBUG [brpc-io-thread-6] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:33:39,131 DEBUG [brpc-io-thread-7] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:33:39,216 DEBUG [brpc-io-thread-8] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8051
+2026-03-20 23:33:39,223 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9873 ms
+2026-03-20 23:33:39,225 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:39,226 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:39,725 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7663 ms
+2026-03-20 23:33:39,725 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:39,728 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:40,225 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5714 ms
+2026-03-20 23:33:40,227 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:40,228 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:40,727 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5777 ms
+2026-03-20 23:33:40,728 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:40,729 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:41,228 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8656 ms
+2026-03-20 23:33:41,229 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:41,231 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:41,729 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7897 ms
+2026-03-20 23:33:41,730 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:41,730 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:42,231 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9179 ms
+2026-03-20 23:33:42,232 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:42,232 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:42,732 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8436 ms
+2026-03-20 23:33:42,732 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:42,734 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:43,235 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9729 ms
+2026-03-20 23:33:43,235 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:43,236 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:43,735 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5259 ms
+2026-03-20 23:33:43,736 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:43,738 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:44,237 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7546 ms
+2026-03-20 23:33:44,238 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:44,238 INFO [server-work-thread-16] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:44,739 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8199 ms
+2026-03-20 23:33:44,739 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:44,741 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:45,241 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8449 ms
+2026-03-20 23:33:45,241 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:45,243 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:45,742 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5578 ms
+2026-03-20 23:33:45,742 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:45,745 INFO [server-work-thread-2] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:46,245 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6679 ms
+2026-03-20 23:33:46,245 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:46,247 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:46,747 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6808 ms
+2026-03-20 23:33:46,747 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:46,748 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:47,248 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8011 ms
+2026-03-20 23:33:47,248 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:47,249 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:47,749 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7499 ms
+2026-03-20 23:33:47,749 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:47,751 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:48,251 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6350 ms
+2026-03-20 23:33:48,253 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:48,253 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:48,753 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8290 ms
+2026-03-20 23:33:48,753 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:48,755 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:49,254 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9210 ms
+2026-03-20 23:33:49,254 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:49,256 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:49,756 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5615 ms
+2026-03-20 23:33:49,756 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:49,758 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:50,256 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5312 ms
+2026-03-20 23:33:50,258 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:50,259 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:50,758 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8807 ms
+2026-03-20 23:33:50,758 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:50,760 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:51,258 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7070 ms
+2026-03-20 23:33:51,258 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:51,260 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:51,760 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9420 ms
+2026-03-20 23:33:51,761 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:51,762 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:52,262 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6301 ms
+2026-03-20 23:33:52,262 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:52,262 INFO [server-work-thread-16] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:52,762 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8302 ms
+2026-03-20 23:33:52,762 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:52,764 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:53,263 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6614 ms
+2026-03-20 23:33:53,263 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:53,265 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:53,765 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5026 ms
+2026-03-20 23:33:53,765 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:53,767 INFO [server-work-thread-2] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:54,268 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9315 ms
+2026-03-20 23:33:54,269 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:54,269 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:54,770 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6540 ms
+2026-03-20 23:33:54,771 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:54,772 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:55,271 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5679 ms
+2026-03-20 23:33:55,271 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:55,271 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:55,772 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6066 ms
+2026-03-20 23:33:55,772 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:55,773 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:56,273 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7632 ms
+2026-03-20 23:33:56,273 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:56,274 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:56,774 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9236 ms
+2026-03-20 23:33:56,774 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:56,776 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:57,274 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6860 ms
+2026-03-20 23:33:57,274 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:57,277 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:57,776 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9186 ms
+2026-03-20 23:33:57,777 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:57,778 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:58,278 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5874 ms
+2026-03-20 23:33:58,278 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:58,279 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:58,779 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9410 ms
+2026-03-20 23:33:58,779 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:58,781 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:59,280 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6827 ms
+2026-03-20 23:33:59,281 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:59,281 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:33:59,782 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9434 ms
+2026-03-20 23:33:59,782 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:33:59,784 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:00,283 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7908 ms
+2026-03-20 23:34:00,285 DEBUG [server-work-thread-16] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:00,285 INFO [server-work-thread-16] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:00,785 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6374 ms
+2026-03-20 23:34:00,785 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:00,787 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:01,286 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8932 ms
+2026-03-20 23:34:01,287 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:01,288 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:01,787 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7140 ms
+2026-03-20 23:34:01,787 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:01,788 INFO [server-work-thread-2] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:02,289 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9875 ms
+2026-03-20 23:34:02,289 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:02,291 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:02,790 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9828 ms
+2026-03-20 23:34:02,790 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:02,791 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:03,291 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9193 ms
+2026-03-20 23:34:03,292 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:03,294 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:03,793 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6737 ms
+2026-03-20 23:34:03,795 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:03,798 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:04,295 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7273 ms
+2026-03-20 23:34:04,295 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:04,297 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:04,796 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7764 ms
+2026-03-20 23:34:04,796 DEBUG [server-work-thread-11] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:04,797 INFO [server-work-thread-11] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:04,919 DEBUG [fairStrategy-timer-thread-1] com.baidu.brpc.client.loadbalance.FairStrategy.updateWeightTree(FairStrategy.java:204)	begin to updateWeightTree...
+2026-03-20 23:34:05,298 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5567 ms
+2026-03-20 23:34:05,298 DEBUG [server-work-thread-12] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:05,300 INFO [server-work-thread-12] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:05,799 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5485 ms
+2026-03-20 23:34:05,799 DEBUG [server-work-thread-10] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:05,801 INFO [server-work-thread-10] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:06,300 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5541 ms
+2026-03-20 23:34:06,300 DEBUG [server-work-thread-7] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:06,302 INFO [server-work-thread-7] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:06,629 DEBUG [fairStrategy-timer-thread-1] com.baidu.brpc.client.loadbalance.FairStrategy.updateWeightTree(FairStrategy.java:204)	begin to updateWeightTree...
+2026-03-20 23:34:06,800 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8956 ms
+2026-03-20 23:34:06,800 DEBUG [server-work-thread-13] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:06,802 INFO [server-work-thread-13] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:07,301 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 6195 ms
+2026-03-20 23:34:07,301 DEBUG [server-work-thread-14] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:07,303 INFO [server-work-thread-14] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:07,802 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7596 ms
+2026-03-20 23:34:07,802 DEBUG [server-work-thread-15] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:07,803 INFO [server-work-thread-15] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:08,037 WARN [server-work-thread-16] com.baidu.brpc.interceptor.ServerInvokeInterceptor.aroundProcess(ServerInvokeInterceptor.java:39)	invoke method failed, msg=serviceInterface must not be set repeatedly, please use another RpcClient
+com.baidu.brpc.exceptions.RpcException: serviceInterface must not be set repeatedly, please use another RpcClient
+	at com.baidu.brpc.client.RpcClient.setServiceInterface(RpcClient.java:220) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.client.BrpcProxy.getProxy(BrpcProxy.java:140) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.client.BrpcProxy.getProxy(BrpcProxy.java:136) ~[brpc-java-2.5.9.jar:?]
+	at com.github.wenweihu86.raft.example.server.service.impl.ExampleServiceImpl.set(ExampleServiceImpl.java:68) ~[raft-java-example-1.9.0.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at com.baidu.brpc.interceptor.ServerInvokeInterceptor.aroundProcess(ServerInvokeInterceptor.java:32) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.AbstractInterceptor.aroundProcess(AbstractInterceptor.java:35) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.ServerTraceInterceptor.aroundProcess(ServerTraceInterceptor.java:40) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.server.handler.ServerWorkTask.run(ServerWorkTask.java:79) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.server.handler.DecodeWorkTask.run(DecodeWorkTask.java:143) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.consume(ThreadPool.java:131) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.access$000(ThreadPool.java:37) [brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool$1.run(ThreadPool.java:79) [brpc-java-2.5.9.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2026-03-20 23:34:08,233 DEBUG [server-work-thread-1] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9089 ms
+2026-03-20 23:34:08,236 INFO [server-work-thread-1] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:08,236 INFO [server-work-thread-1] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:182)	AppendEntries request from server 1 in term 3 (my term is 3), entryCount=1 resCode=RES_CODE_SUCCESS
+2026-03-20 23:34:08,303 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 9202 ms
+2026-03-20 23:34:08,304 DEBUG [server-work-thread-3] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:08,305 INFO [server-work-thread-3] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:08,617 DEBUG [server-io-thread-10] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:34:08,617 DEBUG [server-io-thread-10] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:34:08,622 DEBUG [server-io-thread-6] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:34:08,622 DEBUG [server-io-thread-6] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:34:08,622 DEBUG [server-io-thread-4] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:34:08,622 DEBUG [server-io-thread-5] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:34:08,622 DEBUG [server-io-thread-5] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:34:08,622 DEBUG [server-io-thread-4] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:34:08,624 DEBUG [server-io-thread-3] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:34:08,624 DEBUG [server-io-thread-3] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:34:08,625 DEBUG [server-io-thread-9] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:34:08,625 DEBUG [server-io-thread-9] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:34:08,625 DEBUG [server-io-thread-8] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:34:08,625 DEBUG [server-io-thread-8] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:34:08,626 DEBUG [server-io-thread-10] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:34:08,626 DEBUG [server-io-thread-6] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:34:08,626 DEBUG [server-io-thread-3] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:34:08,626 DEBUG [server-io-thread-9] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:34:08,626 DEBUG [server-io-thread-8] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:34:08,627 DEBUG [server-io-thread-7] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:99)	meet exception, may be connection is closed, msg=Connection reset
+2026-03-20 23:34:08,627 DEBUG [server-io-thread-7] com.baidu.brpc.server.handler.RpcServerHandler.exceptionCaught(RpcServerHandler.java:100)	remove from channel map
+2026-03-20 23:34:08,627 DEBUG [server-io-thread-5] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:34:08,627 DEBUG [server-io-thread-4] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:34:08,628 DEBUG [server-io-thread-7] com.baidu.brpc.server.handler.RpcServerHandler.channelInactive(RpcServerHandler.java:146)	channel is in active, remove from channel map
+2026-03-20 23:34:08,804 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8415 ms
+2026-03-20 23:34:08,804 DEBUG [server-work-thread-2] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:08,805 INFO [server-work-thread-2] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:09,306 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8279 ms
+2026-03-20 23:34:09,306 DEBUG [server-work-thread-4] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:09,307 INFO [server-work-thread-4] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:09,808 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7729 ms
+2026-03-20 23:34:09,808 DEBUG [server-work-thread-5] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:09,809 INFO [server-work-thread-5] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:10,309 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 7736 ms
+2026-03-20 23:34:10,310 DEBUG [server-work-thread-6] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:10,311 INFO [server-work-thread-6] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:10,811 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 5388 ms
+2026-03-20 23:34:10,811 DEBUG [server-work-thread-8] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:10,812 INFO [server-work-thread-8] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, currentTerm=3, votedFor=1, firstLogIndex=1
+2026-03-20 23:34:11,312 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.RaftNode.getElectionTimeoutMs(RaftNode.java:449)	new election time is after 8299 ms
+2026-03-20 23:34:11,312 DEBUG [server-work-thread-9] com.github.wenweihu86.raft.service.impl.RaftConsensusServiceImpl.appendEntries(RaftConsensusServiceImpl.java:149)	heartbeat request from peer=1 at term=3, my term=3
+2026-03-20 23:34:11,313 INFO [server-work-thread-9] com.github.wenweihu86.raft.storage.SegmentedLog.updateMetaData(SegmentedLog.java:347)	new segment meta info, curre

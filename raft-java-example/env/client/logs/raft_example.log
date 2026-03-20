@@ -1644,3 +1644,216 @@ Caused by: com.baidu.brpc.exceptions.RpcException: Cannot invoke "com.baidu.brpc
 	at java.lang.Thread.run(Thread.java:842) ~[?:?]
 2026-03-20 23:33:33,823 INFO [Thread-0] com.baidu.brpc.thread.ShutDownManager$1.run(ShutDownManager.java:40)	Brpc do clean work...
 2026-03-20 23:33:33,823 INFO [Thread-0] com.baidu.brpc.thread.ShutDownManager.shutdownGlobalThreadPools(ShutDownManager.java:48)	invoke shutdownGlobalThreadPools
+2026-03-20 23:34:05,398 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:1 success
+2026-03-20 23:34:05,452 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:29 success
+2026-03-20 23:34:05,456 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:4 success
+2026-03-20 23:34:05,461 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:3 success
+2026-03-20 23:34:05,462 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:31 success
+2026-03-20 23:34:05,463 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:28 success
+2026-03-20 23:34:05,464 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:32 success
+2026-03-20 23:34:05,464 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:33 success
+2026-03-20 23:34:05,465 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:30 success
+2026-03-20 23:34:05,467 INFO [main] com.baidu.brpc.client.loadbalance.LoadBalanceManager.registerLoadBalanceFactory(LoadBalanceManager.java:49)	register load balance factory:RandomLoadBalanceFactory success
+2026-03-20 23:34:05,467 INFO [main] com.baidu.brpc.client.loadbalance.LoadBalanceManager.registerLoadBalanceFactory(LoadBalanceManager.java:49)	register load balance factory:RoundRobinLoadBalanceFactory success
+2026-03-20 23:34:05,467 INFO [main] com.baidu.brpc.client.loadbalance.LoadBalanceManager.registerLoadBalanceFactory(LoadBalanceManager.java:49)	register load balance factory:WeightLoadBalanceFactory success
+2026-03-20 23:34:05,468 INFO [main] com.baidu.brpc.client.loadbalance.LoadBalanceManager.registerLoadBalanceFactory(LoadBalanceManager.java:49)	register load balance factory:FairLoadBalanceFactory success
+2026-03-20 23:34:05,485 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:timeout-timer-thread-1
+2026-03-20 23:34:05,487 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:health-check-timer-thread-1
+2026-03-20 23:34:05,489 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:fairStrategy-timer-thread-1
+2026-03-20 23:34:05,493 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-1
+2026-03-20 23:34:05,493 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-2
+2026-03-20 23:34:05,493 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-3
+2026-03-20 23:34:05,493 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-4
+2026-03-20 23:34:05,493 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-5
+2026-03-20 23:34:05,493 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-6
+2026-03-20 23:34:05,494 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-7
+2026-03-20 23:34:05,494 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-8
+2026-03-20 23:34:05,494 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-9
+2026-03-20 23:34:05,494 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-10
+2026-03-20 23:34:05,494 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-11
+2026-03-20 23:34:05,494 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-12
+2026-03-20 23:34:05,494 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-13
+2026-03-20 23:34:05,494 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-14
+2026-03-20 23:34:05,495 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-15
+2026-03-20 23:34:05,495 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-16
+2026-03-20 23:34:06,888 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-1
+2026-03-20 23:34:06,900 DEBUG [client-io-thread-1] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xa54fda96, L:/127.0.0.1:56360 - R:/127.0.0.1:8051]
+2026-03-20 23:34:06,900 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-2
+2026-03-20 23:34:06,902 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-3
+2026-03-20 23:34:06,902 DEBUG [client-io-thread-2] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x35801696, L:/127.0.0.1:56361 - R:/127.0.0.1:8051]
+2026-03-20 23:34:06,903 DEBUG [client-io-thread-3] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x0cc55218, L:/127.0.0.1:56362 - R:/127.0.0.1:8051]
+2026-03-20 23:34:06,904 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-4
+2026-03-20 23:34:06,905 DEBUG [client-io-thread-4] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x50b8a06c, L:/127.0.0.1:56363 - R:/127.0.0.1:8051]
+2026-03-20 23:34:06,905 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-5
+2026-03-20 23:34:06,906 DEBUG [client-io-thread-5] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0x0282ca55, L:/127.0.0.1:56364 - R:/127.0.0.1:8051]
+2026-03-20 23:34:06,906 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-6
+2026-03-20 23:34:06,908 DEBUG [client-io-thread-6] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xb96fbd8b, L:/127.0.0.1:56365 - R:/127.0.0.1:8051]
+2026-03-20 23:34:06,908 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-7
+2026-03-20 23:34:06,909 DEBUG [client-io-thread-7] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xe46bfa22, L:/127.0.0.1:56366 - R:/127.0.0.1:8051]
+2026-03-20 23:34:06,909 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-8
+2026-03-20 23:34:06,911 DEBUG [client-io-thread-8] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8051 success, channel=[id: 0xbc96a3a2, L:/127.0.0.1:56367 - R:/127.0.0.1:8051]
+2026-03-20 23:34:06,912 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-9
+2026-03-20 23:34:06,914 DEBUG [client-io-thread-9] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xb413ef46, L:/127.0.0.1:56368 - R:/127.0.0.1:8052]
+2026-03-20 23:34:06,914 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-10
+2026-03-20 23:34:06,916 DEBUG [client-io-thread-10] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xdb66deff, L:/127.0.0.1:56369 - R:/127.0.0.1:8052]
+2026-03-20 23:34:06,916 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-11
+2026-03-20 23:34:06,917 DEBUG [client-io-thread-11] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xceb1cd4f, L:/127.0.0.1:56370 - R:/127.0.0.1:8052]
+2026-03-20 23:34:06,917 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-12
+2026-03-20 23:34:06,918 DEBUG [client-io-thread-12] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x9e15bbcb, L:/127.0.0.1:56371 - R:/127.0.0.1:8052]
+2026-03-20 23:34:06,918 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-13
+2026-03-20 23:34:06,920 DEBUG [client-io-thread-13] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x59b7d9d4, L:/127.0.0.1:56372 - R:/127.0.0.1:8052]
+2026-03-20 23:34:06,920 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-14
+2026-03-20 23:34:06,921 DEBUG [client-io-thread-14] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x9e6a62bb, L:/127.0.0.1:56373 - R:/127.0.0.1:8052]
+2026-03-20 23:34:06,921 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-15
+2026-03-20 23:34:06,923 DEBUG [client-io-thread-15] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x2c59474f, L:/127.0.0.1:56374 - R:/127.0.0.1:8052]
+2026-03-20 23:34:06,923 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-16
+2026-03-20 23:34:06,925 DEBUG [client-io-thread-16] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x284a8d94, L:/127.0.0.1:56375 - R:/127.0.0.1:8052]
+2026-03-20 23:34:06,927 DEBUG [client-io-thread-1] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x5a3737af, L:/127.0.0.1:56376 - R:/127.0.0.1:8053]
+2026-03-20 23:34:06,928 DEBUG [client-io-thread-2] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xfba53cc8, L:/127.0.0.1:56377 - R:/127.0.0.1:8053]
+2026-03-20 23:34:06,929 DEBUG [client-io-thread-3] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xa507d175, L:/127.0.0.1:56378 - R:/127.0.0.1:8053]
+2026-03-20 23:34:06,929 DEBUG [client-io-thread-4] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x4964b6fe, L:/127.0.0.1:56379 - R:/127.0.0.1:8053]
+2026-03-20 23:34:06,930 DEBUG [client-io-thread-5] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x11974279, L:/127.0.0.1:56380 - R:/127.0.0.1:8053]
+2026-03-20 23:34:06,930 DEBUG [client-io-thread-6] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xc7a20bad, L:/127.0.0.1:56381 - R:/127.0.0.1:8053]
+2026-03-20 23:34:06,931 DEBUG [client-io-thread-7] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xf0190ccb, L:/127.0.0.1:56382 - R:/127.0.0.1:8053]
+2026-03-20 23:34:06,933 DEBUG [client-io-thread-8] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x14539d4d, L:/127.0.0.1:56383 - R:/127.0.0.1:8053]
+2026-03-20 23:34:06,971 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:34:06,976 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:34:06,976 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:34:06,977 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:34:08,044 DEBUG [client-work-thread-1] com.baidu.brpc.client.handler.ClientWorkTask.run(ClientWorkTask.java:72)	handle response, correlationId=1
+2026-03-20 23:34:08,048 DEBUG [client-work-thread-2] com.baidu.brpc.client.handler.ClientWorkTask.run(ClientWorkTask.java:72)	handle response, correlationId=2
+2026-03-20 23:34:08,050 ERROR [main] com.baidu.brpc.client.BrpcProxy.intercept(BrpcProxy.java:276)	exception :
+com.baidu.brpc.exceptions.RpcException: com.baidu.brpc.exceptions.RpcException: com.baidu.brpc.exceptions.RpcException: Cannot invoke "com.baidu.brpc.client.RpcClient.setServiceInterface(java.lang.Class, com.baidu.brpc.naming.NamingOptions)" because "rpcClient" is null
+	at com.baidu.brpc.client.BrpcProxy.intercept(BrpcProxy.java:268) [brpc-java-2.5.9.jar:?]
+	at com.github.wenweihu86.raft.example.server.service.ExampleService$$EnhancerByCGLIB$$c1bbc38a.set(<generated>) [raft-java-example-1.9.0.jar:?]
+	at com.github.wenweihu86.raft.example.client.ClientMain.main(ClientMain.java:36) [raft-java-example-1.9.0.jar:?]
+Caused by: com.baidu.brpc.exceptions.RpcException: com.baidu.brpc.exceptions.RpcException: Cannot invoke "com.baidu.brpc.client.RpcClient.setServiceInterface(java.lang.Class, com.baidu.brpc.naming.NamingOptions)" because "rpcClient" is null
+	at com.baidu.brpc.client.RpcFuture.get(RpcFuture.java:178) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.LoadBalanceInterceptor.rpcCore(LoadBalanceInterceptor.java:93) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.LoadBalanceInterceptor.invokeRpc(LoadBalanceInterceptor.java:82) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.LoadBalanceInterceptor.aroundProcess(LoadBalanceInterceptor.java:62) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.AbstractInterceptor.aroundProcess(AbstractInterceptor.java:35) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.ClientTraceInterceptor.aroundProcess(ClientTraceInterceptor.java:40) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.interceptor.DefaultInterceptorChain.intercept(DefaultInterceptorChain.java:43) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.client.BrpcProxy.intercept(BrpcProxy.java:266) ~[brpc-java-2.5.9.jar:?]
+	... 2 more
+Caused by: com.baidu.brpc.exceptions.RpcException: Cannot invoke "com.baidu.brpc.client.RpcClient.setServiceInterface(java.lang.Class, com.baidu.brpc.naming.NamingOptions)" because "rpcClient" is null
+	at com.baidu.brpc.protocol.standard.BaiduRpcProtocol.decodeResponse(BaiduRpcProtocol.java:162) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.protocol.standard.BaiduRpcProtocol.decodeResponse(BaiduRpcProtocol.java:70) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.client.handler.ClientWorkTask.run(ClientWorkTask.java:65) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.consume(ThreadPool.java:131) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool.access$000(ThreadPool.java:37) ~[brpc-java-2.5.9.jar:?]
+	at com.baidu.brpc.utils.ThreadPool$1.run(ThreadPool.java:79) ~[brpc-java-2.5.9.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-all-4.1.42.Final.jar:4.1.42.Final]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+2026-03-20 23:34:08,064 INFO [Thread-0] com.baidu.brpc.thread.ShutDownManager$1.run(ShutDownManager.java:40)	Brpc do clean work...
+2026-03-20 23:34:08,064 INFO [Thread-0] com.baidu.brpc.thread.ShutDownManager.shutdownGlobalThreadPools(ShutDownManager.java:48)	invoke shutdownGlobalThreadPools
+2026-03-20 23:34:58,813 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:1 success
+2026-03-20 23:34:58,889 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:29 success
+2026-03-20 23:34:58,894 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:4 success
+2026-03-20 23:34:58,901 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:3 success
+2026-03-20 23:34:58,904 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:31 success
+2026-03-20 23:34:58,904 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:28 success
+2026-03-20 23:34:58,906 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:32 success
+2026-03-20 23:34:58,907 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:33 success
+2026-03-20 23:34:58,909 INFO [main] com.baidu.brpc.protocol.ProtocolManager.registerProtocol(ProtocolManager.java:67)	register protocol:30 success
+2026-03-20 23:34:58,910 INFO [main] com.baidu.brpc.client.loadbalance.LoadBalanceManager.registerLoadBalanceFactory(LoadBalanceManager.java:49)	register load balance factory:RandomLoadBalanceFactory success
+2026-03-20 23:34:58,911 INFO [main] com.baidu.brpc.client.loadbalance.LoadBalanceManager.registerLoadBalanceFactory(LoadBalanceManager.java:49)	register load balance factory:RoundRobinLoadBalanceFactory success
+2026-03-20 23:34:58,911 INFO [main] com.baidu.brpc.client.loadbalance.LoadBalanceManager.registerLoadBalanceFactory(LoadBalanceManager.java:49)	register load balance factory:WeightLoadBalanceFactory success
+2026-03-20 23:34:58,911 INFO [main] com.baidu.brpc.client.loadbalance.LoadBalanceManager.registerLoadBalanceFactory(LoadBalanceManager.java:49)	register load balance factory:FairLoadBalanceFactory success
+2026-03-20 23:34:58,936 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:timeout-timer-thread-1
+2026-03-20 23:34:58,939 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:health-check-timer-thread-1
+2026-03-20 23:34:58,943 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:fairStrategy-timer-thread-1
+2026-03-20 23:34:58,947 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-1
+2026-03-20 23:34:58,947 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-2
+2026-03-20 23:34:58,947 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-3
+2026-03-20 23:34:58,948 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-4
+2026-03-20 23:34:58,949 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-5
+2026-03-20 23:34:58,949 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-6
+2026-03-20 23:34:58,949 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-7
+2026-03-20 23:34:58,950 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-8
+2026-03-20 23:34:58,950 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-9
+2026-03-20 23:34:58,950 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-10
+2026-03-20 23:34:58,950 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-11
+2026-03-20 23:34:58,950 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-12
+2026-03-20 23:34:58,950 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-13
+2026-03-20 23:34:58,951 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-14
+2026-03-20 23:34:58,951 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-15
+2026-03-20 23:34:58,951 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-work-thread-16
+2026-03-20 23:34:59,436 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-1
+2026-03-20 23:34:59,447 DEBUG [client-io-thread-1] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:105)	future callback, connect to 127.0.0.1:8051 failed due to Connection refused: no further information: /127.0.0.1:8051
+2026-03-20 23:34:59,448 WARN [main] com.baidu.brpc.client.channel.BrpcPooledChannel.<init>(BrpcPooledChannel.java:79)	init min idle object pool failed
+2026-03-20 23:34:59,453 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-2
+2026-03-20 23:34:59,460 DEBUG [client-io-thread-2] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x400c904e, L:/127.0.0.1:63511 - R:/127.0.0.1:8052]
+2026-03-20 23:34:59,462 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-3
+2026-03-20 23:34:59,463 DEBUG [client-io-thread-3] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xce2fddd6, L:/127.0.0.1:63512 - R:/127.0.0.1:8052]
+2026-03-20 23:34:59,463 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-4
+2026-03-20 23:34:59,465 DEBUG [client-io-thread-4] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x38aaa7e1, L:/127.0.0.1:63513 - R:/127.0.0.1:8052]
+2026-03-20 23:34:59,466 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-5
+2026-03-20 23:34:59,468 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-6
+2026-03-20 23:34:59,468 DEBUG [client-io-thread-5] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0xcb87a30c, L:/127.0.0.1:63514 - R:/127.0.0.1:8052]
+2026-03-20 23:34:59,470 DEBUG [client-io-thread-6] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x8c2b49d4, L:/127.0.0.1:63515 - R:/127.0.0.1:8052]
+2026-03-20 23:34:59,471 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-7
+2026-03-20 23:34:59,473 DEBUG [client-io-thread-7] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x15f648c5, L:/127.0.0.1:63516 - R:/127.0.0.1:8052]
+2026-03-20 23:34:59,473 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-8
+2026-03-20 23:34:59,475 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-9
+2026-03-20 23:34:59,475 DEBUG [client-io-thread-8] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x809e6790, L:/127.0.0.1:63517 - R:/127.0.0.1:8052]
+2026-03-20 23:34:59,478 DEBUG [client-io-thread-9] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8052 success, channel=[id: 0x1428419e, L:/127.0.0.1:63518 - R:/127.0.0.1:8052]
+2026-03-20 23:34:59,478 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-10
+2026-03-20 23:34:59,481 DEBUG [client-io-thread-10] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x45e57b9d, L:/127.0.0.1:63519 - R:/127.0.0.1:8053]
+2026-03-20 23:34:59,481 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-11
+2026-03-20 23:34:59,483 DEBUG [client-io-thread-11] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x302a83b3, L:/127.0.0.1:63520 - R:/127.0.0.1:8053]
+2026-03-20 23:34:59,483 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-12
+2026-03-20 23:34:59,486 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-13
+2026-03-20 23:34:59,486 DEBUG [client-io-thread-12] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x43223e2d, L:/127.0.0.1:63521 - R:/127.0.0.1:8053]
+2026-03-20 23:34:59,487 DEBUG [client-io-thread-13] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x578db9d8, L:/127.0.0.1:63522 - R:/127.0.0.1:8053]
+2026-03-20 23:34:59,487 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-14
+2026-03-20 23:34:59,489 DEBUG [client-io-thread-14] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xfc4f7926, L:/127.0.0.1:63523 - R:/127.0.0.1:8053]
+2026-03-20 23:34:59,490 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-15
+2026-03-20 23:34:59,492 DEBUG [client-io-thread-15] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0xe9d56228, L:/127.0.0.1:63524 - R:/127.0.0.1:8053]
+2026-03-20 23:34:59,492 INFO [main] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:client-io-thread-16
+2026-03-20 23:34:59,493 DEBUG [client-io-thread-16] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x4c74834a, L:/127.0.0.1:63525 - R:/127.0.0.1:8053]
+2026-03-20 23:34:59,495 DEBUG [client-io-thread-1] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:98)	future callback, connect to 127.0.0.1:8053 success, channel=[id: 0x27703f94, L:/127.0.0.1:63526 - R:/127.0.0.1:8053]
+2026-03-20 23:34:59,560 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:34:59,569 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=get
+2026-03-20 23:34:59,569 DEBUG [main] com.baidu.brpc.utils.RpcMetaUtils.parseRpcMeta(RpcMetaUtils.java:46)	serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:34:59,570 DEBUG [main] com.baidu.brpc.client.BrpcProxy.<init>(BrpcProxy.java:130)	client serviceName=com.github.wenweihu86.raft.example.server.service.ExampleService, methodName=set
+2026-03-20 23:34:59,605 DEBUG [client-io-thread-2] com.baidu.brpc.client.channel.AbstractBrpcChannel$1.operationComplete(AbstractBrpcChannel.java:105)	future callback, connect to 127.0.0.1:8051 failed due to Connection refused: no further information: /127.0.0.1:8051
+2026-03-20 23:34:59,609 DEBUG [main] com.baidu.brpc.client.RpcClient.selectChannel(RpcClient.java:330)	channel pool make new object failed, active=0,idle=0,server=127.0.0.1:8051, ex=Connection refused: no further information: /127.0.0.1:8051
+2026-03-20 23:34:59,667 DEBUG [client-work-thread-1] com.baidu.brpc.client.handler.ClientWorkTask.run(ClientWorkTask.java:72)	handle response, correlationId=0
+2026-03-20 23:34:59,714 DEBUG [client-io-thread-5] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:34:59,714 DEBUG [client-io-thread-4] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:34:59,714 DEBUG [client-io-thread-1] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:34:59,714 DEBUG [client-io-thread-9] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:34:59,714 DEBUG [client-io-thread-16] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:34:59,714 DEBUG [client-io-thread-15] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:34:59,714 DEBUG [client-io-thread-2] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:34:59,714 DEBUG [client-io-thread-3] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:34:59,714 DEBUG [client-io-thread-7] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:34:59,714 DEBUG [client-io-thread-8] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:34:59,714 DEBUG [client-io-thread-6] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8052
+2026-03-20 23:34:59,714 DEBUG [client-io-thread-14] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:34:59,714 DEBUG [client-io-thread-12] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:34:59,714 DEBUG [client-io-thread-13] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:34:59,716 DEBUG [client-io-thread-10] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:34:59,716 DEBUG [client-io-thread-11] com.baidu.brpc.client.handler.RpcClientHandler.channelInactive(RpcClientHandler.java:89)	channel is non active, ip=127.0.0.1,port=8053
+2026-03-20 23:34:59,717 INFO [client-io-thread-9] com.baidu.brpc.utils.CustomThreadFactory.newThread(CustomThreadFactory.java:48)	create thread:invalid-channel-callback-thread-1
+2026-03-20 23:34:59,720 DEBUG [invalid-channel-callback-thread-1] com.baidu.brpc.client.channel.BrpcPooledChannel.removeChannel(BrpcPooledChannel.java:102)	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:34:59,734 DEBUG [invalid-channel-callback-thread-1] com.baidu.brpc.client.channel.BrpcPooledChannel.removeChannel(BrpcPooledChannel.java:102)	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:34:59,742 DEBUG [invalid-channel-callback-thread-1] com.baidu.brpc.client.channel.BrpcPooledChannel.removeChannel(BrpcPooledChannel.java:102)	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:34:59,745 DEBUG [invalid-channel-callback-thread-1] com.baidu.brpc.client.channel.BrpcPooledChannel.removeChannel(BrpcPooledChannel.java:102)	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:34:59,746 DEBUG [invalid-channel-callback-thread-1] com.baidu.brpc.client.channel.BrpcPooledChannel.removeChannel(BrpcPooledChannel.java:102)	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:34:59,749 DEBUG [invalid-channel-callback-thread-1] com.baidu.brpc.client.channel.BrpcPooledChannel.removeChannel(BrpcPooledChannel.java:102)	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:34:59,752 DEBUG [invalid-channel-callback-thread-1] com.baidu.brpc.client.channel.BrpcPooledChannel.removeChannel(BrpcPooledChannel.java:102)	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:34:59,752 DEBUG [invalid-channel-callback-thread-1] com.baidu.brpc.client.channel.BrpcPooledChannel.removeChannel(BrpcPooledChannel.java:102)	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:34:59,755 DEBUG [invalid-channel-callback-thread-1] com.baidu.brpc.client.channel.BrpcPooledChannel.removeChannel(BrpcPooledChannel.java:102)	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:34:59,757 DEBUG [invalid-channel-callback-thread-1] com.baidu.brpc.client.channel.BrpcPooledChannel.removeChannel(BrpcPooledChannel.java:102)	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:34:59,758 DEBUG [invalid-channel-callback-thread-1] com.baidu.brpc.client.channel.BrpcPooledChannel.removeChannel(BrpcPooledChannel.java:102)	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:34:59,760 DEBUG [invalid-channel-callback-thread-1] com.baidu.brpc.client.channel.BrpcPooledChannel.removeChannel(BrpcPooledChannel.java:102)	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:34:59,761 DEBUG [invalid-channel-callback-thread-1] com.baidu.brpc.client.channel.BrpcPooledChannel.removeChannel(BrpcPooledChannel.java:102)	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:34:59,763 DEBUG [invalid-channel-callback-thread-1] com.baidu.brpc.client.channel.BrpcPooledChannel.removeChannel(BrpcPooledChannel.java:102)	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:34:59,765 DEBUG [invalid-channel-callback-thread-1] com.baidu.brpc.client.channel.BrpcPooledChannel.removeChannel(BrpcPooledChannel.java:102)	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:34:59,766 DEBUG [invalid-channel-callback-thread-1] com.baidu.brpc.client.channel.BrpcPooledChannel.removeChannel(BrpcPooledChannel.java:102)	remove channel failed:Invalidated object not currently part of this pool
+2026-03-20 23:35:02,941 INFO [Thread-0] com.baidu.brpc.thread.ShutDownManager$1.run(ShutDownManager.java:40)	Brpc do clean work...
+2026-03-20 23:35:02,941 INFO [Thread-0] com.baidu.brpc.thread.ShutDownManager.shutdownGlobalThreadPools(ShutDownManager.java:48)	invoke shutdownGlobalThreadPools
