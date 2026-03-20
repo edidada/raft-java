@@ -26,8 +26,11 @@
     </Appenders>
 
     <Loggers>
-        <Logger name="com.github.wenweihu86.raft" level="info" additivity="false">
+        <Logger name="com.github.wenweihu86.raft" level="debug" additivity="false">
             <AppenderRef ref="Console" />
+            <AppenderRef ref="RollingFile"/>
+        </Logger>
+        <Logger name="com.baidu.brpc" level="debug" additivity="false">
             <AppenderRef ref="RollingFile"/>
         </Logger>
 
