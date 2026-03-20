@@ -152,3 +152,66 @@ raft-java/
 └── my.md                   # 本文档
 ```
 
+## Client调用示例
+
+### 1. 设置数据
+```powershell
+cd env\client
+$jarFiles = Get-ChildItem lib\*.jar | ForEach-Object { $_.FullName }
+$classpath = "conf;" + ($jarFiles -join ';')
+java --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED -cp $classpath com.github.wenweihu86.raft.example.client.ClientMain "list://127.0.0.1:8051,127.0.0.1:8052,127.0.0.1:8053" "test_key" "test_value"
+```
+
+**结果**：`set request, key=test_key value=test_value response={"success": true}`
+
+### 2. 获取数据
+```powershell
+cd env\client
+$jarFiles = Get-ChildItem lib\*.jar | ForEach-Object { $_.FullName }
+$classpath = "conf;" + ($jarFiles -join ';')
+java --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED -cp $classpath com.github.wenweihu86.raft.example.client.ClientMain "list://127.0.0.1:8051,127.0.0.1:8052,127.0.0.1:8053" "test_key"
+```
+
+**结果**：`get request, key=test_key, response={"value": "test_value"}`
+
+### 3. 设置更多数据
+```powershell
+cd env\client
+$jarFiles = Get-ChildItem lib\*.jar | ForEach-Object { $_.FullName }
+$classpath = "conf;" + ($jarFiles -join ';')
+java --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED -cp $classpath com.github.wenweihu86.raft.example.client.ClientMain "list://127.0.0.1:8051,127.0.0.1:8052,127.0.0.1:8053" "key1" "value1"
+```
+
+**结果**：`set request, key=key1 value=value1 response={"success": true}`
+
+## Raft日志观察
+
+### 日志复制过程
+```
+2026-03-20 22:53:14,529 INFO AppendEntries response[RES_CODE_SUCCESS] from server 3 in term 1
+2026-03-20 22:53:14,529 INFO AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1
+2026-03-20 22:53:14,529 DEBUG newCommitIndex=1, oldCommitIndex=1
+```
+
+### 心跳机制
+```
+2026-03-20 22:53:15,027 DEBUG start new heartbeat, peers=[2, 3]
+2026-03-20 22:53:15,030 INFO AppendEntries response[RES_CODE_SUCCESS] from server 3 in term 1
+2026-03-20 22:53:15,030 INFO AppendEntries response[RES_CODE_SUCCESS] from server 2 in term 1
+```
+
+### 提交索引增长
+```
+2026-03-20 22:53:14,529 DEBUG newCommitIndex=1, oldCommitIndex=1
+2026-03-20 22:53:53,622 DEBUG newCommitIndex=2, oldCommitIndex=2
+2026-03-20 22:54:13,667 DEBUG newCommitIndex=4, oldCommitIndex=4
+```
+
+## 关键观察点
+
+1. **客户端连接**：使用`list://`协议连接到所有Raft节点
+2. **数据一致性**：通过Raft算法确保数据在所有节点间一致复制
+3. **日志复制**：Leader将写操作日志复制到所有Follower
+4. **心跳维持**：Leader定期发送心跳维持集群状态
+5. **提交确认**：只有多数节点确认后日志才被提交
+
